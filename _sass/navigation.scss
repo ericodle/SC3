@@ -5,10 +5,10 @@
 .site-header {
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('/assets/imgs/splash.jpeg') no-repeat;
+  background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.3)), url('') no-repeat;
   background-size: cover;
   background-position: center top;
-  padding: 1em 1em; /* Adjust padding to reduce height */
+  padding: 0.5em 0.5em; /* Adjust padding to reduce height */
   margin-top: 0; /* Remove space between the top of the page and the navigation header */
 
   .logo-container {
@@ -39,8 +39,8 @@
     .navigation-link {
       color: #fff;
       text-decoration: none;
-      padding: 0.5em 0.5em;
-      font-size: 2em; /* Adjust the navigation text size */
+      padding: 0.1em 0.1em;
+      font-size: 1.5em; /* Adjust the navigation text size */
       transition: background-color 0.3s;
 
       &:hover {
