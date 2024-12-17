@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "製品"
-permalink: /products_ja_
+permalink: /products_ja
 
 
 banners:

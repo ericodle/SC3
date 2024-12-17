@@ -1,0 +1,44 @@
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+   .page__footer {
+    float: left;
+    margin: 0;
+    width: 100%;
+    margin-top: 3em;
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+  
+    footer {
+      margin: 0 auto;
+      margin-top: 2em;
+      max-width: 100%;
+      padding: 0 1em 2em;
+  
+      @media (min-width: 1200px) {
+        max-width: 1200px;
+      }
+    }
+  
+    a {
+      color: inherit;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    .fas,
+    .fab,
+    .far,
+    .fal {
+      color: #6c757d; // muted text color
+    }
+  }
+  
+  .page__footer-copyright {
+    font-family: Arial, sans-serif; // global font family
+    font-size: 0.875rem; // type size 7
+  }

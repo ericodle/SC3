@@ -1,0 +1,47 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('/assets/imgs/splash.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 0.5em 1em; /* Adjust padding to reduce height */
+  margin-top: 0; /* Remove space between the top of the page and the navigation header */
+
+  .logo-container {
+    margin-right: 2em;
+  }
+
+  .site-logo {
+    width: 100px; /* Increase the size of the logo */
+    height: 100px; /* Increase the size of the logo */
+    object-fit: contain; /* Ensure the logo fits within the specified dimensions */
+  }
+
+  nav {
+    flex-grow: 1;
+
+    .navigation-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .navigation-item {
+      margin: 0;
+    }
+
+    .navigation-link {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      font-size: 1.2em; /* Adjust the navigation text size */
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #555;
+      }
+    }
+  }
+}

@@ -1,11 +1,16 @@
-<nav>
-  <ul id="nav-links">
-    <!-- Links will be populated by JavaScript -->
-  </ul>
-</nav>
+<header class="site-header">
+  <div class="logo-container">
+    <img src="/assets/imgs/logo.webp" alt="Site Logo" class="site-logo">
+  </div>
+  <nav>
+    <ul class="navigation-links">
+      <!-- Links will be populated by JavaScript -->
+    </ul>
+  </nav>
+</header>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var navLinks = document.getElementById("nav-links");
+  var navLinks = document.querySelector(".navigation-links");
   var userLang = navigator.language || navigator.userLanguage;
   var lang = userLang.startsWith("ja") ? 'ja' : 'en';
 
@@ -27,12 +32,14 @@ document.addEventListener("DOMContentLoaded", function() {
   };
 
   links[lang].forEach(function(link) {
-    var li = document.createElement('li');
-    var a = document.createElement('a');
-    a.textContent = link.title;
-    a.href = link.url;
-    li.appendChild(a);
-    navLinks.appendChild(li);
+    var listItem = document.createElement('li');
+    listItem.classList.add('navigation-item');
+    var anchor = document.createElement('a');
+    anchor.classList.add('navigation-link');
+    anchor.textContent = link.title;
+    anchor.href = link.url;
+    listItem.appendChild(anchor);
+    navLinks.appendChild(listItem);
   });
 });
 </script>
