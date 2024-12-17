@@ -1,0 +1,39 @@
+<!-- Links will be populated by JavaScript -->
+</ul>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+var navLinks = document.getElementById("nav-links");
+var userLang = navigator.language || navigator.userLanguage;
+var lang = userLang.startsWith("ja") ? 'ja' : 'en';
+
+var links = {
+'ja': [
+{ title: "ホーム", url: "home_ja.html" },
+{ title: "会社情報", url: "/about_ja.html" },
+{ title: "製品", url: "/products_ja.html" },
+{ title: "キャリア", url: "/careers_ja.html" },
+{ title: "お知らせ", url: "/press_ja.html" },
+{ title: "ニュース", url: "/news_ja.html" },
+{ title: "English", url: "/home_en.html" }
+],
+'en': [
+{ title: "Home", url: "home_en.html" },
+{ title: "About", url: "/about_en.html" },
+{ title: "Products", url: "/products_en.html" },
+{ title: "Careers", url: "/careers_en.html" },
+{ title: "Press", url: "/press_en.html" },
+{ title: "News", url: "/news_en.html" },
+{ title: "日本語", url: "/home_ja.html" }
+]
+};
+
+links[lang].forEach(function(link) {
+var li = document.createElement('li');
+var a = document.createElement('a');
+a.textContent = link.title;
+a.href = link.url;
+li.appendChild(a);
+navLinks.appendChild(li);
+});
+});
+</script>

@@ -1,0 +1,20 @@
+{% assign banner = page.banners[include.index] %}
+{% if banner.overlay_color or banner.overlay_image or banner.image %}
+  <div class="banner">
+    {% if banner.overlay_image or banner.overlay_color %}
+      <div class="banner__overlay" style="background-image: url('{{ banner.overlay_image }}'); background-color: {{ banner.overlay_color }};"></div>
+    {% endif %}
+    {% if banner.image %}
+      <div class="banner__image-container">
+        <img src="{{ banner.image }}" alt="Banner Image"
+             class="{% if banner.image_class %}{{ banner.image_class }}{% endif %}"
+             style="{% if banner.image_style %}{{ banner.image_style }}{% endif %}">
+      </div>
+    {% endif %}
+    {% if banner.caption %}
+      <div class="banner__text">
+        <p>{{ banner.caption }}</p>
+      </div>
+    {% endif %}
+  </div>
+{% endif %}

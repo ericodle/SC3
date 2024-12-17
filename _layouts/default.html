@@ -1,0 +1,62 @@
+---
+---
+
+
+<!doctype html>
+<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
+<head>
+{% include head.html %}
+</head>
+
+<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
+{% include skip-links.html %}
+{% include masthead.html %}
+
+<div id="language-indicator" style="text-align: center; padding: 10px; background-color: #f0f0f0;">
+<!-- Language will be set by JavaScript -->
+</div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+var userLang = navigator.language || navigator.userLanguage;
+var path = window.location.pathname;
+var langIndicator = document.getElementById("language-indicator");
+
+var urlParams = new URLSearchParams(window.location.search);
+if (!urlParams.has('redirected')) {
+if (userLang.startsWith("ja") && !path.includes("_ja") && !path.includes("_en")) {
+window.location.href = path.replace(".html", "_ja.html") + "home_ja.html";
+} else if (!userLang.startsWith("ja") && !path.includes("_en") && !path.includes("_ja")) {
+window.location.href = path.replace(".html", "_en.html") + "home_en.html";
+}
+}
+
+if (userLang.startsWith("ja")) {
+langIndicator.textContent = "Language: Japanese";
+} else {
+langIndicator.textContent = "Language: English";
+}
+});
+</script>
+
+<div class="initial-content">
+{{ content }}
+{% include after-content.html %}
+</div>
+
+{% if site.search == true %}
+<div class="search-content">
+{% include search_form.html %}
+</div>
+{% endif %}
+
+<div id="footer" class="page__footer">
+<footer>
+{% include footer.html %}
+</footer>
+</div>
+
+{% include scripts.html %}
+</body>
+</html>

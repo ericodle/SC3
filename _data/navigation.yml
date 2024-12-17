@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Products"
+    url: "/products"
+  - title: "News"
+    url: "/news"
+  - title: "Careers"
+    url: "/careers"
