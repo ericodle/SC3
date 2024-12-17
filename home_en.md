@@ -3,8 +3,12 @@ layout: default
 title: "Putting space within reach"
 permalink: /home_en
 
-header:
-  overlay_image: assets/imgs/splash.jpeg
+
+banners:
+  - image: /assets/imgs/splash.jpeg
+    caption: "TAGLINE"
+    image_class: "custom-class"
+    image_style: "width: 100%; height: auto;"
 
 our_vision:
   - image_path: assets/imgs/space_bedroom.webp
@@ -35,8 +39,10 @@ recent_news :
 
 ---
 
-{% include feature_row id="our_vision" type="left" %}
+{% include banner.html index=0 %}
 
-{% include feature_row id="our_technology" type="right" %}
+{% include content_block.html id="our_vision" type="right" %}
 
-{% include feature_row id="recent_news" type="left" %}
+{% include content_block.html id="our_technology" type="right" %}
+
+{% include content_block.html id="recent_news" type="left" %}

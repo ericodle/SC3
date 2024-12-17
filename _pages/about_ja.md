@@ -128,16 +128,16 @@ company_information:
 
 ---
 
-{% include feature_row id="our_vision" type="right" %}
+{% include content_block id="our_vision" type="right" %}
 
-{% include feature_row id="feature_row" %}
+{% include content_block id="feature_row" %}
 
-{% include feature_row id="feature_row2" %}
+{% include content_block id="feature_row2" %}
 
-{% include feature_row id="feature_row3" %}
+{% include content_block id="feature_row3" %}
 
-{% include feature_row id="clients" type="left" %}
+{% include content_block id="clients" type="left" %}
 
-{% include feature_row id="partners" type="left" %}
+{% include content_block id="partners" type="left" %}
 
-{% include feature_row id="company_information" type="center" %}
+{% include content_block id="company_information" type="center" %}
