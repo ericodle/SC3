@@ -13,7 +13,6 @@
 <!-- Language will be set by JavaScript -->
 </div>
 
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
 var userLang = navigator.language || navigator.userLanguage;
@@ -39,7 +38,6 @@ langIndicator.textContent = "Language: English";
 
 <div class="initial-content">
 {{ content }}
-{% include after-content.html %}
 </div>
 
 {% if site.search == true %}
@@ -54,7 +52,6 @@ langIndicator.textContent = "Language: English";
 {% include footer.html %}
 </footer>
 </div>
-
 
 </body>
 </html>

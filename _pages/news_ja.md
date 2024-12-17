@@ -1,7 +1,7 @@
 ---
 layout: default
 title: News
-permalink: /news_ja_
+permalink: /news_ja
 ---
 
 <h1>News</h1>
