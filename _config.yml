@@ -22,7 +22,6 @@ footer:
     - label: "YouTube"
       url: "https://www.youtube.com/channel/UCcTXF6z-D5B2xkDamlPzSzg"
 
-
 # Build settings
 theme: minima
 plugins:
