@@ -1,49 +1,42 @@
 /* ==========================================================================
-   Styling for sc_obc_table element
+   Styling for product-specifications and pricing elements
    ========================================================================== */
 
    .product-specifications, .pricing {
-    margin: 20px 0;
-    padding-left: 60px; /* Extra padding for table area */
-    padding-right: 60px;
-}
-
-table {
+    margin: 20px auto; /* Center elements horizontally */
+    max-width: 90%; /* Restrict maximum width for readability */
+    padding: 20px; /* Adds space around content */
+  }
+  
+  table {
     width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed; /* Ensures consistent column sizing */
-}
-
-th, td {
-    padding: 20px; /* Increased padding for all cells */
+    border-collapse: collapse; /* Ensures table borders are combined */
+    margin-top: 20px; /* Adds space between tables and headings */
+  }
+  
+  th, td {
+    padding: 15px; /* Moderate padding for better spacing */
     border: 1px solid #ddd;
-    text-align: left;
-    word-wrap: break-word; /* Ensures text stays within cell bounds */
-}
-
-th {
+    text-align: left; /* Align text to the left for better readability */
+  }
+  
+  th {
     background-color: #f4f4f4;
     font-weight: bold;
-}
-
-/* Adjust column widths for product-specifications */
-.product-specifications table th:first-child,
-.product-specifications table td:first-child {
-    width: 35%; /* Left column width */
-}
-
-.product-specifications table th:last-child,
-.product-specifications table td:last-child {
-    width: 65%; /* Right column width */
-}
-
-/* Price table retains equal column widths */
-.pricing table th,
-.pricing table td {
-    width: 50%;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
+  }
+  
+  a {
+    color: #0073e6; /* Stylish blue for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Optional: Additional space for table rows */
+  .product-specifications table,
+  .pricing table {
+    margin-bottom: 20px; /* Adds spacing between tables */
+  }
+  

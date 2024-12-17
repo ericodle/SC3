@@ -33,7 +33,13 @@
       {% for row in pricing %}
       <tr>
         <td><strong>{{ row.item }}</strong></td>
-        <td>{% if row.price contains "http" %}<a href="{{ row.price }}">{{ row.price }}</a>{% else %}{{ row.price | markdownify }}{% endif %}</td>
+        <td>
+          {% if row.price contains "http" %}
+          <a href="{{ row.price }}" target="_blank">{{ row.price }}</a>
+          {% else %}
+          {{ row.price | markdownify }}
+          {% endif %}
+        </td>
       </tr>
       {% endfor %}
     </tbody>
