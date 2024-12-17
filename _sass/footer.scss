@@ -1,5 +1,5 @@
 /* ==========================================================================
-   FOOTER
+   Styling for footer element
    ========================================================================== */
 
    .page__footer {
@@ -38,7 +38,41 @@
     }
   }
   
+  .page__footer-follow {
+    text-align: center;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1em; // space between links
+    }
+  
+    li {
+      display: inline;
+    }
+  
+    a {
+      color: #007bff; // default link color
+      font-size: 1em; // default font size
+  
+      &:hover {
+        color: #0056b3; // link hover color
+      }
+    }
+  }
+  
+  .page__footer-quote {
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+  }
+  
   .page__footer-copyright {
     font-family: Arial, sans-serif; // global font family
-    font-size: 0.875rem; // type size 7
+    text-align: center;
+    margin-top: 1em;
+    font-size: 0.9em; // default font size
+    color: #6c757d; // muted text color
   }
