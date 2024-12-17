@@ -59,6 +59,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
+include:
+  - _pages/_news
+  
 collections:
   pages:
     output: true

@@ -1,16 +1,15 @@
 ---
 layout: default
-title: News
+title: ニュース
 permalink: /news_ja
 ---
 
-<h1>News</h1>
 <ul>
-  {% for post in site.news %}
-    {% if post.path contains '_news/ja' and post.lang == "ja" %}
+  {% for item in site.pages %}
+    {% if item.path contains 'pages/news/' and item.name contains '_ja.md' %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span>{{ post.date | date: "%B %d, %Y" }}</span>
+        <span class="news-date">{{ item.date | date: "%B %d, %Y" }}</span> <!-- Display date before the title -->
+        <a href="{{ item.url }}">{{ item.title | default: item.name }}</a>
       </li>
     {% endif %}
   {% endfor %}
