@@ -146,15 +146,15 @@ example_2:
 
 {% include banner.html index=0 %}
 
-{% include feature_row id="cost_savings" type="left" %}
+{% include content_block.html id="cost_savings" type="left" %}
 
-{% include feature_row id="reliability" type="right" %}
+{% include content_block.html id="reliability" type="right" %}
 
-{% include feature_row id="ease_of_use" type="left" %}
+{% include content_block.html id="ease_of_use" type="left" %}
 
 {% include banner.html index=1 %}
 
-{% include feature_row id="onboard_computer" type="left" %}
+{% include content_block.html id="onboard_computer" type="left" %}
 
 ## Product Specifications
   SC-OBC Module A1
@@ -192,16 +192,16 @@ example_2:
   | **Interface board contract development** | Please contact us for more details.          |
   | **We also develop boards that link the SC-OBC Module A1 to satellites.** | |
 
-{% include feature_row id="price_notes" type="right" %}
+{% include content_block.html id="price_notes" type="right" %}
 
-{% include feature_row id="user_manual" type="left" %}
+{% include content_block.html id="user_manual" type="left" %}
 
-{% include feature_row id="fpga_manual" type="left" %}
+{% include content_block.html id="fpga_manual" type="left" %}
 
-{% include feature_row id="github_link" type="left" %}
+{% include content_block.html id="github_link" type="left" %}
 
-{% include feature_row id="change_notice" type="left" %}
+{% include content_block.html id="change_notice" type="left" %}
 
-{% include feature_row id="example_1" type="right" %}
+{% include content_block.html id="example_1" type="right" %}
 
-{% include feature_row id="example_2" type="left" %}
+{% include content_block.html id="example_2" type="left" %}
