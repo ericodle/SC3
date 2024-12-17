@@ -1,15 +1,14 @@
-.three-column__wrapper {
+/* ==========================================================================
+   Styling for three-column layout
+   ========================================================================== */
+
+   .three-column__wrapper {
     width: 100%;
-  }
-  
-  .three-column__title {
-    font-size: 2em;
-    margin-bottom: 1em;
   }
   
   .divider-bar {
     height: 2px;
-    background-color: #ccc;
+    background-color: #ccc; /* Divider bar style */
     margin-bottom: 2em;
   }
   
