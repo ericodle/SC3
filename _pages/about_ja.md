@@ -67,3 +67,5 @@ our_people:
 {% include three_column.html id="our_services" %}
 
 {% include three_column.html id="our_people" %}
+
+TODO: FOUNDING ALUMNI; CLIENTS; PARTNER; COMPANY INFORMATION
