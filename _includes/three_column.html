@@ -1,0 +1,48 @@
+{% if include.id %}
+  {% assign three_column = page[include.id] %}
+{% else %}
+  {% assign three_column = page.three_column %}
+{% endif %}
+
+<div class="three-column__wrapper">
+  {% if three_column.title %}
+    <h2 class="three-column__title">{{ three_column.title }}</h2>
+    <div class="divider-bar"></div> <!-- Gray divider bar below title -->
+  {% endif %}
+
+  <div class="three-column__content">
+    {% assign column_count = 0 %} <!-- Keep track of column count for rows -->
+    
+    {% for column in three_column.columns %}
+      {% if column_count == 3 %}
+        </div> <!-- Close previous row -->
+        <div class="three-column__content"> <!-- Start a new row -->
+        {% assign column_count = 0 %}
+      {% endif %}
+
+      <div class="three-column__item">
+        <h3 class="three-column__item-title">{{ column.title }}</h3>
+
+        {% if column.image_path %}
+          <div class="three-column__item-image">
+            <img src="{{ column.image_path | relative_url }}" alt="{{ column.alt | default: '' }}">
+          </div>
+        {% endif %}
+
+        {% if column.subtitle %}
+          <h4 class="three-column__item-subtitle">{{ column.subtitle }}</h4>
+        {% endif %}
+
+        {% if column.text %}
+          <p class="three-column__item-text">{{ column.text }}</p>
+        {% endif %}
+      </div>
+
+      {% assign column_count = column_count | plus: 1 %}
+    {% endfor %}
+
+    {% if column_count != 0 %}
+      </div> <!-- Close the last row if it has fewer than 3 columns -->
+    {% endif %}
+  </div> <!-- This closes the main three-column__content -->
+</div>

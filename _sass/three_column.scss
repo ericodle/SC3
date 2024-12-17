@@ -1,0 +1,46 @@
+.three-column__wrapper {
+    width: 100%;
+  }
+  
+  .three-column__title {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .divider-bar {
+    height: 2px;
+    background-color: #ccc;
+    margin-bottom: 2em;
+  }
+  
+  .three-column__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em; /* Adds spacing between columns */
+  }
+  
+  .three-column__item {
+    width: 30%; /* Adjust this to make sure there are 3 columns per row */
+    box-sizing: border-box;
+  }
+  
+  .three-column__item h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .three-column__item-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .three-column__item-subtitle {
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+  
+  .three-column__item-text {
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  

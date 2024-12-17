@@ -5,7 +5,6 @@
 {% endif %}
 
 <div class="content__wrapper">
-
   {% for f in content_block %}
     <div class="content__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="content__item-container">
@@ -24,20 +23,25 @@
         <div class="content__item-body" style="flex: {% if f.text_size %}{{ f.text_size }}{% else %}1{% endif %};">
           {% if f.title %}
             <h2 class="content__item-title">{{ f.title }}</h2>
+            <div class="divider-bar"></div> <!-- Gray divider bar below title -->
           {% endif %}
 
-          {% if f.excerpt %}
-            <div class="content__item-excerpt">
-              {{ f.excerpt | markdownify }}
-            </div>
+          {% if f.subtitle_1 %}
+            <h3 class="content__item-subtitle">{{ f.subtitle_1.title }}</h3>
+            <p>{{ f.subtitle_1.text }}</p>
+          {% endif %}
+          
+          {% if f.subtitle_2 %}
+            <h3 class="content__item-subtitle">{{ f.subtitle_2.title }}</h3>
+            <p>{{ f.subtitle_2.text }}</p>
           {% endif %}
 
-          {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% if f.subtitle_3 %}
+            <h3 class="content__item-subtitle">{{ f.subtitle_3.title }}</h3>
+            <p>{{ f.subtitle_3.text }}</p>
           {% endif %}
         </div>
       </div>
     </div>
   {% endfor %}
-
 </div>
