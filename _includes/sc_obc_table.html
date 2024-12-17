@@ -1,0 +1,41 @@
+<div class="product-specifications">
+  <h2>Product Specifications</h2>
+  <h3>SC-OBC Module A1</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Component</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in product_specifications %}
+      <tr>
+        <td><strong>{{ row.component }}</strong></td>
+        <td>{{ row.details | markdownify }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="pricing">
+  <h3>Price</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in pricing %}
+      <tr>
+        <td><strong>{{ row.item }}</strong></td>
+        <td>{% if row.price contains "http" %}<a href="{{ row.price }}">{{ row.price }}</a>{% else %}{{ row.price | markdownify }}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

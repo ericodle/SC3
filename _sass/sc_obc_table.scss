@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Styling for sc_obc_table element
+   ========================================================================== */
+
+   .product-specifications, .pricing {
+    margin: 20px 0;
+    padding-left: 60px; /* Extra padding for table area */
+    padding-right: 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensures consistent column sizing */
+}
+
+th, td {
+    padding: 20px; /* Increased padding for all cells */
+    border: 1px solid #ddd;
+    text-align: left;
+    word-wrap: break-word; /* Ensures text stays within cell bounds */
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Adjust column widths for product-specifications */
+.product-specifications table th:first-child,
+.product-specifications table td:first-child {
+    width: 35%; /* Left column width */
+}
+
+.product-specifications table th:last-child,
+.product-specifications table td:last-child {
+    width: 65%; /* Right column width */
+}
+
+/* Price table retains equal column widths */
+.pricing table th,
+.pricing table td {
+    width: 50%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
