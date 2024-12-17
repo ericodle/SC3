@@ -37,8 +37,8 @@ recent_news :
 
 ---
 
-{% include content_block id="our_vision" type="left" %}
+{% include content_block.html id="our_vision" type="left" %}
 
-{% include content_block id="our_technology" type="right" %}
+{% include content_block.html id="our_technology" type="right" %}
 
-{% include content_block id="recent_news" type="left" %}
+{% include content_block.html id="recent_news" type="left" %}

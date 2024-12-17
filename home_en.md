@@ -8,7 +8,7 @@ banners:
   - image: /assets/imgs/splash.jpeg
     caption: "TAGLINE"
     image_class: "custom-class"
-    image_style: "width: 100%; height: auto;"
+    image_style: "width: 10%; height: auto;"
 
 our_vision:
   - image_path: assets/imgs/space_bedroom.webp
