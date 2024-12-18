@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Styling for contact_form
+   ========================================================================== */
+
+   contact__body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  #career-contact-form-container {
+    text-align: center;
+  }
+  
+  #career-contact-form-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #career-contact-form {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+    color: #555;
+    font-weight: bold;
+  
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+  
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+  
+    input[type="file"] {
+      padding: 3px;
+    }
+  }
+  
+  #contact-submit-button {
+    width: 100%;
+    padding: 10px;
+    background: #0078D7;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background: #005fa3;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #career-contact-form {
+      padding: 15px;
+    }
+  
+    #contact-submit-button {
+      font-size: 14px;
+    }
+  }
+  

@@ -67,11 +67,20 @@ recruitment_details:
     label: "お問い合わせ"
     value: "募集中以外の職種に関しては、お問合せフォームよりお問合せ願います。"
 
+form_labels:
+  name: "お名前"
+  email: "メールアドレス"
+  desired_job: "希望する職種"
+  message: "メッセージ"
+  attach_file: "ファイルを添付"
+  submit: "送信"
 
 ---
 
 {% include banner.html index=0 %}
 
 {% include content_block.html id="join_us" type="left" %}
+
+{% include contact_form.html form_labels=page.form_labels %}
 
 {% include recruitment_form.html details=page.recruitment_details %}
