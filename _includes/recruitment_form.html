@@ -1,25 +1,53 @@
-<section id="recruitment-form">
-  <h2>{{ details.job_title }}</h2>
-  <p><strong>勤務地:</strong> {{ details.location }}</p>
-  <p><strong>雇用形態:</strong></p>
-  <ul>
-    {% for employment_type in details.employment_types %}
-      <li>{{ employment_type }}</li>
-    {% endfor %}
-  </ul>
+{% assign recruitment_details = page.recruitment_details | default: {} %}
+<div class="job-post">
+  <h2>{{ page.recruitment_details.job_title | default: "Job Title Not Provided" }}</h2>
 
-  <h3>業務内容</h3>
-  <p>{{ details.job_description }}</p>
+  {% if recruitment_details.location %}
+    <p><strong>{{ recruitment_details.location.label }}:</strong> {{ recruitment_details.location.value }}</p>
+  {% endif %}
 
-  <h3>応募条件</h3>
-  <p>{{ details.requirements }}</p>
+  {% if recruitment_details.employment_types %}
+    <p><strong>{{ recruitment_details.employment_types.label }}:</strong> 
+      {% if recruitment_details.employment_types.values %}
+        {{ recruitment_details.employment_types.values | join: ", " }}
+      {% else %}
+        Not Provided
+      {% endif %}
+    </p>
+  {% endif %}
 
-  <h3>求める人材</h3>
-  <p>{{ details.desired_skills }}</p>
+  {% if recruitment_details.job_description %}
+    <h3>{{ recruitment_details.job_description.label }}</h3>
+    <ul>
+      {% for description in recruitment_details.job_description.values %}
+        <li>{{ description }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 
-  <h3>待遇</h3>
-  <p>{{ details.compensation }}</p>
+  {% if recruitment_details.requirements %}
+    <h3>{{ recruitment_details.requirements.label }}</h3>
+    <ul>
+      {% for requirement in recruitment_details.requirements.values %}
+        <li>{{ requirement }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 
-  <h3>特記事項</h3>
-  <p>{{ details.contact_details }}</p>
-</section>
+  {% if recruitment_details.desired_skills %}
+    <h3>{{ recruitment_details.desired_skills.label }}</h3>
+    <ul>
+      {% for skill in recruitment_details.desired_skills.values %}
+        <li>{{ skill }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if recruitment_details.compensation %}
+    <p><strong>{{ recruitment_details.compensation.label }}:</strong> {{ recruitment_details.compensation.value }}</p>
+  {% endif %}
+
+  {% if recruitment_details.contact_details %}
+    <p><strong>{{ recruitment_details.contact_details.label }}:</strong> {{ recruitment_details.contact_details.value }}</p>
+  {% endif %}
+</div>
