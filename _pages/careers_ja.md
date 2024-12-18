@@ -14,8 +14,8 @@ join_us:
     image_path: 
     image_style: "width: 100%; height: auto;"
     alt: ""
-    text_align: center
-    subtitle_1:
+    text_align: left
+    subtitle_1: 
       title: 少しでもご興味のある方はアプリケーションフォームからご連絡下さい"
       text: "Space Cubics は、宇宙とコンピューターの仕事を通じて出会ったエンジニア達が作った会社です。エンジニアリングを心から楽しみ、より過酷で極限の環境である宇宙でも使えるコンピュータを設計、開発しています。
 
@@ -72,6 +72,6 @@ recruitment_details:
 
 {% include banner.html index=0 %}
 
-{% include content_block.html id="join_us" type="left" %}
+{% include content_block.html id="join_us" %}
 
 {% include recruitment_form.html details=page.recruitment_details %}

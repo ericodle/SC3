@@ -20,7 +20,7 @@
           </div>
         {% endif %}
 
-        <div class="content__item-body" style="flex: {% if f.text_size %}{{ f.text_size }}{% else %}1{% endif %};">
+        <div class="content__item-body" style="flex: {% if f.text_size %}{{ f.text_size }}{% else %}1{% endif %}; text-align: {% if f.text_align %}{{ f.text_align }}{% else %}left{% endif %};">
           {% if f.title %}
             <h2 class="content__item-title">{{ f.title }}</h2>
             <div class="divider-bar"></div> <!-- Gray divider bar below title -->
