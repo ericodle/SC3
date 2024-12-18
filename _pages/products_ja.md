@@ -18,7 +18,7 @@ concept:
     image_path: 
     image_style: "width: 50%; height: auto;"
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "宇宙機器の開発では、予算が限られているため、安価な汎用コンピュータを採用することがありますが、放射線が非常に強い宇宙空間での動作に対する信頼性に不安が残るかもしれません。
@@ -31,7 +31,7 @@ concept:
     image_path: 
     image_style: "width: 50%; height: auto;"
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "一般に、ほとんどの高信頼性コンピュータには耐障害性機能が標準で備わっていません。
@@ -48,7 +48,7 @@ concept:
     image_path: 
     image_style: "width: 50%; height: auto;"
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "Space Cubicsの製品の最も良いところは、ユーザーがミッションに必要な機能の開発だけに専念することができることです。
@@ -64,7 +64,7 @@ onboard_computer:
     image_path: /assets/imgs/products_pcb1.webp
     image_style: "width: 100%; height: auto;"
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。"
@@ -74,7 +74,7 @@ price_notes:
     image_path: 
     image_style: "width: 50%; height: auto;"
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text:  "SC-OBC Module A1（以下、「本製品」と表記します）は自社開発衛星による宇宙実証を予定しております。
@@ -100,7 +100,7 @@ user_manual:
     image_path: 
     image_style: "width: 100%; height: auto;"
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "SC-OBC Module A1の仕様、通信系統、回路構成等について記載されています。"
@@ -113,7 +113,7 @@ fpga_manual:
     image_path: 
     image_style: "width: 100%; height: auto;"
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "SC-OBC Module A1に搭載されているFPGAの仕様書です。
@@ -125,7 +125,7 @@ github_link:
     image_path: 
     image_style: "width: 100%; height: auto;"
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "その他、様々な技術情報はこちらを参照ください。"
@@ -135,7 +135,7 @@ change_notice:
     image_path: 
     image_style: "width: 100%; height: auto;"
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "現在開発中のため仕様は予告なく変更となる可能性があります。

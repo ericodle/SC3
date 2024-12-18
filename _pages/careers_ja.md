@@ -72,6 +72,6 @@ recruitment_details:
 
 {% include banner.html index=0 %}
 
-{% include content_block.html id="join_us" %}
+{% include content_block.html id="join_us" type="left" %}
 
 {% include recruitment_form.html details=page.recruitment_details %}
