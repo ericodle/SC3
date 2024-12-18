@@ -75,6 +75,48 @@ form_labels:
   attach_file: "ファイルを添付"
   submit: "送信"
 
+upcoming_positions:
+  title: "今後募集予定"
+  columns:
+    - title: "ハードウェアエンジニア"
+      image_path: ""
+      subtitle: ""
+      text: ""
+    - title: "FPGAエンジニア"
+      image_path: ""
+      subtitle: ""
+      text: ""
+    - title: "通信エンジニア"
+      image_path: ""
+      subtitle: ""
+      text: ""
+
+    - title: "構造系エンジニア"
+      image_path: ""
+      subtitle: ""
+      text: ""
+    - title: "推進系エンジニア"
+      image_path: ""
+      subtitle: ""
+      text: ""
+    - title: "熱流体系エンジニア"
+      image_path: ""
+      subtitle: ""
+      text: ""
+
+    - title: "システムエンジニア"
+      image_path: ""
+      subtitle: ""
+      text: ""
+    - title: "営業"
+      image_path: ""
+      subtitle: ""
+      text: ""
+    - title: "資金調達"
+      image_path: ""
+      subtitle: ""
+      text: ""
+
 ---
 
 {% include banner.html index=0 %}
@@ -84,3 +126,5 @@ form_labels:
 {% include recruitment_form.html details=page.recruitment_details %}
 
 {% include contact_form.html form_labels=page.form_labels %}
+
+{% include three_column.html id="upcoming_positions" %}
