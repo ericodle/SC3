@@ -40,26 +40,75 @@ our_services:
 our_people:
   title: "MANAGEMENT TEAM"
   columns:
-    - title: "CEO"
+    - title: "荘司 靖 (Yasushi Shoji) -- CEO"
       image_path: "/path/to/ceo_image.jpg"
       subtitle: "Software Engineer"
-      text: "荘司 靖 (Yasushi Shoji) - 2000年にSalem State Univ., MA, USA 卒業。2002年より組み込みCPUボード開発に従事。幅広い知識と経験を生かし、2016年に宇宙用ドローン(Int-Ball)の統括ソフトウェア開発を担当。"
-    - title: "CTO"
+      text: "2000年にSalem State Univ., MA, USA 卒業。2002年より組み込みCPUボード開発に従事。幅広い知識と経験を生かし、2016年に宇宙用ドローン(Int-Ball)の統括ソフトウェア開発を担当。"
+    - title: "佐々木 大輔 (Daisuke Sasaki) -- CTO"
       image_path: "/path/to/cto_image.jpg"
       subtitle: "LSI Logic Engineer"
-      text: "佐々木 大輔 (Daisuke Sasaki) - 2001年より11年間 国内半導体企業にてLSIの開発における幅広い設計工程を経験。2013年から自ら設計したLSIを搭載した組み込みCPUボードの開発を経験しソフトウェアまで知識領域を持つ。"
-    - title: "CFO"
+      text: "2001年より11年間 国内半導体企業にてLSIの開発における幅広い設計工程を経験。2013年から自ら設計したLSIを搭載した組み込みCPUボードの開発を経験しソフトウェアまで知識領域を持つ。"
+    - title: "森島 史仁 (Fumito Morishima) -- CFO"
       image_path: "/path/to/cfo_image.jpg"
       subtitle: "Sales, Finance Control"
-      text: "森島 史仁 (Fumito Morishima) - 2000年より16年間、組み込みCPUボードメーカーにて開発・営業・マーケティング・経営に携わり、幅広いビジネススキルを習得。また東南アジアで事業を興しており、アジアにコネクションを持つ。"
-    - title: "CAO"
+      text: "2000年より16年間、組み込みCPUボードメーカーにて開発・営業・マーケティング・経営に携わり、幅広いビジネススキルを習得。また東南アジアで事業を興しており、アジアにコネクションを持つ。"
+    - title: "佐々木 拓也 (Takuya Sasaki) -- CAO"
       image_path: "/path/to/cao_image.jpg"
       subtitle: "Software Engineer, Sales"
-      text: "佐々木 拓也 (Takuya Sasaki) - 1998年より国内電機メーカーのソフトウェアエンジニアとして主に官公庁向けのネットワーク管理システムの開発に従事。2013年から組み込みCPUボードメーカーのFAEとして、数多くの顧客の開発、量産をサポートしてきた。"
-    - title: "CPO"
+      text: "1998年より国内電機メーカーのソフトウェアエンジニアとして主に官公庁向けのネットワーク管理システムの開発に従事。2013年から組み込みCPUボードメーカーのFAEとして、数多くの顧客の開発、量産をサポートしてきた。"
+    - title: "波塚 朋広 (Tomohiro Namitsuka) -- CPO"
       image_path: "/path/to/cpo_image.jpg"
       subtitle: "Electronics Engineer"
-      text: "波塚 朋広 (Tomohiro Namitsuka) - 2002年より組み込みCPUボードメーカーのハードウェアエンジニアとして、多くの基板開発を担当。耐環境性・信頼性が要求される産業用途向け製品の回路設計から量産製造までの幅広い知識と経験を活かし、安価で安心して使える宇宙機の提供を目指す。"
+      text: "2002年より組み込みCPUボードメーカーのハードウェアエンジニアとして、多くの基板開発を担当。耐環境性・信頼性が要求される産業用途向け製品の回路設計から量産製造までの幅広い知識と経験を活かし、安価で安心して使える宇宙機の提供を目指す。"
+
+founding_alumnus:
+  - title: "後藤 雅享 (Masayuki Goto) -- Founding Alumnus"
+    image_path: 
+    alt: ""
+    text_align: left
+    subtitle_1: 
+      title: "Space System Engineer"
+      text: "宇宙用の機器は地上用に比べて、性能に加えて安全性や信頼性検証などの要求事項が多く、適合させるための開発コストが非常に高くなります。Space Cubicsは、これまで多くの宇宙での使用実績のある民生コンピューターの設計者と、宇宙開発の経験から培った多くの設計検証ノウハウを持つJAXAエンジニアがタッグを組み、「JAXAベンチャー」として信頼性の高い宇宙用コンピューターを安価に提供します。"
+
+our_clients:
+  - title: "Clients"
+    image_path: /assets/imgs/about_thanks.webp
+    image_style: "width: 50%; height: auto;"
+    alt: ""
+    text_align: left
+    subtitle_1:
+      title: "国立研究開発法人 宇宙航空研究開発機構 (JAXA)"
+      text: "お客様の声：将来的なISS搭載を目指した機器開発のために、超小型制御ボードにおける RTOSベースの制御ソフトウェア構築、ISSを介した地上との通信インタフェース の実装作業をお願いしました。"
+    subtitle_2:
+      title: "株式会社アークエッジ・スペース"
+      text: 
+    subtitle_3:
+      title: "GITAI Japan株式会社"
+      text: 
+    subtitle_4:
+      title: "株式会社ElevationSpace
+"
+      text: 
+
+our_partners:
+  - title: "Partners"
+    image_path: /assets/imgs/about_spaceone.webp
+    image_style: "width: 50%; height: auto;"
+    alt: ""
+    text_align: left
+    subtitle_1:
+      title: "スペースワン株式会社"
+      text: "経済産業省が実施する「令和2年度 産業技術実用化開発事業費補助金」に共同で採択。超小型宇宙利用プラットフォーム確立へ向け、スペースワン社製小型ロケット「カイロス（KAIROS）」による超小型衛星の放出実証、ならびにSpace Cubics社製宇宙用コンピュータを搭載した衛星の宇宙実証を目指します。"
+
+our_company:
+  - title: "Company Details"
+    image_path: 
+    alt: ""
+    text_align: center
+    subtitle_1:
+      title: "合同会社Space Cubics"
+      text: "〒060-0053 北海道札幌市中央区南3条東2丁目1番地 ベンチャースクエア301 Phone: 050-7112-6213"
+    
 ---
 
 {% include content_block.html id="our_vision" type="left" %}
@@ -68,4 +117,10 @@ our_people:
 
 {% include three_column.html id="our_people" %}
 
-TODO: FOUNDING ALUMNI; CLIENTS; PARTNER; COMPANY INFORMATION
+{% include content_block.html id="founding_alumnus" type="left" %}
+
+{% include content_block.html id="our_clients" type="right" %}
+
+{% include content_block.html id="our_partners" type="right" %}
+
+{% include content_block.html id="our_company" type="left" %}
