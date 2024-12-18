@@ -81,6 +81,6 @@ form_labels:
 
 {% include content_block.html id="join_us" type="left" %}
 
-{% include contact_form.html form_labels=page.form_labels %}
-
 {% include recruitment_form.html details=page.recruitment_details %}
+
+{% include contact_form.html form_labels=page.form_labels %}
