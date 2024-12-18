@@ -4,7 +4,7 @@ title: "製品"
 permalink: /products_ja
 
 banners:
-  - image: 
+  - image: /assets/imgs/products_banner.jpeg
     caption: "OUR CONCEPT"
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
