@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<header class="news-header">
+  <div class="container">
+    <h1 class="news-title">{{ page.title }}</h1>
+    <p class="news-date">{{ page.date | date: "%B %d, %Y" }}</p>
+  </div>
+</header>
+
+<main class="news-content">
+    <div class="container">
+      <article class="news-article">
+        {{ content }}
+      </article>
+    </div>
+  </main>
+  
+
+<footer class="news-footer">
+  <div class="container">
+    <a href="/news_en" class="back-to-news">← Back to News</a>
+  </div>
+</footer>
