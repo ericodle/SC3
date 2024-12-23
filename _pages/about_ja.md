@@ -86,8 +86,7 @@ our_clients:
       title: "GITAI Japan株式会社"
       text: 
     subtitle_4:
-      title: "株式会社ElevationSpace
-"
+      title: "株式会社ElevationSpace"
       text: 
 
 our_partners:
