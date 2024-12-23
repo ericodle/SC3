@@ -10,7 +10,7 @@ banners:
     image_style: "width: 100%; height: auto;"
 
 join_us:
-  - title: "We are always looking for members. "
+  - title: "We are always looking for members."
     image_path: 
     image_style: "width: 100%; height: auto;"
     alt: ""
