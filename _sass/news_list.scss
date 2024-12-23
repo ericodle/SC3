@@ -1,0 +1,30 @@
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+    .news-item {
+      margin-bottom: 1rem;
+      font-family: Arial, sans-serif;
+  
+      .news-date {
+        display: block;
+        font-size: 0.875rem;
+        color: #666;
+        margin-bottom: 0.25rem;
+      }
+  
+      .news-link {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #007bff;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+          color: #0056b3;
+        }
+      }
+    }
+  }
+  

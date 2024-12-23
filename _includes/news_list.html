@@ -1,0 +1,11 @@
+<ul class="news-list">
+  {% assign sorted_posts = site.pages | sort: 'date' | reverse %}
+  {% for item in sorted_posts %}
+    {% if item.path contains 'pages/news/' and item.name contains '_en.md' %}
+      <li class="news-item">
+        <span class="news-date">{{ item.date | date: "%B %d, %Y" }}</span>
+        <a href="{{ item.url }}" class="news-link">{{ item.title | default: item.name }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
