@@ -39,23 +39,25 @@
   .content__item-body {
     flex: 1; /* Allow text to take remaining space */
     padding: 0.5em; /* Reduced padding for closer alignment */
+    color: #666; /* Apply gray color to text */
   }
   
   .content__item-title {
     font-size: 1.5em; /* Scales the title text */
     margin: 0;
     padding-bottom: 0.5em; /* Less space below the title */
-    border-bottom: 2px solid #ccc;
+    color: #000; /* Apply black color to title */
   }
   
   .content__item-subtitle {
     font-size: 1.2em; /* Scales subtitles */
     margin-top: 0.5em;
+    color: #666; /* Apply gray color to subtitles */
   }
   
   .content__item-caption {
     font-size: 1em; /* Scales caption text */
-    color: #666;
+    color: #999; /* Lighter gray color for captions */
     margin-top: 0.5em;
     display: block;
   }
