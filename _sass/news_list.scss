@@ -1,30 +1,81 @@
+/* General Container Styles */
+.news-container {
+  display: flex;
+  align-items: center; /* Aligns content vertically */
+  justify-content: center; /* Centers content horizontally */
+  gap: 20px; /* Adds space between image and text */
+  margin: 20px auto; /* Centers the block and adds vertical margin */
+  flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+  max-width: 1200px; /* Optional: Constrain the maximum width */
+  padding: 20px; /* Adds some padding for better spacing */
+}
+
+/* Left: Image Styles */
+.news-image {
+  flex: 0 0 auto; /* Prevents flex resizing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%; /* Image container takes up 50% of the parent */
+}
+
+.news-image img {
+  width: 100%; /* Ensures the image scales down */
+  max-width: 400px; /* Optional: cap the size for very large images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Right: News List Styles */
+.news-list-wrapper {
+  flex: 1; /* Takes up the remaining space */
+  min-width: 300px; /* Ensures the text area is not too narrow */
+}
+
 .news-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  
-    .news-item {
-      margin-bottom: 1rem;
-      font-family: Arial, sans-serif;
-  
-      .news-date {
-        display: block;
-        font-size: 0.875rem;
-        color: #666;
-        margin-bottom: 0.25rem;
-      }
-  
-      .news-link {
-        font-size: 1rem;
-        font-weight: bold;
-        color: #007bff;
-        text-decoration: none;
-  
-        &:hover {
-          text-decoration: underline;
-          color: #0056b3;
-        }
-      }
-    }
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-item {
+  margin-bottom: 15px;
+}
+
+.news-date {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.news-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.news-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .news-container {
+    flex-direction: column; /* Stack content vertically */
+    gap: 10px; /* Smaller gap for narrow screens */
   }
-  
+
+  .news-image {
+    max-width: 100%; /* Image takes full width */
+  }
+
+  .news-image img {
+    max-width: 80%; /* Scale image to fit smaller devices */
+    margin: 0 auto; /* Center image */
+  }
+
+  .news-list-wrapper {
+    width: 100%; /* Text takes full width */
+  }
+}
