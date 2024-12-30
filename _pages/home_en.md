@@ -5,11 +5,11 @@ permalink: /home_en
 
 banners:
   - image: /assets/imgs/splash.jpeg
-    caption: "Making space development more accessible"
+    caption: ""
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
     image_position: "center center"
-    height: 800px
+    height: 700px
 
 our_vision:
   - title: "Our Vision"
