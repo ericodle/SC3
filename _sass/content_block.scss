@@ -7,58 +7,64 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 2em;
+    padding-left: 5%; /* Slide everything to the right by adding left padding */
+    align-items: center; /* Centers all content horizontally */
+    justify-content: center; /* Centers content vertically if necessary */
   }
   
   .content__item {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 2em;
-  }
-  
-  .content__item--left .content__item-container {
-    flex-direction: row-reverse;
-  }
-  
-  .content__item--right .content__item-container {
-    flex-direction: row;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    margin-bottom: 2em; /* Adjust space between items */
   }
   
   .content__item-container {
     display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Centers image and text horizontally */
+    gap: 1em; /* Adjust space between image and text */
+    max-width: 1200px; /* Optional: Add max-width to constrain content */
     width: 100%;
-    align-items: center; /* Centers the content vertically */
   }
   
   .content__item-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    text-align: center; /* Centers the image within the container */
+    max-width: 50%; /* Image takes up to 30% of the container width */
+    height: auto; /* Maintains the image aspect ratio */
+    display: block; /* Ensure image doesn't exceed container bounds */
   }
   
   .content__item-body {
-    flex: 1;
-    padding: 1em;
-    text-align: center; /* Centers the text inside the body */
+    flex: 1; /* Allow text to take remaining space */
+    padding: 0.5em; /* Reduced padding for closer alignment */
   }
   
-  .content__item-title, .three-column__title {
-    font-size: 1.5em;
-    margin: 0; /* Ensure there's no extra space below */
-    padding-bottom: 0.25em; /* Reduces the space between the title and the divider */
-    border-bottom: 2px solid #ccc; /* Unified gray divider bar style */
+  .content__item-title {
+    font-size: 1.5em; /* Scales the title text */
+    margin: 0;
+    padding-bottom: 0.5em; /* Less space below the title */
+    border-bottom: 2px solid #ccc;
   }
   
-  .content__item-excerpt {
-    font-size: 1em;
-    margin-bottom: 1em;
+  .content__item-subtitle {
+    font-size: 1.2em; /* Scales subtitles */
+    margin-top: 0.5em;
   }
   
   .content__item-caption {
-    font-size: 0.875em;
+    font-size: 1em; /* Scales caption text */
     color: #666;
     margin-top: 0.5em;
     display: block;
   }
+  
+  .divider-bar {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+  

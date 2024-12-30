@@ -11,16 +11,16 @@
         {% if f.image_path %}
           <div class="content__item-image" style="flex: {% if f.image_size %}{{ f.image_size }}{% else %}1{% endif %};">
             <img src="{{ f.image_path | relative_url }}"
-            alt="{% if f.alt %}{{ f.alt }}{% endif %}"
-            class="{% if f.image_class %}{{ f.image_class }}{% endif %}"
-            style="{% if f.image_style %}{{ f.image_style }}{% endif %}">
+              alt="{% if f.alt %}{{ f.alt }}{% endif %}"
+              class="{% if f.image_class %}{{ f.image_class }}{% endif %}"
+              style="width: {% if f.image_size %}{{ f.image_size }}{% else %}100%{% endif %}; {% if f.image_style %}{{ f.image_style }}{% endif %}">
             {% if f.image_caption %}
               <span class="content__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
             {% endif %}
           </div>
         {% endif %}
 
-        <div class="content__item-body" style="flex: {% if f.text_size %}{{ f.text_size }}{% else %}1{% endif %}; text-align: {% if f.text_align %}{{ f.text_align }}{% else %}left{% endif %};">
+        <div class="content__item-body" style="flex: {% if f.text_size %}{{ f.text_size }}{% else %}1{% endif %}; text-align: {% if f.text_align %}{{ f.text_align }}{% else %}center{% endif %};">
           {% if f.title %}
             <h2 class="content__item-title">{{ f.title }}</h2>
             <div class="divider-bar"></div> <!-- Gray divider bar below title -->
