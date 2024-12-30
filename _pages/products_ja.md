@@ -221,11 +221,11 @@ pricing:
 
 {% include banner.html index=0 %}
 
-{% include content_block.html id="concept" type="left" %}
+{% include content_block_left.html id="concept" %}
 
 {% include banner.html index=1 %}
 
-{% include content_block.html id="onboard_computer" type="right" %}
+{% include content_block_left.html id="onboard_computer" %}
 
 {% assign product_specifications = page.product_specifications %}
 
@@ -233,16 +233,16 @@ pricing:
 
 {% include sc_obc_table.html %}
 
-{% include content_block.html id="price_notes" type="right" %}
+{% include content_block_left.html id="price_notes" %}
 
-{% include content_block.html id="user_manual" type="left" %}
+{% include content_block_left.html id="user_manual" %}
 
-{% include content_block.html id="fpga_manual" type="left" %}
+{% include content_block_left.html id="fpga_manual" %}
 
-{% include content_block.html id="github_link" type="left" %}
+{% include content_block_left.html id="github_link" %}
 
-{% include content_block.html id="change_notice" type="left" %}
+{% include content_block_left.html id="change_notice" %}
 
-{% include content_block.html id="example_1" type="right" %}
+{% include content_block_left.html id="example_1" %}
 
-{% include content_block.html id="example_2" type="left" %}
+{% include content_block_left.html id="example_2" %}

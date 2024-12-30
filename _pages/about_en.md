@@ -110,16 +110,16 @@ our_company:
 
 ---
 
-{% include content_block.html id="our_vision" type="left" %}
+{% include content_block_left.html id="our_vision" %}
 
 {% include three_column.html id="our_services" %}
 
 {% include three_column.html id="our_people" %}
 
-{% include content_block.html id="founding_alumnus" type="left" %}
+{% include content_block_left.html id="founding_alumnus" %}
 
-{% include content_block.html id="our_clients" type="right" %}
+{% include content_block_left.html id="our_clients" %}
 
-{% include content_block.html id="our_partners" type="right" %}
+{% include content_block_left.html id="our_partners" %}
 
-{% include content_block.html id="our_company" type="left" %}
+{% include content_block_left.html id="our_company" %}

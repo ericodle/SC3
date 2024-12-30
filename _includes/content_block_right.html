@@ -1,0 +1,49 @@
+{% if include.id %}
+  {% assign content_block = page[include.id] %}
+{% else %}
+  {% assign content_block = page.content_block %}
+{% endif %}
+
+<div class="content__wrapper">
+  {% for f in content_block %}
+    <div class="content__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="content__item-container" style="display: flex; flex-direction: row-reverse;">
+        <div class="content__item-body" style="flex: {% if f.text_size %}{{ f.text_size }}{% else %}1{% endif %}; text-align: {% if f.text_align %}{{ f.text_align }}{% else %}center{% endif %};">
+          {% if f.title %}
+            <h2 class="content__item-title">{{ f.title }}</h2>
+            {% if f.show_divider %}
+              <div class="divider-bar"></div> <!-- Gray divider bar below title -->
+            {% endif %}
+          {% endif %}
+
+          {% if f.subtitle_1 %}
+            <h3 class="content__item-subtitle">{{ f.subtitle_1.title }}</h3>
+            <p>{{ f.subtitle_1.text }}</p>
+          {% endif %}
+          
+          {% if f.subtitle_2 %}
+            <h3 class="content__item-subtitle">{{ f.subtitle_2.title }}</h3>
+            <p>{{ f.subtitle_2.text }}</p>
+          {% endif %}
+          
+          {% if f.subtitle_3 %}
+            <h3 class="content__item-subtitle">{{ f.subtitle_3.title }}</h3>
+            <p>{{ f.subtitle_3.text }}</p>
+          {% endif %}
+        </div>
+
+        {% if f.image_path %}
+          <div class="content__item-image" style="flex: {% if f.image_size %}{{ f.image_size }}{% else %}1{% endif %};">
+            <img src="{{ f.image_path | relative_url }}"
+              alt="{% if f.alt %}{{ f.alt }}{% endif %}"
+              class="{% if f.image_class %}{{ f.image_class }}{% endif %}"
+              style="width: {% if f.image_size %}{{ f.image_size }}{% else %}100%{% endif %}; {% if f.image_style %}{{ f.image_style }}{% endif %}">
+            {% if f.image_caption %}
+              <span class="content__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

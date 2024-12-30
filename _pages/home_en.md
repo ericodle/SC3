@@ -31,15 +31,12 @@ our_technology:
       text: "Even with costly radiation-resistant components, it’s impossible to prevent all failures in space systems, potentially leading to the abrupt end of vital missions. Space Cubics leverages technology honed aboard the International Space Station to deliver reliable products while significantly reducing development costs."
     show_divider: false
 
-news_list:
-  -news_abbreviated_list: true  # TODO
-
 ---
 
 {% include banner.html index=0 %}
 
-{% include content_block.html id="our_vision" type="right" %}
+{% include content_block_right.html id="our_vision" %}
 
-{% include content_block.html id="our_technology" type="left" %}
+{% include content_block_left.html id="our_technology" %}
 
 {% include news_list.html %}

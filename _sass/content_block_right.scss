@@ -1,0 +1,37 @@
+.content__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.content__item {
+  margin-bottom: 20px; /* Add spacing between each content item */
+}
+
+.content__item-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center; /* Vertically centers the content */
+  justify-content: space-between; /* Distributes space between text and image */
+  flex-wrap: wrap; /* Allows wrapping if content is too wide */
+}
+
+.content__item-body {
+  flex: 1;
+  text-align: left; /* Default alignment for text */
+  padding-right: 20px; /* Add spacing between text and image */
+}
+
+.content__item-image {
+  flex: 1;
+  max-width: 100%; /* Ensures image doesn't overflow */
+}
+
+.content__item-image img {
+  width: 100%; /* Ensures the image fills its container */
+  height: auto;
+}
+
+.content__item-caption {
+  font-style: italic;
+  color: #888; /* Optional style for captions */
+}

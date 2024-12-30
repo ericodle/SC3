@@ -124,7 +124,7 @@ upcoming_positions:
 
 {% include banner.html index=0 %}
 
-{% include content_block.html id="join_us" type="left" %}
+{% include content_block_left.html id="join_us" %}
 
 {% include recruitment_form.html details=page.recruitment_details %}
 
