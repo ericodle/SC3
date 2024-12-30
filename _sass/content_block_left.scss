@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Styling for content_block
+   Styling for content_block_left object
    ========================================================================== */
 
    .content__wrapper {
@@ -44,16 +44,16 @@
   }
   
   .content__item-title {
-    font-size: 1.5em; /* Scales the title text */
+    font-size: 2em; /* Scales the title text */
     margin: 0;
     padding-bottom: 0.5em; /* Less space below the title */
-    color: #000; /* Apply black color to title */
+    color: #5f5f5f; /* Apply black color to title */
   }
   
   .content__item-subtitle {
     font-size: 1.2em; /* Scales subtitles */
     margin-top: 0.5em;
-    color: #666; /* Apply gray color to subtitles */
+    color: #000000; /* Apply gray color to subtitles */
   }
   
   .content__item-caption {

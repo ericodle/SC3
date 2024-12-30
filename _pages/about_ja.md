@@ -17,6 +17,7 @@ our_vision:
     subtitle_3:
       title: "誰でも宇宙へ"
       text: "Space Cubicsは低価格な宇宙用の機器とトータルサポートを提供することで、宇宙開発への参入を手軽にし、日本はもとよりアジアを中心とした民間の宇宙産業発展に貢献します。多くの企業や団体そして個人までもが宇宙開発に参入することにより、宇宙に対するニーズが飛躍的に拡大して新たな産業が生まれ育っていくこと、それがSpace Cubicsの設立目的です。"
+    show_divider: true
 
 our_services:
   title: "Our Service"
@@ -69,6 +70,7 @@ founding_alumnus:
     subtitle_1: 
       title: "Space System Engineer"
       text: "宇宙用の機器は地上用に比べて、性能に加えて安全性や信頼性検証などの要求事項が多く、適合させるための開発コストが非常に高くなります。Space Cubicsは、これまで多くの宇宙での使用実績のある民生コンピューターの設計者と、宇宙開発の経験から培った多くの設計検証ノウハウを持つJAXAエンジニアがタッグを組み、「JAXAベンチャー」として信頼性の高い宇宙用コンピューターを安価に提供します。"
+    show_divider: true
 
 our_clients:
   - title: "Clients"
@@ -88,6 +90,7 @@ our_clients:
     subtitle_4:
       title: "株式会社ElevationSpace"
       text: 
+    show_divider: true
 
 our_partners:
   - title: "Partners"
@@ -98,15 +101,17 @@ our_partners:
     subtitle_1:
       title: "スペースワン株式会社"
       text: "経済産業省が実施する「令和2年度 産業技術実用化開発事業費補助金」に共同で採択。超小型宇宙利用プラットフォーム確立へ向け、スペースワン社製小型ロケット「カイロス（KAIROS）」による超小型衛星の放出実証、ならびにSpace Cubics社製宇宙用コンピュータを搭載した衛星の宇宙実証を目指します。"
+    show_divider: true
 
 our_company:
   - title: "Company Details"
     image_path: 
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: "合同会社Space Cubics"
       text: "〒060-0053 北海道札幌市中央区南3条東2丁目1番地 ベンチャースクエア301 Phone: 050-7112-6213"
+    show_divider: true
     
 ---
 

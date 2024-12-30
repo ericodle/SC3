@@ -7,7 +7,7 @@ our_vision:
   - title: "Our Vision"
     image_path: /assets/imgs/moonface.jpeg
     alt: "Vision Image"
-    text_align: center
+    text_align: left
     subtitle_1:
       title: "More Affordable"
       text: "Space equipment demands stricter requirements than terrestrial equipment, including rigorous safety and reliability verification in addition to performance standards, resulting in significantly higher development costs. Space Cubics, a JAXA venture, bridges expertise between consumer computer designers with proven success in space applications and JAXA engineers, who bring extensive design verification experience gained from space development projects. By combining these strengths, we deliver high-quality space computers at affordable prices, significantly reducing the overall cost of space equipment development."
@@ -17,6 +17,7 @@ our_vision:
     subtitle_3:
       title: "More People in Space"
       text: "Space Cubics lowers the barriers to space development by offering affordable space equipment and comprehensive support, fostering growth in the private space industry across Japan and Asia. The company was founded with the vision of encouraging widespread participation in space exploration by companies, organizations, and even individuals. This increased involvement will significantly expand the demand for space-related activities, paving the way for the creation and growth of new industries. Our ultimate vision is a future where hotels are built on the moon, and space travel is accessible to everyone."
+    show_divider: true
 
 our_services:
   title: "Our Service"
@@ -69,6 +70,7 @@ founding_alumnus:
     subtitle_1: 
       title: "Space System Engineer"
       text: "Masayuki has been involved in manned space development at JAXA since 2002, leading numerous equipment development projects for the International Space Station. With extensive experience in development, launch, and operations across various fields, he is committed to advancing space development through both JAXA and the private sector."
+    show_divider: true
 
 our_clients:
   - title: "Clients"
@@ -88,6 +90,7 @@ our_clients:
     subtitle_4:
       title: "ElevationSpace Inc."
       text: 
+    show_divider: true
 
 our_partners:
   - title: "Partners"
@@ -98,15 +101,17 @@ our_partners:
     subtitle_1:
       title: "SPACE ONE CO., LTD."
       text: "Jointly selected for the FY2020 Industrial Technology Practical Development Project Subsidy by the Ministry of Economy, Trade and Industry. To establish a micro space utilization platform, we aim to demonstrate the launch of a microsatellite using Space One's small rocket 'KAIROS' and conduct a space demonstration of a satellite equipped with Space Cubics' space computer."
+    show_divider: true
 
 our_company:
   - title: "Company Details"
     image_path: 
     alt: ""
-    text_align: center
+    text_align: left
     subtitle_1:
       title: "Space Cubics, LLC"
       text: "Venture Square 301, Minami 3-jo Higashi 2-chome, Chuo-ku, Sapporo, Hokkaido, Japan 〒060-0053 Phone: 050-7112-6213"
+    show_divider: true
 
 ---
 
