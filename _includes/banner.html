@@ -1,6 +1,6 @@
 {% assign banner = page.banners[include.index] %}
 {% if banner.overlay_color or banner.overlay_image or banner.image %}
-  <div class="banner">
+  <div class="banner" style="height: {{ banner.height | default: '400px' }};">
     {% if banner.overlay_image or banner.overlay_color %}
       <div class="banner__overlay" style="background-image: url('{{ banner.overlay_image }}'); background-color: {{ banner.overlay_color }};"></div>
     {% endif %}

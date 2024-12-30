@@ -8,10 +8,14 @@ banners:
     caption: "OUR CONCEPT"
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
+    image_position: "center center"
+    height: 200px
   - image: /assets/imgs/products_banner2.jpeg
     caption: "OUR PRODUCTS"
     image_class: "another-class"
     image_style: "width: 100%; height: auto;"
+    image_position: "center center"
+    height: 200px
 
 concept:
   - title: "Cost Savings and Reliability"

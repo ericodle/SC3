@@ -8,6 +8,9 @@ banners:
     caption: "NEWS"
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
+    image_position: "center center"
+    height: 200px
+
 
 ---
 

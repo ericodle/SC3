@@ -3,9 +3,13 @@ layout: default
 title: "Putting space within reach"
 permalink: /home_en
 
-header:
-  overlay_image: assets/imgs/splash.jpeg
-  caption: "Photo credit: [n/a]"
+banners:
+  - image: /assets/imgs/splash.jpeg
+    caption: "Making space development more accessible"
+    image_class: "custom-class"
+    image_style: "width: 100%; height: auto;"
+    image_position: "center center"
+    height: 800px
 
 our_vision:
   - title: "Our Vision"
@@ -35,6 +39,8 @@ recent_news :
       text: "TODO: import top 5 recent news here"
 
 ---
+
+{% include banner.html index=0 %}
 
 {% include content_block.html id="our_vision" type="right" %}
 

@@ -5,47 +5,68 @@
 .site-header {
   display: flex;
   align-items: center;
-  background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.3)), url('') no-repeat;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url('') no-repeat;
   background-size: cover;
   background-position: center top;
-  padding: 0.5em 0.5em; /* Adjust padding to reduce height */
-  margin-top: 0; /* Remove space between the top of the page and the navigation header */
-
+  padding: 0.5em 0.5em; /* Keep the navbar compact */
+  margin-top: 0;
+  height: 80px; /* Fixed navbar height */
+  
   .logo-container {
-    margin-right: 0.5em;
+    margin-right: 5em; /* Adjusted margin for logo container */
+    flex-shrink: 0; /* Prevent the logo from shrinking */
+    width: 25%; /* Make the logo container take up more horizontal space */
+    height: 100%; /* Ensure it takes up the full height of the navbar */
+    display: flex;
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
   }
 
   .site-logo {
-    width: 200px; /* Increase the size of the logo */
-    height: 200px; /* Increase the size of the logo */
+    width: 300px; /* Increased logo size */
+    height: 300px; /* Increased logo size */
     object-fit: contain; /* Ensure the logo fits within the specified dimensions */
   }
 
   nav {
+    display: flex;
+    justify-content: flex-end; /* Align navigation links to the right */
     flex-grow: 1;
+    height: 100%; /* Ensure nav takes up full height of the header */
+    align-items: center; /* Vertically center the nav links */
+  }
 
-    .navigation-links {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: space-around;
+  .navigation-links {
+    list-style: none;
+    margin: 0;
+    padding: 30em; 
+    display: flex;
+    justify-content: space-around;
+    width: 33.33%; /* Navigation links still take up the right third */
+    height: 100%; /* Ensure the links take up full height of the nav */
+    align-items: center; /* Vertically center the navigation links */
+  }
+
+  .navigation-item {
+    margin: 0;
+  }
+
+  .navigation-link {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.2em 0.5em; /* Adjusted padding for more vertical space */
+    font-size: 1.5em; /* Increased font size for better visibility */
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #555;
     }
+  }
 
-    .navigation-item {
-      margin: 0;
-    }
-
-    .navigation-link {
-      color: #fff;
-      text-decoration: none;
-      padding: 0.1em 0.1em;
-      font-size: 1.5em; /* Adjust the navigation text size */
-      transition: background-color 0.3s;
-
-      &:hover {
-        background-color: #555;
-      }
-    }
+  /* Active link styling */
+  .navigation-link.active {
+    text-decoration: underline; /* Underline the active link */
+    font-weight: bold; /* Optional: make the active link bold */
+    color: #ff0; /* Optional: change color for active link */
   }
 }
