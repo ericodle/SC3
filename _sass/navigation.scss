@@ -8,8 +8,6 @@
   background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url('') no-repeat;
   background-size: cover;
   background-position: center top;
-  padding: 0.5em 0.5em; /* Keep the navbar compact */
-  margin-top: 0;
   height: 80px; /* Fixed navbar height */
   
   .logo-container {
@@ -59,11 +57,10 @@
     transition: background-color 0.3s;
 
     &:hover {
-      background-color: #555;
+      background-color: #c9c9c996;
     }
   }
 
-  /* Active link styling */
   .navigation-link.active {
     text-decoration: underline; /* Underline the active link */
     font-weight: bold; /* Optional: make the active link bold */
