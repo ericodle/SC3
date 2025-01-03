@@ -1,33 +1,17 @@
-require 'net/http'
-require 'uri'
-require 'json'
-
 module Jekyll
   class SlackFormGenerator < Generator
     safe true
 
     def generate(site)
-      # No-op. This plugin adds form functionality but doesn't generate content.
-    end
-  end
-end
-
-module Jekyll
-  module SlackFormHelper
-    SLACK_WEBHOOK_URL = ENV['SLACK_WEBHOOK_URL'] # Set this in your environment
-
-    def self.send_message(message)
-      uri = URI.parse(SLACK_WEBHOOK_URL)
-      header = { 'Content-Type': 'application/json' }
-      payload = { text: message }.to_json
-
-      http = Net::HTTP.new(uri.host, uri.port)
-      http.use_ssl = true
-      request = Net::HTTP::Post.new(uri.request_uri, header)
-      request.body = payload
-
-      response = http.request(request)
-      response.code == '200' ? 'Message sent!' : 'Failed to send message.'
+      lambda_url = ENV['LAMBDA_FUNCTION_URL'] # Set your AWS Lambda API Gateway URL in the environment
+      site.pages.each do |page|
+        if page.content.include?('<form id="career-contact-form"')
+          page.content.gsub!(
+            /action="[^"]*"/,
+            "action=\"#{lambda_url}\""
+          )
+        end
+      end
     end
   end
 end

@@ -1,7 +1,7 @@
 <div id="contact__body">
     <div id="career-contact-form-container">
       <h2 id="career-contact-form-title">CONTACT</h2>
-      <form id="career-contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+      <form id="career-contact-form" action="YOUR_API_GATEWAY_URL" method="POST">
         
         <label for="contact-name">
             {{ include.form_labels.name | default: "お名前" }}:
@@ -27,15 +27,9 @@
         </label>
         <br><br>
         
-        <label for="contact-attachment">
-            {{ include.form_labels.attach_file | default: "ファイルを添付" }}:
-            <input id="contact-attachment" type="file" name="attachment">
-        </label>
-        <br><br>
-        
         <button id="contact-submit-button" type="submit">
             {{ include.form_labels.submit | default: "送信" }}
         </button>
-        </form>
+      </form>
     </div>
 </div>
