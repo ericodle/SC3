@@ -7,16 +7,16 @@
 <div class="three-column__wrapper">
   {% if three_column.title %}
     <h2 class="three-column__title">{{ three_column.title }}</h2>
-    <div class="divider-bar"></div> <!-- Gray divider bar below title -->
+    <div class="divider-bar"></div> 
   {% endif %}
 
   <div class="three-column__content">
-    {% assign column_count = 0 %} <!-- Keep track of column count for rows -->
+    {% assign column_count = 0 %} 
     
     {% for column in three_column.columns %}
       {% if column_count == 3 %}
-        </div> <!-- Close previous row -->
-        <div class="three-column__content"> <!-- Start a new row -->
+        </div> 
+        <div class="three-column__content"> 
         {% assign column_count = 0 %}
       {% endif %}
 
@@ -41,5 +41,5 @@
       {% assign column_count = column_count | plus: 1 %}
     {% endfor %}
 
-  </div> <!-- This closes the main three-column__content -->
+  </div> 
 </div>
