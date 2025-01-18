@@ -13,7 +13,7 @@
     {% endif %}
     {% if banner.caption %}
       <div class="banner__text">
-        <p>{{ banner.caption }}</p>
+        <p>{{ banner.caption | newline_to_br }}</p> <!-- Apply the newline_to_br filter here -->
       </div>
     {% endif %}
   </div>
