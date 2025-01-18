@@ -5,11 +5,11 @@ permalink: /home_ja
 
 banners:
   - image: /assets/imgs/splash.jpeg
-    caption: ""
+    caption: "宇宙開発をもっと手軽に"
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
     image_position: "center center"
-    height: 700px
+    height: 900px
 
 our_vision:
   - title: "Our Vision"

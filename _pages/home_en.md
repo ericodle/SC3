@@ -5,7 +5,7 @@ permalink: /home_en
 
 banners:
   - image: /assets/imgs/splash.jpeg
-    caption: ""
+    caption: "宇宙開発をもっと手軽に"
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
     image_position: "center center"
