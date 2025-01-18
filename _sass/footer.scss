@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* ==================
    Styling for footer
-   ========================================================================== */
+   ================== */
 
    .page__footer {
     float: left;
@@ -34,7 +34,7 @@
     .fab,
     .far,
     .fal {
-      color: #6c757d; // muted text color
+      color: #6c757d;
     }
   }
   
@@ -46,7 +46,7 @@
       margin: 0;
       display: flex;
       justify-content: center;
-      gap: 1em; // space between links
+      gap: 1em; 
     }
   
     li {
@@ -54,11 +54,11 @@
     }
   
     a {
-      color: #007bff; // default link color
-      font-size: 1em; // default font size
+      color: #007bff;
+      font-size: 1em;
   
       &:hover {
-        color: #0056b3; // link hover color
+        color: #0056b3; 
       }
     }
   }
@@ -70,9 +70,9 @@
   }
   
   .page__footer-copyright {
-    font-family: Arial, sans-serif; // global font family
+    font-family: Arial, sans-serif; 
     text-align: center;
     margin-top: 1em;
-    font-size: 0.9em; // default font size
-    color: #6c757d; // muted text color
+    font-size: 0.9em; 
+    color: #6c757d; 
   }

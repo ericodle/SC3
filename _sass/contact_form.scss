@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* ===============================
    Styling for contact_form object
-   ========================================================================== */
+   =============================== */
 
    #contact__body {
     font-family: Arial, sans-serif;
@@ -25,14 +25,14 @@
   #career-contact-form-title {
     color: #333;
     font-size: 24px;
-    margin-bottom: 15px; /* Reduced margin */
+    margin-bottom: 15px;
   }
   
   #career-contact-form {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px; /* Reduced padding */
+    padding: 15px; 
     width: 100%;
     max-width: 400px;
     box-sizing: border-box;
@@ -41,14 +41,14 @@
   
   label {
     display: block;
-    margin-bottom: 75px; /* Reduced margin */
+    margin-bottom: 75px; 
     color: #555;
     font-weight: bold;
   
     input,
     textarea {
       width: 100%;
-      padding: 8px; /* Reduced padding */
+      padding: 8px; 
       margin-top: 5px;
       border: 1px solid #ddd;
       border-radius: 4px;
@@ -58,7 +58,7 @@
   
     textarea {
       resize: vertical;
-      min-height: 60px; /* Reduced height */
+      min-height: 60px; 
     }
   
     input[type="file"] {
@@ -68,7 +68,7 @@
   
   #contact-submit-button {
     width: 100%;
-    padding: 8px; /* Reduced padding */
+    padding: 8px; 
     background: #0078D7;
     border: none;
     border-radius: 4px;
@@ -84,7 +84,7 @@
   
   @media (max-width: 480px) {
     #career-contact-form {
-      padding: 10px; /* Reduced padding */
+      padding: 10px; 
     }
   
     #contact-submit-button {

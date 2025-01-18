@@ -1,23 +1,23 @@
-/* ==========================================================================
+/* ===============================================
    Styling for product-specifications and pricing
-   ========================================================================== */
+   =============================================== */
 
    .product-specifications, .pricing {
-    margin: 20px auto; /* Center elements horizontally */
-    max-width: 90%; /* Restrict maximum width for readability */
-    padding: 20px; /* Adds space around content */
+    margin: 20px auto;
+    max-width: 90%; 
+    padding: 20px; 
   }
   
   table {
     width: 100%;
-    border-collapse: collapse; /* Ensures table borders are combined */
-    margin-top: 20px; /* Adds space between tables and headings */
+    border-collapse: collapse; 
+    margin-top: 20px; 
   }
   
   th, td {
-    padding: 15px; /* Moderate padding for better spacing */
+    padding: 15px; 
     border: 1px solid #ddd;
-    text-align: left; /* Align text to the left for better readability */
+    text-align: left; 
   }
   
   th {
@@ -26,17 +26,16 @@
   }
   
   a {
-    color: #0073e6; /* Stylish blue for links */
-    text-decoration: none; /* Remove underline */
+    color: #0073e6;
+    text-decoration: none; 
   }
   
   a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline; 
   }
   
-  /* Optional: Additional space for table rows */
   .product-specifications table,
   .pricing table {
-    margin-bottom: 20px; /* Adds spacing between tables */
+    margin-bottom: 20px; 
   }
   

@@ -1,27 +1,27 @@
-/* ==========================================================================
+/* ================================
    Styling for three-column object
-   ========================================================================== */
+   ================================ */
 
    .three-column__wrapper {
     width: 100%;
-    padding-left: 3em;  /* Adjust padding as needed */
-    padding-right: 3em; /* Adjust padding as needed */
+    padding-left: 3em;
+    padding-right: 3em;
   }
   
   .divider-bar {
     height: 2px;
-    background-color: #ccc; /* Divider bar style */
+    background-color: #ccc; 
     margin-bottom: 2em;
   }
   
   .three-column__content {
     display: flex;
     flex-wrap: wrap;
-    gap: 2em; /* Adds spacing between columns */
+    gap: 2em; 
   }
   
   .three-column__item {
-    width: 30%; /* Adjust this to make sure there are 3 columns per row */
+    width: 30%; 
     box-sizing: border-box;
   }
   

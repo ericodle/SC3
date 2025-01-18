@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* =======================================
    Styling for content_block_right object
-   ========================================================================== */
+   ======================================= */
 
 .content__wrapper {
   display: flex;
@@ -8,34 +8,34 @@
 }
 
 .content__item {
-  margin-bottom: 20px; /* Add spacing between each content item */
+  margin-bottom: 20px; 
 }
 
 .content__item-container {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center; /* Vertically centers the content */
-  justify-content: space-between; /* Distributes space between text and image */
-  flex-wrap: wrap; /* Allows wrapping if content is too wide */
+  align-items: center; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
 }
 
 .content__item-body {
   flex: 1;
-  text-align: left; /* Default alignment for text */
-  padding-right: 20px; /* Add spacing between text and image */
+  text-align: left; 
+  padding-right: 20px; 
 }
 
 .content__item-image {
   flex: 1;
-  max-width: 100%; /* Ensures image doesn't overflow */
+  max-width: 100%; 
 }
 
 .content__item-image img {
-  width: 100%; /* Ensures the image fills its container */
+  width: 100%; 
   height: auto;
 }
 
 .content__item-caption {
   font-style: italic;
-  color: #888; /* Optional style for captions */
+  color: #888;
 }

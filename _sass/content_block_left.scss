@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* ======================================
    Styling for content_block_left object
-   ========================================================================== */
+   ====================================== */
 
    .content__wrapper {
     width: 100%;
@@ -8,57 +8,57 @@
     flex-direction: column;
     margin-bottom: 2em;
     margin-top: 2em;
-    padding-left: 5%; /* Slide everything to the right by adding left padding */
-    align-items: center; /* Centers all content horizontally */
-    justify-content: center; /* Centers content vertically if necessary */
+    padding-left: 5%;
+    align-items: center;
+    justify-content: center;
   }
   
   .content__item {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: center; /* Centers the content horizontally */
-    align-items: center; /* Centers the content vertically */
-    margin-bottom: 2em; /* Adjust space between items */
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 2em; 
   }
   
   .content__item-container {
     display: flex;
-    align-items: center; /* Vertically centers content */
-    justify-content: center; /* Centers image and text horizontally */
-    gap: 1em; /* Adjust space between image and text */
-    max-width: 1200px; /* Optional: Add max-width to constrain content */
+    align-items: center;
+    justify-content: center; 
+    gap: 1em;
+    max-width: 1200px;
     width: 100%;
   }
   
   .content__item-image {
-    max-width: 50%; /* Image takes up to 30% of the container width */
-    height: auto; /* Maintains the image aspect ratio */
-    display: block; /* Ensure image doesn't exceed container bounds */
+    max-width: 50%; 
+    height: auto; 
+    display: block;
   }
   
   .content__item-body {
-    flex: 1; /* Allow text to take remaining space */
-    padding: 0.5em; /* Reduced padding for closer alignment */
-    color: #666; /* Apply gray color to text */
+    flex: 1; 
+    padding: 0.5em; 
+    color: #666; 
   }
   
   .content__item-title {
-    font-size: 2em; /* Scales the title text */
+    font-size: 2em; 
     margin: 0;
-    padding-bottom: 0.5em; /* Less space below the title */
-    color: #5f5f5f; /* Apply black color to title */
+    padding-bottom: 0.5em;
+    color: #5f5f5f; 
   }
   
   .content__item-subtitle {
-    font-size: 1.2em; /* Scales subtitles */
+    font-size: 1.2em; 
     margin-top: 0.5em;
-    color: #000000; /* Apply gray color to subtitles */
+    color: #000000;
   }
   
   .content__item-caption {
-    font-size: 1em; /* Scales caption text */
-    color: #999; /* Lighter gray color for captions */
+    font-size: 1em;
+    color: #999;
     margin-top: 0.5em;
     display: block;
   }

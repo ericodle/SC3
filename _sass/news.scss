@@ -1,12 +1,13 @@
-// General Variables
+/* ===============================
+   Styling for news object
+   =============================== */
+
 $primary-color: #007bff;
 $secondary-color: #444;
 $background-color: #f9f9f9;
 $text-color: #333;
 $link-hover-color: #0056b3;
 $container-width: 800px;
-
-// Cool Orange Gradient
 $orange-gradient: linear-gradient(135deg, #ff7e5f, #feb47b);
 
 // News Header
@@ -14,13 +15,13 @@ $orange-gradient: linear-gradient(135deg, #ff7e5f, #feb47b);
   background: $orange-gradient;
   color: white;
   text-align: center;
-  padding: 2.5rem 1rem; // Slightly increased padding for better spacing
+  padding: 2.5rem 1rem;
 
   .news-title {
     font-size: 2.75rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); // Add subtle text shadow
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
 
   .news-date {
