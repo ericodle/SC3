@@ -11,8 +11,8 @@
       {% for item in sorted_posts %}
         {% if item.path contains 'pages/news/' and item.name contains '_en.md' %}
           <li class="news-item">
-            <span class="news-date">{{ item.date | date: "%B %d, %Y" }}</span>
-            <a href="{{ item.url }}" class="news-link">{{ item.title | default: item.name }}</a>
+            <span class="news-date">{{ item.date | date: "%B %d, %Y" }} <a href="{{ item.url }}" class="news-link">{{ item.title | default: item.name }}</a> </span>
+            
           </li>
         {% endif %}
       {% endfor %}
