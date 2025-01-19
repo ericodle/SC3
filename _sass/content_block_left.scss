@@ -31,10 +31,12 @@
     width: 100%;
   }
   
-  .content__item-image {
-    max-width: 50%; 
-    height: auto; 
+  .content__item-image img {
+    width: 100%; 
+    max-width: 500px;
+    height: auto;
     display: block;
+    border-radius: 8px;
   }
   
   .content__item-body {
