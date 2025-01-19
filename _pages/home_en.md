@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Putting space within reach"
+title: "Bringing Space Within Reach"
 permalink: /home_en
 
 banners:
   - image: /assets/imgs/splash.jpeg
-    caption: "making space \n more accessible"
+    caption: "Bringing Space \n Within Reach"
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
     image_position: "center center"
@@ -22,7 +22,7 @@ our_vision:
     show_divider: false
     button:
       text: "Learn More"
-      url: "/our-mission"
+      url: "/about_en"
 
 our_technology:
   - title: "Our Products"
@@ -35,7 +35,7 @@ our_technology:
     show_divider: false
     button:
       text: "Learn More"
-      url: "/our-mission"
+      url: "/products_en"
 
 ---
 

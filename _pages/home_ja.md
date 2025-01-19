@@ -22,7 +22,7 @@ our_vision:
     show_divider: false
     button:
       text: "詳細はこちら"
-      url: "/our-mission"
+      url: "/about_ja"
 
 our_technology:
   - title: "Our Products"
@@ -35,7 +35,7 @@ our_technology:
     show_divider: false
     button:
       text: "詳細はこちら"
-      url: "/our-mission"
+      url: "/products_ja"
 
 ---
 
