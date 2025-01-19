@@ -15,21 +15,27 @@ our_vision:
   - title: "Our Vision"
     image_path: /assets/imgs/space_bedroom.webp
     alt: "Vision Image"
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
-      text: "2018年にJAXAエンジニアと組み込みCPUボードの設計者がタッグを組み、JAXA発ベンチャーとして発足しました。  誰でも月に行ける時代… そんな世の中を目指して我々は安価で高性能な宇宙用コンピュータを開発します。"
+      text: "2018年にJAXAエンジニアと組み込みCPUボードの設計者がタッグを組み、JAXA発ベンチャーとして発足しました。 誰でも月に行ける時代… そんな世の中を目指して我々は安価で高性能な宇宙用コンピュータを開発します。"
     show_divider: false
+    button:
+      text: "詳細はこちら"
+      url: "/our-mission"
 
 our_technology:
-  - title: "Our Technology"
+  - title: "Our Products"
     image_path: /assets/imgs/bluechip.webp
     alt: "Vision Image"
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "たとえ高価な耐放射線部品を使用しても、宇宙製品の故障を全て防ぐこともできず、貴重な宇宙でのミッションが一瞬で終了することもあります。Space Cubicsの製品は、国際宇宙ステーションで蓄積された技術を活用することで、信頼性と製品開発コスト削減の両立を実現します。"
     show_divider: false
+    button:
+      text: "詳細はこちら"
+      url: "/our-mission"
 
 ---
 

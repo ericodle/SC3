@@ -20,9 +20,12 @@ our_vision:
       title: ""
       text: "In 2018, JAXA engineers and embedded CPU board designers teamed up to launch this JAXA-originated venture. A future where anyone can travel to the moon... To make this vision a reality, we strive to create affordable and high-performance space computers."
     show_divider: false
+    button:
+      text: "詳細はこちら"
+      url: "/our-mission"
 
 our_technology:
-  - title: "Our Technology"
+  - title: "Our Products"
     image_path: /assets/imgs/bluechip.webp
     alt: "Vision Image"
     text_align: left
@@ -30,6 +33,9 @@ our_technology:
       title: ""
       text: "Even with costly radiation-resistant components, it’s impossible to prevent all failures in space systems, potentially leading to the abrupt end of vital missions. Space Cubics leverages technology honed aboard the International Space Station to deliver reliable products while significantly reducing development costs."
     show_divider: false
+    button:
+      text: "詳細はこちら"
+      url: "/our-mission"
 
 ---
 

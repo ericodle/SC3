@@ -42,6 +42,12 @@
             <h3 class="content__item-subtitle">{{ f.subtitle_3.title }}</h3>
             <p>{{ f.subtitle_3.text }}</p>
           {% endif %}
+
+          {% if f.button %}
+          <a href="{{ f.button.url }}" class="content__item-button">
+            {{ f.button.text }}
+          </a>
+          {% endif %}
         </div>
       </div>
     </div>

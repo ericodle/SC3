@@ -71,3 +71,18 @@
     margin-bottom: 1em;
   }
   
+  .content__item-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffffff; 
+    color: #888;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .content__item-button:hover {
+    background-color: #8bc0fa;
+  }
