@@ -7,7 +7,7 @@ our_vision:
   - title: "Our Vision"
     image_path: /assets/imgs/moonface.jpeg
     alt: "Vision Image"
-    text_align: center
+    text_align: left
     subtitle_1:
       title: "もっと安く"
       text: "宇宙用の機器は地上用に比べて、性能に加えて安全性や信頼性検証などの要求事項が多く、適合させるための開発コストが非常に高くなります。Space Cubicsは、これまで多くの宇宙での使用実績のある民生コンピューターの設計者と、宇宙開発の経験から培った多くの設計検証ノウハウを持つJAXAエンジニアがタッグを組み、「JAXAベンチャー」として信頼性の高い宇宙用コンピューターを安価に提供します。"
