@@ -26,41 +26,51 @@ our_services:
       image_path: /assets/imgs/about_pcb.webp
       alt: "Technology Image"
       subtitle: ""
-      text: "We develop and sell space computers tailored to diverse needs, featuring innovative radiation countermeasure technology built on spacecraft design expertise honed at JAXA."
+      text_1: "We develop and sell space computers tailored to diverse needs, featuring innovative radiation countermeasure technology built on spacecraft design expertise honed at JAXA."
     - title: "Design Contracting"
       image_path: /assets/imgs/about_ide.webp
       alt: "Consulting Image"
       subtitle: ""
-      text: "We provide contract services for software, FPGA, and electrical design, offering support for a wide range of programming languages and customized design solutions tailored to user needs."
+      text_1: "We provide contract services for software, FPGA, and electrical design, offering support for a wide range of programming languages and customized design solutions tailored to user needs."
     - title: "Consulting"
       image_path: /assets/imgs/about_hands.webp
       alt: "Support Image"
       subtitle: ""
-      text: "Leveraging JAXA's extensive development expertise, we offer comprehensive support for space equipment development, covering everything from design and development to launch procedures."
+      text_1: "Leveraging JAXA's extensive development expertise, we offer comprehensive support for space equipment development, covering everything from design and development to launch procedures."
 
 our_people:
   title: "Our Management Team"
   columns:
-    - title: "Yasushi Shoji -- CEO"
+    - titles:
+      - "Yasushi Shoji"
+      - "CEO"
       image_path: "/path/to/ceo_image.jpg"
       subtitle: "Software Engineer"
-      text: "Yasushi graduated from Salem State University, MA, USA, in 2000, and has been involved in embedded CPU board development since 2002. Drawing on his extensive knowledge and experience, he led the overall software development for the space drone Int-Ball in 2016."
-    - title: "Daisuke Sasaki -- CTO"
+      text_1: "Yasushi graduated from Salem State University, MA, USA, in 2000, and has been involved in embedded CPU board development since 2002. Drawing on his extensive knowledge and experience, he led the overall software development for the space drone Int-Ball in 2016."
+    - titles: 
+      - "Daisuke Sasaki"
+      - "CTO"
       image_path: "/path/to/cto_image.jpg"
       subtitle: "LSI Logic Engineer"
-      text: "From 2001 to 2012, Daisuke gained extensive experience across various design processes in LSI development at a domestic semiconductor company. Since 2013, he has worked on developing embedded CPU boards featuring LSIs he personally designed, building expertise that spans both hardware and software domains."
-    - title: "Fumito Morishima -- CFO"
+      text_1: "From 2001 to 2012, Daisuke gained extensive experience across various design processes in LSI development at a domestic semiconductor company. Since 2013, he has worked on developing embedded CPU boards featuring LSIs he personally designed, building expertise that spans both hardware and software domains."
+    - titles: 
+      - "Fumito Morishima"
+      - "CFO"
       image_path: "/path/to/cfo_image.jpg"
       subtitle: "Sales, Finance Control"
-      text: "From 2000 to 2016, Fumito gained extensive experience in development, sales, marketing, and management at an embedded CPU board manufacturer, acquiring a diverse set of business skills. The company also expanded into Southeast Asia, establishing strong connections across the region."
-    - title: "Takuya Sasaki -- CAO"
+      text_1: "From 2000 to 2016, Fumito gained extensive experience in development, sales, marketing, and management at an embedded CPU board manufacturer, acquiring a diverse set of business skills. The company also expanded into Southeast Asia, establishing strong connections across the region."
+    - titles: 
+      - "Takuya Sasaki"
+      - "CAO"
       image_path: "/path/to/cao_image.jpg"
       subtitle: "Software Engineer, Sales"
-      text: "Since 1998, Takuya has worked as a software engineer for a domestic electronics manufacturer, focusing primarily on developing network management systems for government offices. Since 2013, he has supported the development and mass production of numerous customer projects as an FAE for embedded CPU board manufacturers."
-    - title: "Tomohiro Namitsuka -- CPO"
+      text_1: "Since 1998, Takuya has worked as a software engineer for a domestic electronics manufacturer, focusing primarily on developing network management systems for government offices. Since 2013, he has supported the development and mass production of numerous customer projects as an FAE for embedded CPU board manufacturers."
+    - titles: 
+      - "Tomohiro Namitsuka"
+      - "CPO"
       image_path: "/path/to/cpo_image.jpg"
       subtitle: "Electronics Engineer"
-      text: "Since 2002, Tomohiro has worked as a hardware engineer for an embedded CPU board manufacturer, overseeing the development of numerous boards. Drawing on extensive expertise in circuit design and mass production for industrial products that require environmental resistance and reliability, he aims to deliver cost-effective and safe spacecraft solutions"
+      text_1: "Since 2002, Tomohiro has worked as a hardware engineer for an embedded CPU board manufacturer, overseeing the development of numerous boards. Drawing on extensive expertise in circuit design and mass production for industrial products that require environmental resistance and reliability, he aims to deliver cost-effective and safe spacecraft solutions"
 
 founding_alumnus:
   - title: "Masayuki Goto -- Founding Alumnus"
