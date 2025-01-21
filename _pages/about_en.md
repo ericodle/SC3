@@ -39,7 +39,7 @@ our_services:
       text: "Leveraging JAXA's extensive development expertise, we offer comprehensive support for space equipment development, covering everything from design and development to launch procedures."
 
 our_people:
-  title: "MANAGEMENT TEAM"
+  title: "Our Management Team"
   columns:
     - title: "Yasushi Shoji -- CEO"
       image_path: "/path/to/ceo_image.jpg"

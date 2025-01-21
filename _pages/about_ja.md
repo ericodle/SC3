@@ -26,17 +26,17 @@ our_services:
       image_path: /assets/imgs/about_pcb.webp
       alt: "Technology Image"
       subtitle: ""
-      text: "多様なニーズに対応可能な宇宙用コンピュータを自社開発・販売 JAXAで培った宇宙機設計ノウハウをベースに、独自の放射線対策技術を導入"
+      text: "多様なニーズに対応可能な宇宙用コンピュータを自社開発・販売 JAXAで培った宇宙機設計ノウハウをベースに、独自の放射線対策技術を導入。"
     - title: "設計開発受託"
       image_path: /assets/imgs/about_ide.webp
       alt: "Consulting Image"
       subtitle: ""
-      text: "ソフトウェア・FPGA・電気設計等を受託 ユーザーのニーズに合わせて、多くのプログラム言語や各種設計要求に対応 "
+      text: "ソフトウェア・FPGA・電気設計等を受託 ユーザーのニーズに合わせて、多くのプログラム言語や各種設計要求に対応。"
     - title: "コンサルティング"
       image_path: /assets/imgs/about_hands.webp
       alt: "Support Image"
       subtitle: ""
-      text: "宇宙機器開発サポート JAXAにおける多くの開発実績を生かし、設計開発から打ち上げに対する手続きに至るまでをお手伝い"
+      text: "宇宙機器開発サポート JAXAにおける多くの開発実績を生かし、設計開発から打ち上げに対する手続きに至るまでをお手伝い。"
 
 our_people:
   title: "MANAGEMENT TEAM"
