@@ -46,7 +46,7 @@ our_people:
       - "CEO"
       image_path: "/path/to/ceo_image.jpg"
       subtitle: "Software Engineer"
-      text_1: "Yasushi graduated from Salem State University, MA, USA, in 2000, and has been involved in embedded CPU board development since 2002. Drawing on his extensive knowledge and experience, he led the overall software development for the space drone Int-Ball in 2016."
+      text_1: "Yasushi graduated from Salem State University (Massachusetts, USA), in 2000, and has been involved in embedded CPU board development since 2002. Drawing on his extensive knowledge and experience, he led the overall software development for the space drone Int-Ball in 2016."
     - titles: 
       - "Daisuke Sasaki"
       - "CTO"
