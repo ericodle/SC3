@@ -33,9 +33,12 @@
           <h4 class="three-column__item-subtitle">{{ column.subtitle }}</h4>
         {% endif %}
 
-        {% if column.text %}
-          <p class="three-column__item-text">{{ column.text }}</p>
-        {% endif %}
+        {%- for i in (1..10) -%}
+          {% capture text_key %}text_{{ i }}{% endcapture %}
+          {% if column[text_key] %}
+            <p class="three-column__item-text">{{ column[text_key] }}</p>
+          {% endif %}
+        {%- endfor -%}
       </div>
 
       {% assign column_count = column_count | plus: 1 %}
