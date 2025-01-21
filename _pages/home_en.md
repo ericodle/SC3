@@ -18,7 +18,10 @@ our_vision:
     text_align: left
     subtitle_1:
       title: ""
-      text: "In 2018, JAXA engineers and embedded CPU board designers teamed up to launch this JAXA-originated venture. A future where anyone can travel to the moon... To make this vision a reality, we strive to create affordable and high-performance space computers."
+      text: "In 2018, JAXA engineers and embedded CPU board designers teamed up to launch this JAXA-originated venture."
+    subtitle_2:
+      title: ""
+      text: "A future where anyone can travel to the moon... to make this vision a reality, we strive to create affordable and high-performance space computers."
     show_divider: false
     button:
       text: "Learn More"
@@ -31,7 +34,10 @@ our_technology:
     text_align: left
     subtitle_1:
       title: ""
-      text: "Even with costly radiation-resistant components, it’s impossible to prevent all failures in space systems, potentially leading to the abrupt end of vital missions. Space Cubics leverages technology honed aboard the International Space Station to deliver reliable products while significantly reducing development costs."
+      text: "Even with costly radiation-resistant components, it’s impossible to prevent all failures in space systems, potentially leading to the abrupt end of vital missions."
+    subtitle_2:
+      title: ""
+      text: "Space Cubics leverages technology honed aboard the International Space Station to deliver reliable products while significantly reducing development costs."
     show_divider: false
     button:
       text: "Learn More"
