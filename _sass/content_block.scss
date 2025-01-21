@@ -5,7 +5,7 @@
 .content__wrapper {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2em;
+  margin-bottom: 5em;
   margin-top: 2em;
   align-items: center;
   justify-content: center;
@@ -41,6 +41,8 @@
 
 .content__item-title {
   font-size: 2em; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   margin: 0;
   padding-bottom: 0.5em;
   color: #5f5f5f; 
@@ -54,6 +56,8 @@
 
 .content__item-caption {
   font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   color: #999;
   margin-top: 0.5em;
   display: block;
