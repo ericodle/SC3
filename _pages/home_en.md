@@ -41,8 +41,8 @@ our_technology:
 
 {% include banner.html index=0 %}
 
-{% include content_block_right.html id="our_vision" %}
+{% include content_block.html id="our_vision" %}
 
-{% include content_block_left.html id="our_technology" %}
+{% include content_block.html id="our_technology" %}
 
 {% include news_list.html %}
