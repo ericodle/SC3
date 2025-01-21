@@ -20,7 +20,7 @@ our_vision:
     show_divider: true
 
 our_services:
-  title: "Our Service"
+  title: "Our Services"
   columns:
     - title: "Space Computer Solutions"
       image_path: /assets/imgs/about_pcb.webp

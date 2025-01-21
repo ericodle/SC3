@@ -20,7 +20,7 @@ our_vision:
     show_divider: true
 
 our_services:
-  title: "Our Service"
+  title: "Our Services"
   columns:
     - title: "宇宙用コンピュータ販売"
       image_path: /assets/imgs/about_pcb.webp
