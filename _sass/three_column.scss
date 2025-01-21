@@ -7,9 +7,17 @@
     padding-left: 3em;
     padding-right: 3em;
     margin: 0 auto 5em; 
-    color: #444444; 
   }
   
+.three-column__title {
+  font-size: 2em; /* Set a different size */
+  font-weight: bold;
+  color: #5c5c5c; /* Change color separately */
+  text-align: left; /* Center align the title */
+  margin-bottom: 1em; /* Add spacing below */
+  font-family: 'Roboto', sans-serif;
+}
+
   .divider-bar {
     height: 2px;
     background-color: #000000; 

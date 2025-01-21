@@ -4,7 +4,7 @@ title: "会社情報"
 permalink: /about_ja
 
 our_vision:
-  - title: "Our Vision"
+  - title: "VISION"
     image_path: /assets/imgs/moonface.jpeg
     alt: "Vision Image"
     text_align: left
@@ -20,7 +20,7 @@ our_vision:
     show_divider: true
 
 our_services:
-  title: "Our Services"
+  title: "SERVICES"
   columns:
     - title: "宇宙用コンピュータ販売"
       image_path: /assets/imgs/about_pcb.webp
