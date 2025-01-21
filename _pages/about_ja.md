@@ -44,7 +44,9 @@ our_services:
 our_people:
   title: "MANAGEMENT TEAM"
   columns:
-    - title: "荘司 靖 (Yasushi Shoji) -- CEO"
+    - titles:
+      - "荘司 靖 (Yasushi Shoji)"
+      - "CEO"
       image_path: "/path/to/ceo_image.jpg"
       subtitle: "Software Engineer"
       text_1: "2000年にSalem State Univ., MA, USA 卒業。2002年より組み込みCPUボード開発に従事。幅広い知識と経験を生かし、2016年に宇宙用ドローン(Int-Ball)の統括ソフトウェア開発を担当。"

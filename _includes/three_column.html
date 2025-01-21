@@ -21,16 +21,18 @@
       {% endif %}
 
       <div class="three-column__item">
-        <h3 class="three-column__item-title">{{ column.title }}</h3>
+        {% if column.titles %}
+          {% for column_title in column.titles %}
+            <h3 class="three-column__item-title">{{ column_title }}</h3>
+          {% endfor %}
+        {% else %}
+          <h3 class="three-column__item-title">{{ column.title }}</h3>
+        {% endif %}
 
         {% if column.image_path %}
           <div class="three-column__item-image">
             <img src="{{ column.image_path | relative_url }}" alt="{{ column.alt | default: '' }}">
           </div>
-        {% endif %}
-
-        {% if column.subtitle %}
-          <h4 class="three-column__item-subtitle">{{ column.subtitle }}</h4>
         {% endif %}
 
         {%- for i in (1..10) -%}
