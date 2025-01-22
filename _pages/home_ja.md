@@ -12,7 +12,7 @@ banners:
     height: 900px
 
 our_vision:
-  - title: "Our Vision"
+  - title: "VISION"
     image_path: /assets/imgs/space_bedroom.webp
     alt: "Vision Image"
     text_align: left
@@ -28,7 +28,7 @@ our_vision:
       url: "/about_ja"
 
 our_technology:
-  - title: "Our Products"
+  - title: "PRODUCT"
     image_path: /assets/imgs/bluechip.webp
     alt: "Vision Image"
     text_align: left
