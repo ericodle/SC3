@@ -4,7 +4,6 @@
     <img src="/assets/imgs/latestnews.webp" alt="Recent News Image">
   </div>
 
-
   <div class="news-list-wrapper">
     <h2 class="news-title">NEWS</h2>
     <ul class="news-list">
@@ -12,11 +11,19 @@
       {% for item in sorted_posts %}
         {% if item.path contains 'pages/news/' and item.name contains '_en.md' %}
           <li class="news-item">
-            <span class="news-date">{{ item.date | date: "%B %d, %Y" }} <a href="{{ item.url }}" class="news-link">{{ item.title | default: item.name }}</a> </span>
-            
+            <span class="news-date">
+              {{ item.date | date: "%B %d, %Y" }}
+              <a href="{{ item.url }}" class="news-link">{{ item.title | default: item.name }}</a>
+            </span>
           </li>
         {% endif %}
       {% endfor %}
     </ul>
+
+    <!-- Button Section (No YAML needed) -->
+    <a href="/news" class="news-button">
+      View All News
+    </a>
+
   </div>
 </div>
