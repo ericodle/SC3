@@ -32,6 +32,15 @@
     flex: 1;
   }
   
+  /* News Title */
+  .news-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #666; /* Gray color */
+    margin-bottom: 15px;
+    font-size: 2em; 
+  }
+  
   /* News List Items */
   .news-list {
     list-style: none;
@@ -92,4 +101,3 @@
     display: flex;
     justify-content: center;
   }
-  
