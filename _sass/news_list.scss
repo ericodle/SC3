@@ -9,7 +9,6 @@
     flex-wrap: nowrap;
     gap: 40px;
     max-width: 1200px;
-    width: 90%;
     margin: 40px auto; 
     padding: 20px;
     box-sizing: border-box;
@@ -19,24 +18,18 @@
   /* Image Section */
   .news-image {
     flex: 1;
-    display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
   }
   
   .news-image img {
-    width: 100%;
-    max-width: 600px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
   }
   
   /* News List Section */
   .news-list-wrapper {
     flex: 1;
-    max-width: 50%;
-    min-width: 400px;
   }
   
   /* News List Items */
@@ -47,8 +40,8 @@
   }
   
   .news-item {
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
     border-bottom: 1px solid #ddd;
   }
   

@@ -6,6 +6,7 @@
 
 
   <div class="news-list-wrapper">
+    <h2 class="news-title">NEWS</h2>
     <ul class="news-list">
       {% assign sorted_posts = site.pages | sort: 'date' | reverse %}
       {% for item in sorted_posts %}
