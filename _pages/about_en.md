@@ -25,17 +25,14 @@ our_services:
     - title: "Space Computer Solutions"
       image_path: /assets/imgs/about_pcb.webp
       alt: "Technology Image"
-      subtitle: ""
       text_1: "We develop and sell space computers tailored to diverse needs, featuring innovative radiation countermeasure technology built on spacecraft design expertise honed at JAXA."
     - title: "Design Contracting"
       image_path: /assets/imgs/about_ide.webp
       alt: "Consulting Image"
-      subtitle: ""
       text_1: "We provide contract services for software, FPGA, and electrical design, offering support for a wide range of programming languages and customized design solutions tailored to user needs."
     - title: "Consulting"
       image_path: /assets/imgs/about_hands.webp
       alt: "Support Image"
-      subtitle: ""
       text_1: "Leveraging JAXA's extensive development expertise, we offer comprehensive support for space equipment development, covering everything from design and development to launch procedures."
 
 our_people:
@@ -44,38 +41,37 @@ our_people:
     - titles:
       - "Yasushi Shoji"
       - "CEO"
+      - "Software Engineer"
       image_path: "/path/to/ceo_image.jpg"
-      subtitle: "Software Engineer"
       text_1: "Yasushi graduated from Salem State University (Massachusetts, USA), in 2000, and has been involved in embedded CPU board development since 2002. Drawing on his extensive knowledge and experience, he led the overall software development for the space drone Int-Ball in 2016."
     - titles: 
       - "Daisuke Sasaki"
       - "CTO"
+      - "LSI Logic Engineer"
       image_path: "/path/to/cto_image.jpg"
-      subtitle: "LSI Logic Engineer"
       text_1: "From 2001 to 2012, Daisuke gained extensive experience across various design processes in LSI development at a domestic semiconductor company. Since 2013, he has worked on developing embedded CPU boards featuring LSIs he personally designed, building expertise that spans both hardware and software domains."
     - titles: 
       - "Fumito Morishima"
       - "CFO"
+      - "Sales, Finance Control"
       image_path: "/path/to/cfo_image.jpg"
-      subtitle: "Sales, Finance Control"
       text_1: "From 2000 to 2016, Fumito gained extensive experience in development, sales, marketing, and management at an embedded CPU board manufacturer, acquiring a diverse set of business skills. The company also expanded into Southeast Asia, establishing strong connections across the region."
     - titles: 
       - "Takuya Sasaki"
       - "CAO"
+      - "Software Engineer, Sales"
       image_path: "/path/to/cao_image.jpg"
-      subtitle: "Software Engineer, Sales"
       text_1: "Since 1998, Takuya has worked as a software engineer for a domestic electronics manufacturer, focusing primarily on developing network management systems for government offices. Since 2013, he has supported the development and mass production of numerous customer projects as an FAE for embedded CPU board manufacturers."
     - titles: 
       - "Tomohiro Namitsuka"
       - "CPO"
+      - "Electronics Engineer"
       image_path: "/path/to/cpo_image.jpg"
-      subtitle: "Electronics Engineer"
       text_1: "Since 2002, Tomohiro has worked as a hardware engineer for an embedded CPU board manufacturer, overseeing the development of numerous boards. Drawing on extensive expertise in circuit design and mass production for industrial products that require environmental resistance and reliability, he aims to deliver cost-effective and safe spacecraft solutions"
 
 founding_alumnus:
   - title: "Masayuki Goto -- Founding Alumnus"
     image_path: 
-    alt: ""
     text_align: left
     subtitle_1: 
       title: "Space System Engineer"
@@ -85,8 +81,6 @@ founding_alumnus:
 our_clients:
   - title: "Clients"
     image_path: /assets/imgs/about_thanks.webp
-    image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: "Japan Aerospace Exploration Agency (JAXA)"
@@ -105,13 +99,14 @@ our_clients:
 our_partners:
   - title: "Partners"
     image_path: /assets/imgs/about_spaceone.webp
-    image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: "SPACE ONE CO., LTD."
       text: "Jointly selected for the FY2020 Industrial Technology Practical Development Project Subsidy by the Ministry of Economy, Trade and Industry. To establish a micro space utilization platform, we aim to demonstrate the launch of a microsatellite using Space One's small rocket 'KAIROS' and conduct a space demonstration of a satellite equipped with Space Cubics' space computer."
     show_divider: true
+    button:
+      text: "Learn More"
+      url: "https://sii.or.jp/space02/decision.html"
 
 our_company:
   - title: "Company Details"
@@ -133,8 +128,8 @@ our_company:
 
 {% include content_block.html id="founding_alumnus" %}
 
-{% include content_block.html id="our_clients" %}
+{% include content_block_reversed.html id="our_clients" %}
 
-{% include content_block.html id="our_partners" %}
+{% include content_block_reversed.html id="our_partners" %}
 
 {% include content_block.html id="our_company" %}
