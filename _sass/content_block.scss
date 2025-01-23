@@ -31,7 +31,7 @@
   /* Ensure the image can shrink while allowing text to expand */
   .content__item-image {
     flex: 1 1 200px; /* Flex-grow, flex-shrink, and minimum width */
-    max-width: 40%;
+    max-width: 50%;
   }
   
   .content__item-image img {
