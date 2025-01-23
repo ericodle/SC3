@@ -109,7 +109,7 @@ our_partners:
     show_divider: true
     button:
       text: "詳細はこちら"
-      url: "/about_ja"
+      url: "https://sii.or.jp/space02/decision.html"
 
 our_company:
   - title: "Company Details"
