@@ -25,19 +25,16 @@ our_services:
     - title: "宇宙用コンピュータ販売"
       image_path: /assets/imgs/about_pcb.webp
       alt: "Technology Image"
-      subtitle: ""
       text_1: "--- 多様なニーズに対応可能な宇宙用コンピュータを自社開発・販売。"
       text_2: "--- JAXAで培った宇宙機設計ノウハウをベースに、独自の放射線対策技術を導入。"
     - title: "設計開発受託"
       image_path: /assets/imgs/about_ide.webp
       alt: "Consulting Image"
-      subtitle: ""
       text_1: "--- ソフトウェア・FPGA・電気設計等を受託。"
       text_2: "--- ユーザーのニーズに合わせて、多くのプログラム言語や各種設計要求に対応。"
     - title: "コンサルティング"
       image_path: /assets/imgs/about_hands.webp
       alt: "Support Image"
-      subtitle: ""
       text_1: "--- 宇宙機器開発サポート"
       text_2: "--- JAXAにおける多くの開発実績を生かし、設計開発から打ち上げに対する手続きに至るまでをお手伝い。"
 
@@ -88,38 +85,34 @@ founding_alumnus:
 our_clients:
   - title: "Clients"
     image_path: /assets/imgs/about_thanks.webp
-    image_style: "width: 50%; height: auto;"
-    alt: ""
+    image_size: 400px
     text_align: left
     subtitle_1:
       title: "国立研究開発法人 宇宙航空研究開発機構 (JAXA)"
       text: "お客様の声：将来的なISS搭載を目指した機器開発のために、超小型制御ボードにおける RTOSベースの制御ソフトウェア構築、ISSを介した地上との通信インタフェース の実装作業をお願いしました。"
     subtitle_2:
       title: "株式会社アークエッジ・スペース"
-      text: 
     subtitle_3:
       title: "GITAI Japan株式会社"
-      text: 
     subtitle_4:
       title: "株式会社ElevationSpace"
-      text: 
     show_divider: true
 
 our_partners:
   - title: "Partners"
     image_path: /assets/imgs/about_spaceone.webp
-    image_style: "width: 50%; height: auto;"
-    alt: ""
+    image_size: 400px
     text_align: left
     subtitle_1:
       title: "スペースワン株式会社"
       text: "経済産業省が実施する「令和2年度 産業技術実用化開発事業費補助金」に共同で採択。超小型宇宙利用プラットフォーム確立へ向け、スペースワン社製小型ロケット「カイロス（KAIROS）」による超小型衛星の放出実証、ならびにSpace Cubics社製宇宙用コンピュータを搭載した衛星の宇宙実証を目指します。"
     show_divider: true
+    button:
+      text: "詳細はこちら"
+      url: "/about_ja"
 
 our_company:
   - title: "Company Details"
-    image_path: 
-    alt: ""
     text_align: left
     subtitle_1:
       title: "合同会社Space Cubics"
@@ -136,8 +129,8 @@ our_company:
 
 {% include content_block.html id="founding_alumnus" %}
 
-{% include content_block.html id="our_clients" %}
+{% include content_block_reversed.html id="our_clients" %}
 
-{% include content_block.html id="our_partners" %}
+{% include content_block_reversed.html id="our_partners" %}
 
 {% include content_block.html id="our_company" %}
