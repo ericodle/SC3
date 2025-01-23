@@ -5,11 +5,11 @@ permalink: /products_ja
 
 banners:
   - image: /assets/imgs/products_banner.jpeg
-    caption: "OUR CONCEPT"
+    caption: "CONCEPT"
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
   - image: /assets/imgs/products_banner2.jpeg
-    caption: "OUR PRODUCTS"
+    caption: "PRODUCTS"
     image_class: "another-class"
     image_style: "width: 100%; height: auto;"
 
@@ -46,11 +46,8 @@ concept:
 
   - title: "使いやすさ"
     image_path: 
-    image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
-      title: ""
       text: "Space Cubicsの製品の最も良いところは、ユーザーがミッションに必要な機能の開発だけに専念することができることです。
     
       我々の製品には、耐障害性機能以外にも、宇宙機器でよく使用されるミドルウェアやプロトコル(ISS互換ネットワークプロトコル、TTEthernet、cFSなど)や、宇宙以外の分野でよく使われているROS(Robot Operating System)などもサポートします。
@@ -62,8 +59,6 @@ concept:
 onboard_computer:
   - title: "Onboard Computer (OBC)"
     image_path: /assets/imgs/products_pcb1.webp
-    image_style: "width: 100%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -225,7 +220,7 @@ pricing:
 
 {% include banner.html index=1 %}
 
-{% include content_block.html id="onboard_computer" %}
+{% include content_block_reversed.html id="onboard_computer" %}
 
 {% assign product_specifications = page.product_specifications %}
 
