@@ -69,7 +69,7 @@ onboard_computer:
 
 price_notes:
   - title: "Notes on Pricing"
-    image_path: 
+    show_divider: true
     image_style: "width: 50%; height: auto;"
     alt: ""
     text_align: left
@@ -89,7 +89,7 @@ price_notes:
 
 user_manual:
   - title: "User Manual"
-    image_path: 
+    show_divider: true
     image_style: "width: 100%; height: auto;"
     alt: ""
     text_align: left
@@ -102,7 +102,7 @@ user_manual:
 
 fpga_manual:
   - title: "FPGA Hardware Manual"
-    image_path: 
+    show_divider: true
     image_style: "width: 100%; height: auto;"
     alt: ""
     text_align: left
@@ -112,7 +112,7 @@ fpga_manual:
 
 github_link:
   - title: "GitHub"
-    image_path: 
+    show_divider: true
     image_style: "width: 100%; height: auto;"
     alt: ""
     text_align: left
@@ -122,7 +122,7 @@ github_link:
 
 change_notice:
   - title: "Custom Order"
-    image_path: 
+    show_divider: true
     image_style: "width: 100%; height: auto;"
     alt: ""
     text_align: left
@@ -134,6 +134,7 @@ change_notice:
 
 example_1:
   - title: "Implementation Example #1"
+    show_divider: true
     image_path: /assets/imgs/products_pcb2.webp
     image_style: "width: 80%; height: auto;"
     alt: ""
@@ -144,6 +145,7 @@ example_1:
 
 example_2:
   - title: "Implementation Example #2"
+    show_divider: true
     image_path: /assets/imgs/products_tower.webp
     image_style: "width: 50%; height: auto;"
     alt: ""
