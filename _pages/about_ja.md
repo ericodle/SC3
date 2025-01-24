@@ -111,7 +111,7 @@ our_partners:
 
 our_company:
   - title: "Company Details"
-    text_align: left
+    text_align: center
     subtitle_1:
       title: "合同会社Space Cubics"
       text: "〒060-0053 北海道札幌市中央区南3条東2丁目1番地 ベンチャースクエア301 Phone: 050-7112-6213"

@@ -112,7 +112,7 @@ our_company:
   - title: "Company Details"
     image_path: 
     alt: ""
-    text_align: left
+    text_align: center
     subtitle_1:
       title: "Space Cubics, LLC"
       text: "Venture Square 301, Minami 3-jo Higashi 2-chome, Chuo-ku, Sapporo, Hokkaido, Japan 〒060-0053 Phone: 050-7112-6213"
