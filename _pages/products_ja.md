@@ -97,9 +97,10 @@ user_manual:
     subtitle_1:
       title: ""
       text: "SC-OBC Module A1の仕様、通信系統、回路構成等について記載されています。"
-      url: "#test-link"
-      btn_label: "Read More"
-      btn_class: "btn--primary"
+    button:
+      text: "詳細はこちら"
+      url: "/about_ja"
+
 
 fpga_manual:
   - title: "FPGAハードウェアマニュアル"
@@ -108,9 +109,10 @@ fpga_manual:
     text_align: left
     subtitle_1:
       title: ""
-      text: "SC-OBC Module A1に搭載されているFPGAの仕様書です。
-    
-      FPGAの開発や、ソフトウェアの開発に必要な、FPGA機能に関する仕様やレジスタの仕様が記載されています。"
+      text: "SC-OBC Module A1に搭載されているFPGAの仕様書です。FPGAの開発や、ソフトウェアの開発に必要な、FPGA機能に関する仕様やレジスタの仕様が記載されています。"
+    button:
+      text: "詳細はこちら"
+      url: "/about_ja"
 
 github_link:
   - title: "GitHub"
@@ -121,18 +123,25 @@ github_link:
     subtitle_1:
       title: ""
       text: "その他、様々な技術情報はこちらを参照ください。"
+    button:
+      text: "詳細はこちら"
+      url: "/about_ja"
 
 change_notice:
-  - title: "Custom Order"
+  - title: "Notice"
     show_divider: true
     image_style: "width: 100%; height: auto;"
     alt: ""
-    text_align: left
+    text_align: center
     subtitle_1:
       title: ""
-      text: "現在開発中のため仕様は予告なく変更となる可能性があります。
-    
-      ユーザーのご要望を多く取り入れたいためリクエストがある方は是非お問合せ下さい。"
+      text: "現在開発中のため仕様は予告なく変更となる可能性があります。"
+    subtitle_2:
+      title: ""
+      text: "ユーザーのご要望を多く取り入れたいためリクエストがある方は是非お問合せ下さい。"
+    button:
+      text: "詳細はこちら"
+      url: "/about_ja"
 
 example_1:
   - title: "使用例-1"
