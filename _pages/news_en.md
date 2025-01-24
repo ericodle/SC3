@@ -8,12 +8,19 @@ banners:
     caption: "NEWS"
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
-    image_position: "center center"
-    height: 200px
-
 
 ---
 
 {% include banner.html index=0 %}
 
-{% include news_list.html %}
+<ul>
+  {% assign sorted_posts = site.pages | sort: 'date' | reverse %}
+  {% for item in sorted_posts %}
+    {% if item.path contains 'pages/news/' and item.name contains '_en.md' %}
+      <li>
+        <span class="news-date">{{ item.date | date: "%B %d, %Y" }}</span> <!-- Display date before the title -->
+        <a href="{{ item.url }}">{{ item.title | default: item.name }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
