@@ -81,6 +81,7 @@ founding_alumnus:
 our_clients:
   - title: "Clients"
     image_path: /assets/imgs/about_thanks.webp
+    image_size: 400px
     text_align: left
     subtitle_1:
       title: "Japan Aerospace Exploration Agency (JAXA)"
@@ -99,6 +100,7 @@ our_clients:
 our_partners:
   - title: "Partners"
     image_path: /assets/imgs/about_spaceone.webp
+    image_size: 400px
     text_align: left
     subtitle_1:
       title: "SPACE ONE CO., LTD."
