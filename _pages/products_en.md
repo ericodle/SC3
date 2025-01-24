@@ -5,17 +5,13 @@ permalink: /products_en
 
 banners:
   - image: /assets/imgs/products_banner.jpeg
-    caption: "OUR CONCEPT"
+    caption: "CONCEPT"
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
-    image_position: "center center"
-    height: 200px
   - image: /assets/imgs/products_banner2.jpeg
-    caption: "OUR PRODUCTS"
+    caption: "PRODUCTS"
     image_class: "another-class"
     image_style: "width: 100%; height: auto;"
-    image_position: "center center"
-    height: 200px
 
 concept:
   - title: "Cost Savings and Reliability"
@@ -24,11 +20,7 @@ concept:
     text_align: left
     subtitle_1:
       title: ""
-      text: "In space equipment development, budgets are often limited, leading to the use of inexpensive general-purpose computers. However, concerns about their reliability in the harsh conditions of outer space, where radiation levels are extremely high, remain.
-    
-      One way to improve reliability is to use computers with radiation-resistant components, but these products are costly. Additionally, purchasing such equipment alone does not address all the challenges that arise during a space mission.
-      
-     Space Cubics offers cost-effective products that maintain the high reliability needed for space equipment."
+      text: "In space equipment development, budgets are often limited, leading to the use of inexpensive general-purpose computers. However, concerns about their reliability in the harsh conditions of outer space, where radiation levels are extremely high, remain. One way to improve reliability is to use computers with radiation-resistant components, but these products are costly. Additionally, purchasing such equipment alone does not address all the challenges that arise during a space mission. Space Cubics offers cost-effective products that maintain the high reliability needed for space equipment."
 
   - title: "Fault Tolerance"
     image_path: 
@@ -36,11 +28,7 @@ concept:
     text_align: left
     subtitle_1:
       title: ""
-      text: "In general, most high-reliability computers do not include built-in fault tolerance features.
-    
-      Even if a computer is equipped with radiation-resistant components, strong radiation can still cause damage, such as data corruption. In space, if a hardware failure occurs, the parts cannot be replaced, and software issues are difficult to resolve remotely from the ground.
-      
-      Space Cubics' products are designed with numerous fault-tolerant features, based on the understanding that failures are inevitable and that quick recovery is crucial. For example, we can implement redundancy by running and linking multiple computers simultaneously, or by storing identical data in multiple locations to protect against data corruption. A majority vote system can then be used to verify the validity of the data. These features enable automatic recovery of both computers and data in the event of a failure."
+      text: "In general, most high-reliability computers do not include built-in fault tolerance features. Even if a computer is equipped with radiation-resistant components, strong radiation can still cause damage, such as data corruption. In space, if a hardware failure occurs, the parts cannot be replaced, and software issues are difficult to resolve remotely from the ground. Space Cubics' products are designed with numerous fault-tolerant features, based on the understanding that failures are inevitable and that quick recovery is crucial. For example, we can implement redundancy by running and linking multiple computers simultaneously, or by storing identical data in multiple locations to protect against data corruption. A majority vote system can then be used to verify the validity of the data. These features enable automatic recovery of both computers and data in the event of a failure."
 
   - title: "Ease of Use"
     image_path: 
@@ -48,11 +36,7 @@ concept:
     text_align: left
     subtitle_1:
       title: ""
-      text: "The greatest advantage of Space Cubics' products is that users can focus exclusively on developing the mission-specific features.
-    
-      In addition to fault tolerance functions, our products come with middleware and protocols commonly used in space equipment, such as ISS-compatible network protocols, TTEthernet, and cFS. We also support ROS (Robot Operating System), which is widely used in industries beyond space. Additionally, we offer custom development and consulting services for both software and hardware, including CPU boards and FPGAs.
-      
-      By offering affordable space computers and comprehensive space development support, Space Cubics simplifies entry into space development and contributes to the growth of the private space industry in Japan and across Asia."
+      text: "The greatest advantage of Space Cubics' products is that users can focus exclusively on developing the mission-specific features. In addition to fault tolerance functions, our products come with middleware and protocols commonly used in space equipment, such as ISS-compatible network protocols, TTEthernet, and cFS. We also support ROS (Robot Operating System), which is widely used in industries beyond space. Additionally, we offer custom development and consulting services for both software and hardware, including CPU boards and FPGAs.By offering affordable space computers and comprehensive space development support, Space Cubics simplifies entry into space development and contributes to the growth of the private space industry in Japan and across Asia."
 
 onboard_computer:
   - title: "Onboard Computer (OBC)"
@@ -70,17 +54,13 @@ price_notes:
     text_align: left
     subtitle_1:
       title: ""
-      text:  "The SC-OBC Module A1 is planned for space demonstration aboard a satellite developed in-house. The listed price is a special, limited-time offer available only until the space demonstration.
-    
-      We kindly request your permission to publish details of your purchase of this product on our website, social media platforms, and other channels.
-      
-      Additionally, we seek your consent to share the outcomes of devices utilizing this product, whether launched into space or applied in terrestrial industries, on our website, social media, and similar outlets.
-
-      We kindly request you to provide operational data from the use of this product in space. This data will remain confidential and will only include information related to the functionality and performance of this product. The purpose is to gather feedback for improving future product specifications.
-
-      If you have any questions about the scope of the data request or the process for providing it, please feel free to contact us.
-
-      We may request your participation in a survey to gather feedback on the usability and specifications of this product."
+      text:  "The SC-OBC Module A1 is planned for space demonstration aboard a satellite developed in-house. The listed price is a special, limited-time offer available only until the space demonstration."
+    subtitle_2:
+      title: ""
+      text:  "We kindly request your permission to publish details of your purchase of this product on our website, social media platforms, and other channels."
+    subtitle_3:
+      title: ""
+      text:  "Additionally, we seek your consent to share the outcomes of devices utilizing this product, whether launched into space or applied in terrestrial industries, on our website, social media, and similar outlets. We kindly request you to provide operational data from the use of this product in space. This data will remain confidential and will only include information related to the functionality and performance of this product. The purpose is to gather feedback for improving future product specifications. If you have any questions about the scope of the data request or the process for providing it, please feel free to contact us. We may request your participation in a survey to gather feedback on the usability and specifications of this product."
 
 user_manual:
   - title: "User Manual"
@@ -90,9 +70,9 @@ user_manual:
     subtitle_1:
       title: ""
       text: "Describes specifications, communication system, circuit configuration, etc. for SC-OBC Module A1."
-      url: "#test-link"
-      btn_label: "Read More"
-      btn_class: "btn--primary"
+    button:
+      text: "Learn More"
+      url: "/about_ja"
 
 fpga_manual:
   - title: "FPGA Hardware Manual"
@@ -102,6 +82,9 @@ fpga_manual:
     subtitle_1:
       title: ""
       text: "This is the specification sheet for the FPGA installed in the SC-OBC Module A1. It includes details on FPGA functions and register specifications essential for FPGA and software development."
+    button:
+      text: "Learn More"
+      url: "/about_ja"
 
 github_link:
   - title: "GitHub"
@@ -111,17 +94,21 @@ github_link:
     subtitle_1:
       title: ""
       text: "For additional technical information, please refer to our source code repositories."
+    button:
+      text: "Learn More"
+      url: "/about_ja"
 
 change_notice:
-  - title: "Custom Order"
+  - title: "Notice"
     show_divider: true
     image_style: "width: 100%; height: auto;"
     text_align: left
     subtitle_1:
       title: ""
-      text: "The product is currently under development, and specifications are subject to change without notice.
-    
-      We aim to incorporate as many user requests as possible. If you have any suggestions or requests, please don't hesitate to contact us."
+      text: "The product is currently under development, and specifications are subject to change without notice. We aim to incorporate as many user requests as possible. If you have any suggestions or requests, please don't hesitate to contact us."
+    button:
+      text: "Learn More"
+      url: "/about_ja"
 
 example_1:
   - title: "Implementation Example #1"
@@ -206,7 +193,7 @@ pricing:
 
 {% include banner.html index=1 %}
 
-{% include content_block.html id="onboard_computer" %}
+{% include content_block_reversed.html id="onboard_computer" %}
 
 {% assign product_specifications = page.product_specifications %}
 
