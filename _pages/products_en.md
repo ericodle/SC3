@@ -21,7 +21,6 @@ concept:
   - title: "Cost Savings and Reliability"
     image_path: 
     image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -34,7 +33,6 @@ concept:
   - title: "Fault Tolerance"
     image_path: 
     image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -47,7 +45,6 @@ concept:
   - title: "Ease of Use"
     image_path: 
     image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -61,7 +58,6 @@ onboard_computer:
   - title: "Onboard Computer (OBC)"
     image_path: /assets/imgs/products_pcb1.webp
     image_style: "width: 100%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -71,7 +67,6 @@ price_notes:
   - title: "Notes on Pricing"
     show_divider: true
     image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -91,7 +86,6 @@ user_manual:
   - title: "User Manual"
     show_divider: true
     image_style: "width: 100%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -104,7 +98,6 @@ fpga_manual:
   - title: "FPGA Hardware Manual"
     show_divider: true
     image_style: "width: 100%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -114,7 +107,6 @@ github_link:
   - title: "GitHub"
     show_divider: true
     image_style: "width: 100%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -124,7 +116,6 @@ change_notice:
   - title: "Custom Order"
     show_divider: true
     image_style: "width: 100%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -137,7 +128,6 @@ example_1:
     show_divider: true
     image_path: /assets/imgs/products_pcb2.webp
     image_style: "width: 80%; height: auto;"
-    alt: ""
     text_align: center
     subtitle_1:
       title: ""
@@ -148,7 +138,6 @@ example_2:
     show_divider: true
     image_path: /assets/imgs/products_tower.webp
     image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: center
     subtitle_1:
       title: ""
