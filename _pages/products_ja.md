@@ -17,7 +17,6 @@ concept:
   - title: "コスト削減と信頼性"
     image_path: 
     image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -30,7 +29,6 @@ concept:
   - title: "耐障害性"
     image_path: 
     image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -71,13 +69,13 @@ price_notes:
     text_align: left
     subtitle_1:
       title: ""
-      text:  "SC-OBC Module A1（以下、「本製品」と表記します）は自社開発衛星による宇宙実証を予定しております。
-    
-      本価格は宇宙実証までの期間限定の特別価格となります。
-      
-      特別価格が適用される条件は以下のとおりです。
-
-      本製品を購入いただいたことを弊社ホームページやSNS等で公開することを許諾いただきます。
+      text:  "SC-OBC Module A1（以下、「本製品」と表記します）は自社開発衛星による宇宙実証を予定しております。本価格は宇宙実証までの期間限定の特別価格となります。"
+    subtitle_2:
+      title: ""
+      text:  "特別価格が適用される条件は以下のとおりです。"
+    subtitle_3:
+      title: ""
+      text:  "本製品を購入いただいたことを弊社ホームページやSNS等で公開することを許諾いただきます。
 
       本製品を使用した機器を宇宙へ打上げた実績、あるいは地上産業において使用された実績を弊社ホームページやSNS等で公開することを許諾いただきます。
 
@@ -118,7 +116,6 @@ github_link:
   - title: "GitHub"
     show_divider: true
     image_style: "width: 100%; height: auto;"
-    alt: ""
     text_align: left
     subtitle_1:
       title: ""
@@ -131,7 +128,6 @@ change_notice:
   - title: "Notice"
     show_divider: true
     image_style: "width: 100%; height: auto;"
-    alt: ""
     text_align: center
     subtitle_1:
       title: ""
@@ -148,7 +144,6 @@ example_1:
     show_divider: true
     image_path: /assets/imgs/products_pcb2.webp
     image_style: "width: 80%; height: auto;"
-    alt: ""
     text_align: center
     subtitle_1:
       title: ""
@@ -159,7 +154,6 @@ example_2:
     show_divider: true
     image_path: /assets/imgs/products_tower.webp
     image_style: "width: 50%; height: auto;"
-    alt: ""
     text_align: center
     subtitle_1:
       title: ""
