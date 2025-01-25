@@ -9,6 +9,15 @@ banners:
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
 
+currently_recruiting:
+  - title: "募集中"
+    show_divider: true
+    alt: ""
+    text_align: left
+    subtitle_1: 
+      title: ""
+      text: ""
+
 join_us:
   - title: "一緒に働くメンバーを常に募集しています。"
     image_path: 
@@ -124,6 +133,8 @@ upcoming_positions:
 {% include banner.html index=0 %}
 
 {% include content_block.html id="join_us" %}
+
+{% include content_block.html id="currently_recruiting" %}
 
 {% include recruitment_form.html details=page.recruitment_details %}
 
