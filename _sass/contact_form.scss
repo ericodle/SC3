@@ -4,13 +4,13 @@
 
    #contact__body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 40vh;
   }
   
   #career-contact-form-container {
@@ -25,50 +25,51 @@
   #career-contact-form-title {
     color: #333;
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 10px; /* Reduced margin */
   }
   
   #career-contact-form {
-    background: #fff;
+    background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px; 
-    width: 100%;
-    max-width: 400px;
+    padding: 10px; /* Reduced padding */
+    width: 70vw; /* 75% of the viewport width */
+    max-width: 35vw; /* Increased max-width */
     box-sizing: border-box;
     text-align: left;
+    margin: 0 auto; /* Center the form horizontally */
   }
   
   label {
     display: block;
-    margin-bottom: 75px; 
+    margin-bottom: 10px; /* Reduced margin */
     color: #555;
     font-weight: bold;
+  }
   
-    input,
-    textarea {
-      width: 100%;
-      padding: 8px; 
-      margin-top: 5px;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      font-size: 14px;
-      box-sizing: border-box;
-    }
+  input,
+  textarea {
+    width: 100%;
+    padding: 6px; /* Reduced padding */
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
   
-    textarea {
-      resize: vertical;
-      min-height: 60px; 
-    }
+  textarea {
+    resize: vertical;
+    min-height: 50px; /* Reduced height */
+  }
   
-    input[type="file"] {
-      padding: 3px;
-    }
+  input[type="file"] {
+    padding: 3px;
   }
   
   #contact-submit-button {
     width: 100%;
-    padding: 8px; 
+    padding: 6px; /* Reduced padding */
     background: #0078D7;
     border: none;
     border-radius: 4px;
@@ -76,18 +77,19 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+  }
   
-    &:hover {
-      background: #005fa3;
-    }
+  #contact-submit-button:hover {
+    background: #005fa3;
   }
   
   @media (max-width: 480px) {
     #career-contact-form {
-      padding: 10px; 
+      padding: 8px; /* Reduced padding */
     }
   
     #contact-submit-button {
       font-size: 14px;
     }
   }
+  
