@@ -25,6 +25,15 @@ join_us:
       title: ""
       text: "Currently, Space Cubics is a small company and doesn't yet have the resources to handle large projects independently. We welcome individuals passionate about designing, manufacturing, and selling spacecraft components, including computers, communications, propulsion, structures, thermal fluids, and system engineering. If you find working with ground-based computers too common or uninspiring, or if you feel you're unable to create something the way you envision, please reach out to us. We seek to collaborate with those who are solution-oriented and respectful, and we avoid working with individuals who are overly critical of others' work or who bring a negative attitude, even if they are highly skilled."
 
+currently_recruiting:
+  - title: "Currently Recruiting"
+    show_divider: true
+    alt: ""
+    text_align: left
+    subtitle_1: 
+      title: ""
+      text: ""
+
 recruitment_details: 
   job_title: "Software Engineer"
   location: 
@@ -125,6 +134,8 @@ upcoming_positions:
 {% include banner.html index=0 %}
 
 {% include content_block.html id="join_us" %}
+
+{% include content_block.html id="currently_recruiting" %}
 
 {% include recruitment_form.html details=page.recruitment_details %}
 
