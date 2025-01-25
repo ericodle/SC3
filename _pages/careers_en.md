@@ -17,11 +17,13 @@ join_us:
     text_align: left
     subtitle_1: 
       title: "If you are interested, please contact us using this application form."
-      text: "Space Cubics is a company founded by engineers who connected through their work in space and computer technology. We are passionate about engineering and design, creating computers that are built to withstand the harsh and extreme conditions of space. 
-      
-      Some team members have deep expertise in space, while others excel in computer architecture, logic, and software development. Despite their confidence in their own fields, many challenges require collaborative solutions that no single person can tackle alone. I work closely with trusted colleagues every day to address these issues. There’s no sense of hierarchy or superiority; instead, we focus on leveraging each other’s unique strengths and pushing ourselves to achieve our goals together. 
-      
-      Currently, Space Cubics is a small company and doesn't yet have the resources to handle large projects independently. We welcome individuals passionate about designing, manufacturing, and selling spacecraft components, including computers, communications, propulsion, structures, thermal fluids, and system engineering. If you find working with ground-based computers too common or uninspiring, or if you feel you're unable to create something the way you envision, please reach out to us. We seek to collaborate with those who are solution-oriented and respectful, and we avoid working with individuals who are overly critical of others' work or who bring a negative attitude, even if they are highly skilled."
+      text: "Space Cubics is a company founded by engineers who connected through their work in space and computer technology. We are passionate about engineering and design, creating computers that are built to withstand the harsh and extreme conditions of space."
+    subtitle_2: 
+      title: ""
+      text: "Some team members have deep expertise in space, while others excel in computer architecture, logic, and software development. Despite their confidence in their own fields, many challenges require collaborative solutions that no single person can tackle alone. I work closely with trusted colleagues every day to address these issues. There’s no sense of hierarchy or superiority; instead, we focus on leveraging each other’s unique strengths and pushing ourselves to achieve our goals together."
+    subtitle_3: 
+      title: ""
+      text: "Currently, Space Cubics is a small company and doesn't yet have the resources to handle large projects independently. We welcome individuals passionate about designing, manufacturing, and selling spacecraft components, including computers, communications, propulsion, structures, thermal fluids, and system engineering. If you find working with ground-based computers too common or uninspiring, or if you feel you're unable to create something the way you envision, please reach out to us. We seek to collaborate with those who are solution-oriented and respectful, and we avoid working with individuals who are overly critical of others' work or who bring a negative attitude, even if they are highly skilled."
 
 recruitment_details: 
   job_title: "Software Engineer"
