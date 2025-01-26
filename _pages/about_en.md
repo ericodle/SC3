@@ -21,6 +21,7 @@ our_vision:
 
 our_services:
   title: "Our Services"
+  use_bullets: true
   columns:
     - title: "Space Computer Solutions"
       image_path: /assets/imgs/about_pcb.webp
