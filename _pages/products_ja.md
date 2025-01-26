@@ -46,6 +46,13 @@ onboard_computer:
       title: ""
       text: "JAXAが国際宇宙ステーションで培った信頼性設計技術を基にキューブサット用に最適設計した宇宙用コンピュータです。Xilinx製 Artix-7 FPGAを採用し、インターフェースの種類や数をユーザ毎に柔軟に対応することができます。キューブサット以外の宇宙機や地上の産業用途にも使用可能です。"
 
+product_specification_header:
+  - title: "SPECIFICATIONS"
+    show_divider: true
+    text_align: left
+    subtitle_1:
+      title: "SC-OBC Module A1"
+
 price_notes:
   - title: "価格に関する注意事項"
     show_divider: true
@@ -196,6 +203,8 @@ pricing:
 {% include banner.html index=1 %}
 
 {% include content_block_reversed.html id="onboard_computer" %}
+
+{% include content_block.html id="product_specification_header" %}
 
 {% assign product_specifications = page.product_specifications %}
 
