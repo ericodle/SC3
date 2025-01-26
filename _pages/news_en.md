@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: news_home
 title: News
 permalink: /news_en
 

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<ul class="news-list">
+    {% assign sorted_posts = site.pages | sort: 'date' | reverse %}
+    {% if page.name contains '_en' %}
+      {% assign lang_filter = '_en.md' %}
+    {% else %}
+      {% assign lang_filter = '_ja.md' %}
+    {% endif %}
+  
+    {% for item in sorted_posts %}
+      {% if item.path contains 'pages/news/' and item.name contains lang_filter %}
+        <li class="news-item">
+          <span class="news-date">{{ item.date | date: "%B %d, %Y" }}</span>
+          <a href="{{ item.url }}" class="news-title">{{ item.title | default: item.name }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  
