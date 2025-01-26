@@ -27,9 +27,11 @@
             <textarea id="contact-message" name="message" required></textarea>
             <br><br>
 
-            <button id="contact-submit-button" type="submit">
-                {{ include.form_labels.submit | default: "送信" }}
-            </button>
+            <div id="contact-submit-container">
+                <button id="contact-submit-button" type="submit">
+                    {{ include.form_labels.submit | default: "送信" }}
+                </button>
+            </div>
         </form>
     </div>
 </div>

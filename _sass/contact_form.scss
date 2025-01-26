@@ -1,94 +1,110 @@
 /* ===============================
-   Styling for contact_form object
+   Styling for Contact Form
    =============================== */
 
    #contact__body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0.5em;
+    padding: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
-  }
-  
-  #career-contact-form-container {
+    min-height: 50vh;
+    background-color: #ffffff;
+}
+
+#career-contact-form-container {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-  }
-  
-  #career-contact-form-title {
+}
+
+#career-contact-form-title {
     color: #333;
     font-size: 24px;
-    margin-bottom: 10px; /* Reduced margin */
-  }
-  
-  #career-contact-form {
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px; /* Reduced padding */
-    width: 70vw; /* 75% of the viewport width */
-    max-width: 35vw; /* Increased max-width */
-    box-sizing: border-box;
-    text-align: left;
-    margin: 0 auto; /* Center the form horizontally */
-  }
-  
-  label {
+    margin-bottom: 15px;
+}
+
+#career-contact-form {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 70vw; /* Form takes up 70% of the viewport width */
+  max-width: 800px; /* Prevents it from getting too large on wider screens */
+  min-width: 300px; /* Ensures it doesn’t become too small on narrow screens */
+  box-sizing: border-box;
+  text-align: left;
+  margin: 0 auto; /* Centers the form horizontally */
+}
+
+label {
     display: block;
-    margin-bottom: 10px; /* Reduced margin */
+    margin-bottom: 5px;
     color: #555;
     font-weight: bold;
-  }
-  
-  input,
-  textarea {
+}
+
+input,
+textarea {
     width: 100%;
-    padding: 6px; /* Reduced padding */
-    margin-top: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 14px;
     box-sizing: border-box;
-  }
-  
-  textarea {
+}
+
+textarea {
     resize: vertical;
-    min-height: 50px; /* Reduced height */
-  }
-  
-  input[type="file"] {
-    padding: 3px;
-  }
-  
-  #contact-submit-button {
+    min-height: 80px;
+}
+
+/* Centering the submit button */
+#contact-submit-container {
+    text-align: center;
     width: 100%;
-    padding: 6px; /* Reduced padding */
+}
+
+#contact-submit-button {
+    padding: 10px 20px;
     background: #0078D7;
     border: none;
     border-radius: 4px;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  #contact-submit-button:hover {
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+}
+
+#contact-submit-button:hover {
     background: #005fa3;
-  }
-  
-  @media (max-width: 480px) {
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
     #career-contact-form {
-      padding: 8px; /* Reduced padding */
+        padding: 15px;
     }
-  
+
+    #career-contact-form-title {
+        font-size: 22px;
+    }
+
+    input,
+    textarea {
+        font-size: 14px;
+    }
+
     #contact-submit-button {
-      font-size: 14px;
+        font-size: 14px;
+        padding: 8px 15px;
     }
-  }
-  
+}
