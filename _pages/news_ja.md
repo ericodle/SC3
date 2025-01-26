@@ -11,4 +11,3 @@ banners:
 
 ---
 
-{% include banner.html index=0 %}
