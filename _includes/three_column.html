@@ -35,14 +35,23 @@
           </div>
         {% endif %}
 
-        <ul class="three-column__item-list">
+        {% if three_column.use_bullets %}
+          <ul class="three-column__item-list">
+            {%- for i in (1..10) -%}
+              {% capture text_key %}text_{{ i }}{% endcapture %}
+              {% if column[text_key] %}
+                <li class="three-column__item-text">{{ column[text_key] }}</li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+        {% else %}
           {%- for i in (1..10) -%}
             {% capture text_key %}text_{{ i }}{% endcapture %}
             {% if column[text_key] %}
-              <li class="three-column__item-text">{{ column[text_key] }}</li>
+              <p class="three-column__item-text">{{ column[text_key] }}</p>
             {% endif %}
           {%- endfor -%}
-        </ul>
+        {% endif %}
       </div>
 
       {% assign column_count = column_count | plus: 1 %}
