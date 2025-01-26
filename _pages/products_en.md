@@ -36,11 +36,14 @@ concept:
     text_align: left
     subtitle_1:
       title: ""
-      text: "The greatest advantage of Space Cubics' products is that users can focus exclusively on developing the mission-specific features. In addition to fault tolerance functions, our products come with middleware and protocols commonly used in space equipment, such as ISS-compatible network protocols, TTEthernet, and cFS. We also support ROS (Robot Operating System), which is widely used in industries beyond space. Additionally, we offer custom development and consulting services for both software and hardware, including CPU boards and FPGAs.By offering affordable space computers and comprehensive space development support, Space Cubics simplifies entry into space development and contributes to the growth of the private space industry in Japan and across Asia."
+      text: "The greatest advantage of Space Cubics' products is that users can focus exclusively on developing the mission-specific features. In addition to fault tolerance functions, our products come with middleware and protocols commonly used in space equipment, such as ISS-compatible network protocols, TTEthernet, and cFS. We also support ROS (Robot Operating System), which is widely used in industries beyond space."
+    subtitle_2:
+      title: ""
+      text: "Additionally, we offer custom development and consulting services for both software and hardware, including CPU boards and FPGAs.By offering affordable space computers and comprehensive space development support, Space Cubics simplifies entry into space development and contributes to the growth of the private space industry in Japan and across Asia."
 
 onboard_computer:
   - title: "Onboard Computer (OBC)"
-    image_path: /assets/imgs/products_pcb1.webp
+    image_path: /assets/imgs/products_pcb1.webSpace Cubicsの製品の最も良いところは、ユーザーがミッションに必要な機能の開発だけに専念することができることです。我々の製品には、耐障害性機能以外にも、宇宙機器でよく使用されるミドルウェアやプロトコル(ISS互換ネットワークプロトコル、TTEthernet、cFSなど)や、宇宙以外の分野でよく使われているROS(Robot Operating System)などもサポートします。また、ソフトウェアやハードウェア(CPUボード、FPGA)のカスタム開発やコンサルティングも承ります。Space Cubicsは低価格な宇宙用コンピュータと宇宙開発に関するトータルサポートを提供することで、宇宙開発への参入を手軽にし、日本はもとよりアジアを中心とした民間の宇宙産業発展に貢献します。p
     image_style: "width: 100%; height: auto;"
     text_align: left
     subtitle_1:
