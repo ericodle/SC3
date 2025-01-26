@@ -28,20 +28,19 @@
             {% endif %}
           {% endif %}
 
-          {% if f.subtitle_1 %}
-            <h3 class="content__item-subtitle">{{ f.subtitle_1.title }}</h3>
-            <p>{{ f.subtitle_1.text }}</p>
-          {% endif %}
-          
-          {% if f.subtitle_2 %}
-            <h3 class="content__item-subtitle">{{ f.subtitle_2.title }}</h3>
-            <p>{{ f.subtitle_2.text }}</p>
-          {% endif %}
-          
-          {% if f.subtitle_3 %}
-            <h3 class="content__item-subtitle">{{ f.subtitle_3.title }}</h3>
-            <p>{{ f.subtitle_3.text }}</p>
-          {% endif %}
+          {% for i in (1..3) %}
+            {% assign subtitle_key = 'subtitle_' | append: i %}
+            {% if f[subtitle_key] %}
+              <h3 class="content__item-subtitle">{{ f[subtitle_key].title }}</h3>
+              {% if f[subtitle_key].bullet_points %}
+                <ul class="content__item-list">
+                  <li>{{ f[subtitle_key].text }}</li>
+                </ul>
+              {% else %}
+                <p>{{ f[subtitle_key].text }}</p>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
 
           {% if f.button %}
           <a href="{{ f.button.url }}" class="content__item-button">
