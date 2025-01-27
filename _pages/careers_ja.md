@@ -9,23 +9,13 @@ banners:
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
 
-currently_recruiting:
-  - title: "募集中"
-    show_divider: true
-    alt: ""
-    text_align: left
-    subtitle_1: 
-      title: ""
-      text: ""
-
 join_us:
   - title: "一緒に働くメンバーを常に募集しています。"
-    image_path: 
-    image_style: "width: 100%; height: auto;"
-    alt: ""
+    title_font_size: 40
     text_align: left
     subtitle_1: 
       title: "少しでもご興味のある方はアプリケーションフォームからご連絡下さい。"
+      font_size: 30
       text: "Space Cubics は、宇宙とコンピューターの仕事を通じて出会ったエンジニア達が作った会社です。エンジニアリングを心から楽しみ、より過酷で極限の環境である宇宙でも使えるコンピュータを設計、開発しています。"
     subtitle_2: 
       title: ""
@@ -33,6 +23,12 @@ join_us:
     subtitle_3: 
       title: ""
       text: "今の Space Cubics はまだまだ小さくて、大きな仕事を自分達だけで完結できる力がありません。コンピューター、通信、推進、構造、熱流体、システムエンジニアリングなど、宇宙機を設計、製造、販売する事に興味がある人、地上で動くコンピューターなど普通すぎてツマラナク感じている人や、色々な理由で思い通りのモノが作ることが出来ていない人は、ご連絡ください。他人の仕事にケチばかり付けて代替案を提案できない人、他人を貶める人は、たとえ優秀でもご遠慮ください。 "
+
+currently_recruiting:
+  - title: "募集中"
+    title_font_size: 50
+    show_divider: true
+    text_align: left
 
 recruitment_details: 
   job_title: "ソフトウェアエンジニア"
@@ -56,8 +52,9 @@ recruitment_details:
   requirements: 
     label: "応募条件"
     values: 
-      - "スキルを正確に把握するため、過去に製作したソフトウェアコード等、ポートフォリオを送付願います。 GitHubアカウント名など、公開しているソフトウェアのアカウントでも構いません。"
-      - "日本国籍の方または日本の永住権のある外国籍の方"
+      - "スキルを正確に把握するため、過去に製作したソフトウェアコード等、ポートフォリオを送付願います。"
+      - "GitHubアカウント名など、公開しているソフトウェアのアカウントでも構いません。"
+      - "日本国籍の方または日本の永住権のある外国籍の方。"
   desired_skills: 
     label: "望ましいスキル"
     values: 

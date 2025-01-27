@@ -2,35 +2,85 @@
    Styling for recruitment form
    ============================= */
 
-.job-post {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 0.5em;
-  max-width: 35vw;
-  width: 50%;
-  margin-left: 31vw; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-body {
-  display: flex;
-  justify-content: center;
-}
-
-@media (max-width: 1024px) {
-  .job-post {
-    width: 60%;
-    margin-left: 5vw;
+   .job-post {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    max-width: 75vw;
+    width: 50%;
+    margin-left: 25vw;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px; /* Default font size for general text */
   }
-}
-
-@media (max-width: 768px) {
-  .job-post {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  
+  .job-post h2 {
+    font-size: 1.75rem; /* Slightly larger font size for job title */
+    margin-bottom: 1em;
   }
-}
+  
+  .job-post h3 {
+    font-size: 1.25rem; /* Slightly smaller headings for sections */
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .job-post p {
+    font-size: 1rem; /* Paragraph font size */
+    margin-bottom: 0.75em;
+  }
+  
+  .job-post ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .job-post li {
+    margin-bottom: 0.5em; /* Add space between list items */
+  }
+  
+  .job-post strong {
+    font-weight: bold;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 70vw) {
+    .job-post {
+      width: 75vw;
+      margin-left: 5vw;
+      font-size: 14px; /* Smaller font size for smaller screens */
+    }
+  
+    .job-post h2 {
+      font-size: 1.5rem; /* Smaller title for small screens */
+    }
+  
+    .job-post h3 {
+      font-size: 1.2rem; /* Smaller section titles for small screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .job-post {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 13px; /* Even smaller font size on mobile */
+    }
+  
+    .job-post h2 {
+      font-size: 1.3rem; /* Even smaller title for mobile */
+    }
+  
+    .job-post h3 {
+      font-size: 1.1rem; /* Smaller section titles for mobile */
+    }
+  }
+  
