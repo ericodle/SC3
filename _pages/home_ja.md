@@ -13,7 +13,7 @@ banners:
 
 our_vision:
   - title: "VISION"
-    title_font_size: 60
+    title_font_size: 50
     image_path: /assets/imgs/space_bedroom.webp
     alt: "Vision Image"
     text_align: left
@@ -30,7 +30,7 @@ our_vision:
 
 our_technology:
   - title: "PRODUCT"
-    title_font_size: 60
+    title_font_size: 50
     image_path: /assets/imgs/bluechip.webp
     alt: "Vision Image"
     text_align: left
