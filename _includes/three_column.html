@@ -23,10 +23,14 @@
       <div class="three-column__item">
         {% if column.titles %}
           {% for column_title in column.titles %}
-            <h3 class="three-column__item-title">{{ column_title }}</h3>
+            <h3 class="three-column__item-title" style="font-size: {{ column_title.font_size | default: 30 }}px;">
+              {{ column_title.title }}
+            </h3>
           {% endfor %}
         {% else %}
-          <h3 class="three-column__item-title">{{ column.title }}</h3>
+          <h3 class="three-column__item-title" style="font-size: {{ column.font_size | default: 30 }}px;">
+            {{ column.title }}
+          </h3>
         {% endif %}
 
         {% if column.image_path %}
