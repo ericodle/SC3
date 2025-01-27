@@ -10,31 +10,23 @@
       <div class="content__item-container" style="display: flex; flex-direction: row-reverse;">
         <div class="content__item-body" style="flex: {% if f.text_size %}{{ f.text_size }}{% else %}1{% endif %}; text-align: {% if f.text_align %}{{ f.text_align }}{% else %}center{% endif %};">
           {% if f.title %}
-            <h2 class="content__item-title">{{ f.title }}</h2>
+            <h2 class="content__item-title" style="font-size: {% if f.title_font_size %}{{ f.title_font_size }}px{% else %}24px{% endif %};">
+              {{ f.title }}
+            </h2>
             {% if f.show_divider %}
               <div class="divider-bar"></div> 
             {% endif %}
           {% endif %}
 
-          {% if f.subtitle_1 %}
-            <h3 class="content__item-subtitle">{{ f.subtitle_1.title }}</h3>
-            <p>{{ f.subtitle_1.text }}</p>
-          {% endif %}
-          
-          {% if f.subtitle_2 %}
-            <h3 class="content__item-subtitle">{{ f.subtitle_2.title }}</h3>
-            <p>{{ f.subtitle_2.text }}</p>
-          {% endif %}
-          
-          {% if f.subtitle_3 %}
-            <h3 class="content__item-subtitle">{{ f.subtitle_3.title }}</h3>
-            <p>{{ f.subtitle_3.text }}</p>
-          {% endif %}
-
-          {% if f.subtitle_4 %}
-            <h3 class="content__item-subtitle">{{ f.subtitle_4.title }}</h3>
-            <p>{{ f.subtitle_4.text }}</p>
-          {% endif %}
+          {% for i in (1..4) %}
+            {% assign subtitle_key = 'subtitle_' | append: i %}
+            {% if f[subtitle_key] %}
+              <h3 class="content__item-subtitle" style="font-size: {% if f[subtitle_key].font_size %}{{ f[subtitle_key].font_size }}px{% else %}18px{% endif %};">
+                {{ f[subtitle_key].title }}
+              </h3>
+              <p>{{ f[subtitle_key].text }}</p>
+            {% endif %}
+          {% endfor %}
 
           {% if f.button %}
             <a href="{{ f.button.url }}" class="content__item-button">
