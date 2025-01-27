@@ -75,6 +75,12 @@ recruitment_details:
     label: "お問い合わせ"
     value: "募集中以外の職種に関しては、お問合せフォームよりお問合せ願います。"
 
+form_header:
+  - title: "応募フォーム"
+    title_font_size: 50
+    show_divider: true
+    text_align: center
+
 form_labels:
   name: "お名前"
   email: "メールアドレス"
@@ -134,6 +140,8 @@ upcoming_positions:
 {% include content_block.html id="currently_recruiting" %}
 
 {% include recruitment_form.html details=page.recruitment_details %}
+
+{% include content_block.html id="form_header" %}
 
 {% include contact_form.html form_labels=page.form_labels %}
 
