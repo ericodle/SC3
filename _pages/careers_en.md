@@ -11,12 +11,11 @@ banners:
 
 join_us:
   - title: "We are always looking for new members."
-    image_path: 
-    image_style: "width: 100%; height: auto;"
-    alt: ""
+    title_font_size: 40
     text_align: left
     subtitle_1: 
       title: "If you are interested, please contact us using this application form."
+      font_size: 30
       text: "Space Cubics is a company founded by engineers who connected through their work in space and computer technology. We are passionate about engineering and design, creating computers that are built to withstand the harsh and extreme conditions of space."
     subtitle_2: 
       title: ""
@@ -27,12 +26,10 @@ join_us:
 
 currently_recruiting:
   - title: "Currently Recruiting"
+    title_font_size: 50
     show_divider: true
-    alt: ""
     text_align: left
-    subtitle_1: 
-      title: ""
-      text: ""
+
 
 recruitment_details: 
   job_title: "Software Engineer"
@@ -78,6 +75,12 @@ recruitment_details:
   contact_details: 
     label: "Contact"
     value: "For positions other than those currently open, please contact us through the inquiry form below."
+
+form_header:
+  - title: "Contact Form"
+    title_font_size: 50
+    show_divider: true
+    text_align: center
 
 form_labels:
   name: "Name"
@@ -138,6 +141,8 @@ upcoming_positions:
 {% include content_block.html id="currently_recruiting" %}
 
 {% include recruitment_form.html details=page.recruitment_details %}
+
+{% include content_block.html id="form_header" %}
 
 {% include contact_form.html form_labels=page.form_labels %}
 
