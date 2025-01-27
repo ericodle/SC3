@@ -11,18 +11,20 @@ our_vision:
     text_align: left
     subtitle_1:
       title: "もっと安く"
+      font_size: 30
       text: "宇宙用の機器は地上用に比べて、性能に加えて安全性や信頼性検証などの要求事項が多く、適合させるための開発コストが非常に高くなります。Space Cubicsは、これまで多くの宇宙での使用実績のある民生コンピューターの設計者と、宇宙開発の経験から培った多くの設計検証ノウハウを持つJAXAエンジニアがタッグを組み、「JAXAベンチャー」として信頼性の高い宇宙用コンピューターを安価に提供します。"
     subtitle_2:
       title: "もっと手軽に"
+      font_size: 30
       text: "たとえ優れた技術があったとしても、宇宙開発の経験がない企業・団体にとって宇宙開発は簡単なものではありません。宇宙開発に興味はあっても、どこから手を付けて良いのか分からず、企画段階で頓挫してしまうケースが多く見受けられます。Space Cubicsは、宇宙に興味のある企業・団体が手軽に宇宙開発に参入できるように宇宙開発のトータルサポートを提供します。"
     subtitle_3:
       title: "誰でも宇宙へ"
+      font_size: 30
       text: "Space Cubicsは低価格な宇宙用の機器とトータルサポートを提供することで、宇宙開発への参入を手軽にし、日本はもとよりアジアを中心とした民間の宇宙産業発展に貢献します。多くの企業や団体そして個人までもが宇宙開発に参入することにより、宇宙に対するニーズが飛躍的に拡大して新たな産業が生まれ育っていくこと、それがSpace Cubicsの設立目的です。"
     show_divider: true
 
 our_services:
   title: "SERVICES"
-  title_font_size: 60
   use_bullets: true
   columns:
     - title: "宇宙用コンピュータ販売"
@@ -43,15 +45,14 @@ our_services:
 
 our_people:
   title: "MANAGEMENT TEAM"
-  title_font_size: 60
   columns:
     - titles:
       - title: "荘司 靖 (Yasushi Shoji)"
-        font_size: 30  # Custom font size for this title
+        font_size: 30
       - title: "CEO"
-        font_size: 24  # Custom font size for this title
+        font_size: 24
       - title: "Software Engineer"
-        font_size: 24  # Custom font size for this title
+        font_size: 24
       image_path: "/path/to/ceo_image.jpg"
       text_1: "2000年にSalem State Univ., MA, USA 卒業。2002年より組み込みCPUボード開発に従事。幅広い知識と経験を生かし、2016年に宇宙用ドローン(Int-Ball)の統括ソフトウェア開発を担当。"
     - titles: 
@@ -106,18 +107,23 @@ founding_alumnus:
 
 our_clients:
   - title: "Clients"
+    title_font_size: 60
     image_path: /assets/imgs/about_thanks.webp
     image_size: 400px
     text_align: left
     subtitle_1:
       title: "国立研究開発法人 宇宙航空研究開発機構 (JAXA)"
+      font_size: 30
       text: "お客様の声：将来的なISS搭載を目指した機器開発のために、超小型制御ボードにおける RTOSベースの制御ソフトウェア構築、ISSを介した地上との通信インタフェース の実装作業をお願いしました。"
     subtitle_2:
       title: "株式会社アークエッジ・スペース"
+      font_size: 30
     subtitle_3:
       title: "GITAI Japan株式会社"
+      font_size: 30
     subtitle_4:
       title: "株式会社ElevationSpace"
+      font_size: 30
     show_divider: true
 
 our_partners:
@@ -128,6 +134,7 @@ our_partners:
     text_align: left
     subtitle_1:
       title: "スペースワン株式会社"
+      font_size: 30
       text: "経済産業省が実施する「令和2年度 産業技術実用化開発事業費補助金」に共同で採択。超小型宇宙利用プラットフォーム確立へ向け、スペースワン社製小型ロケット「カイロス（KAIROS）」による超小型衛星の放出実証、ならびにSpace Cubics社製宇宙用コンピュータを搭載した衛星の宇宙実証を目指します。"
     show_divider: true
     button:
@@ -140,6 +147,7 @@ our_company:
     text_align: center
     subtitle_1:
       title: "合同会社Space Cubics"
+      font_size: 30
       text: "〒060-0053 北海道札幌市中央区南3条東2丁目1番地 ベンチャースクエア301 Phone: 050-7112-6213"
     show_divider: true
     
