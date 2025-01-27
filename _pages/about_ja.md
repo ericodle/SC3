@@ -5,6 +5,7 @@ permalink: /about_ja
 
 our_vision:
   - title: "VISION"
+    title_font_size: 60
     image_path: /assets/imgs/moonface.jpeg
     alt: "Vision Image"
     text_align: left
@@ -38,6 +39,7 @@ our_services:
       alt: "Support Image"
       text_1: "宇宙機器開発サポート"
       text_2: "JAXAにおける多くの開発実績を生かし、設計開発から打ち上げに対する手続きに至るまでをお手伝い。"
+
 our_people:
   title: "MANAGEMENT TEAM"
   columns:
@@ -73,10 +75,15 @@ our_people:
       text_1: "2002年より組み込みCPUボードメーカーのハードウェアエンジニアとして、多くの基板開発を担当。耐環境性・信頼性が要求される産業用途向け製品の回路設計から量産製造までの幅広い知識と経験を活かし、安価で安心して使える宇宙機の提供を目指す。"
 
 founding_alumnus:
-  - title: "後藤 雅享 (Masayuki Goto) -- Founding Alumnus"
+  - title: "Founding Alumnus"
+    title_font_size: 60
     text_align: left
     subtitle_1: 
+      title: "後藤 雅享 (Masayuki Goto)"
+      font_size: 30
+    subtitle_2: 
       title: "Space System Engineer"
+      font_size: 24
       text: "宇宙用の機器は地上用に比べて、性能に加えて安全性や信頼性検証などの要求事項が多く、適合させるための開発コストが非常に高くなります。Space Cubicsは、これまで多くの宇宙での使用実績のある民生コンピューターの設計者と、宇宙開発の経験から培った多くの設計検証ノウハウを持つJAXAエンジニアがタッグを組み、「JAXAベンチャー」として信頼性の高い宇宙用コンピューターを安価に提供します。"
     show_divider: true
 
@@ -98,6 +105,7 @@ our_clients:
 
 our_partners:
   - title: "Partners"
+    title_font_size: 60
     image_path: /assets/imgs/about_spaceone.webp
     image_size: 400px
     text_align: left
@@ -111,6 +119,7 @@ our_partners:
 
 our_company:
   - title: "Company Details"
+    title_font_size: 60
     text_align: center
     subtitle_1:
       title: "合同会社Space Cubics"
