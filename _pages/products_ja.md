@@ -15,23 +15,21 @@ banners:
 
 concept:
   - title: "コスト削減と信頼性"
-    image_path: 
-    image_style: "width: 50%; height: auto;"
+    title_font_size: 30
     text_align: left
     subtitle_1:
       title: ""
       text: "宇宙機器の開発では、予算が限られているため、安価な汎用コンピュータを採用することがありますが、放射線が非常に強い宇宙空間での動作に対する信頼性に不安が残るかもしれません。信頼性を高めるためには、放射線耐性が高い部品が搭載されたコンピュータを採用する選択肢がありますが、これらの製品は高価格であり、かつ製品を購入するだけでは宇宙でのミッションで起こる全てのトラブルを解決できるわけではありません。Space Cubicsは、低コストでありながら、宇宙機器に必要な高い信頼性を持つ製品を提供します。"
 
   - title: "耐障害性"
-    image_path: 
-    image_style: "width: 50%; height: auto;"
+    title_font_size: 30
     text_align: left
     subtitle_1:
       title: ""
       text: "一般に、ほとんどの高信頼性コンピュータには耐障害性機能が標準で備わっていません。たとえ放射線耐性が高い部品が搭載されているコンピュータでも、強い放射線によって引き起こされる障害（記憶されているデータが化けてしまうなど）が起こることがあります。宇宙機器の場合、ハードウェアに障害が発生しても部品交換はできず、またソフトウェアの問題でも地上から復旧は困難です。Space Cubicsの製品は障害は必ず起こるものだという前提のもと、障害からの速やかな復旧が重要だという考えに基づき、多くの耐障害性機能を備えています。例えば、コンピュータを複数台同時に稼働・連携することで冗長性を持たせたり、データ異常が発生することを想定して同じデータを複数個所に保存し、多数決でデータの正当性を判定する機能を備えているので、障害が発生したコンピュータやデータを自動で復旧することができます。"
 
   - title: "使いやすさ"
-    image_path: 
+    title_font_size: 30
     text_align: left
     subtitle_1:
       text: "Space Cubicsの製品の最も良いところは、ユーザーがミッションに必要な機能の開発だけに専念することができることです。我々の製品には、耐障害性機能以外にも、宇宙機器でよく使用されるミドルウェアやプロトコル(ISS互換ネットワークプロトコル、TTEthernet、cFSなど)や、宇宙以外の分野でよく使われているROS(Robot Operating System)などもサポートします。また、ソフトウェアやハードウェア(CPUボード、FPGA)のカスタム開発やコンサルティングも承ります。"
@@ -40,6 +38,7 @@ concept:
 
 onboard_computer:
   - title: "Onboard Computer (OBC)"
+    title_font_size: 60
     image_path: /assets/imgs/products_pcb1.webp
     text_align: left
     subtitle_1:
@@ -48,15 +47,17 @@ onboard_computer:
 
 product_specification_header:
   - title: "SPECIFICATIONS"
+    title_font_size: 60
     show_divider: true
     text_align: left
     subtitle_1:
       title: "SC-OBC Module A1"
+      font_size: 30
 
 price_notes:
   - title: "価格に関する注意事項"
+    title_font_size: 60
     show_divider: true
-    image_style: "width: 50%; height: auto;"
     text_align: left
     subtitle_1:
       title: ""
@@ -70,8 +71,8 @@ price_notes:
 
 user_manual:
   - title: "ユーザーマニュアル"
+    title_font_size: 60
     show_divider: true
-    image_style: "width: 100%; height: auto;"
     text_align: left
     subtitle_1:
       title: ""
@@ -82,8 +83,8 @@ user_manual:
 
 fpga_manual:
   - title: "FPGAハードウェアマニュアル"
+    title_font_size: 60
     show_divider: true
-    image_style: "width: 100%; height: auto;"
     text_align: left
     subtitle_1:
       title: ""
@@ -94,8 +95,8 @@ fpga_manual:
 
 github_link:
   - title: "GitHub"
+    title_font_size: 60
     show_divider: true
-    image_style: "width: 100%; height: auto;"
     text_align: left
     subtitle_1:
       title: ""
@@ -106,8 +107,8 @@ github_link:
 
 change_notice:
   - title: "Notice"
+    title_font_size: 60
     show_divider: true
-    image_style: "width: 100%; height: auto;"
     text_align: center
     subtitle_1:
       title: ""
@@ -120,21 +121,23 @@ change_notice:
       url: "/about_ja"
 
 example_1:
-  - title: "使用例-1"
+  - title: "使用例  1"
+    title_font_size: 60
     show_divider: true
     image_path: /assets/imgs/products_pcb2.webp
     image_style: "width: 80%; height: auto;"
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "弊社人工衛星に搭載するため、PC104形状に合わせたインタフェースボードの上にSC-OBC Module A1を搭載した形態。"
 
 example_2:
-  - title: "使用例-2"
+  - title: "使用例  2"
+    title_font_size: 60
     show_divider: true
     image_path: /assets/imgs/products_tower.webp
     image_style: "width: 50%; height: auto;"
-    text_align: center
+    text_align: left
     subtitle_1:
       title: ""
       text: "インタフェースボードに搭載したSC-OBC Module A1が組み込まれた人工衛星（写真は開発中のもの）。"
