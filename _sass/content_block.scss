@@ -5,8 +5,8 @@
   .content__wrapper {
     display: flex;
     flex-direction: column;
-    margin-bottom: 5em;
-    margin-top: 2em;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
     align-items: center;
     justify-content: center;
   }
@@ -23,13 +23,13 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    gap: 1em;
-    max-width: 50vw;
+    gap: 2vw;
+    max-width: 60vw;
     width: 100%;
   }
   
   .content__item-image {
-    flex: 1 1 200px; 
+    flex: 1 1 20vw; 
     max-width: 50%;
   }
   
@@ -37,56 +37,60 @@
     width: 100%; 
     height: auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 1vw;
   }
   
   .content__item-body {
     flex: 2 1 auto; 
-    padding: 0.5em; 
+    padding: 1vw; 
     color: #666;
-    min-width: 250px;
-    font-size: 1.2em; 
+    min-width: 25vw;
+    font-size: 0.8vw; 
   }
   
   .content__item-title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     margin: 0;
-    padding-bottom: 0.5em;
+    padding-bottom: 1vw;
     color: #5f5f5f; 
+    font-size: 3vw;
   }
   
   .content__item-subtitle {
-    margin-top: 0.5em;
+    margin-top: 1vw;
     color: #000000;
+    font-size: 2.2vw;
   }
   
   .content__item-caption {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #999;
-    margin-top: 0.5em;
+    margin-top: 1vw;
     display: block;
+    font-size: 2vw;
   }
   
   .divider-bar {
     width: 100%;
-    height: 1px;
+    height: 0.15vh;
     background-color: #000000;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
   }
   
   .content__item-button {
     display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
+    margin-top: 2vh;
+    padding: 1vh 3vw;
     background-color: #ffffff; 
     color: #888;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 1vw;
     font-weight: bold;
     transition: background-color 0.3s;
+    font-size: 2vw;
   }
   
   .content__item-button:hover {
@@ -112,6 +116,12 @@
   
     .content__item-body {
       width: 100%;
+      font-size: 3vw;
+    }
+  
+    .content__item-button {
+      font-size: 2.5vw;
+      padding: 1.5vh 5vw;
     }
   }
   
