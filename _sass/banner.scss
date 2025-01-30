@@ -50,6 +50,21 @@
     z-index: 2;
     color: white;
     text-align: center;
-    font-size: 4em;
+    font-size: 5vw;
+    max-width: 80vw;
+    padding: 2vw;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .banner {
+      height: 50vh;
+    }
+  
+    .banner__text {
+      font-size: 6vw;
+      max-width: 90vw;
+      padding: 3vw;
+    }
   }
   
