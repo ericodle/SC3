@@ -50,7 +50,7 @@
     z-index: 2;
     color: white;
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw; /* Reduced the font-size for smaller text */
     max-width: 80vw;
     padding: 2vw;
   }
@@ -62,7 +62,7 @@
     }
   
     .banner__text {
-      font-size: 6vw;
+      font-size: 5vw; /* Reduced font-size in the mobile view */
       max-width: 90vw;
       padding: 3vw;
     }
