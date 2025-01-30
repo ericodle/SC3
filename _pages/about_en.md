@@ -5,6 +5,7 @@ permalink: /about_en
 
 our_vision:
   - title: "Our Vision"
+    title_font_size: 60
     image_path: /assets/imgs/moonface.jpeg
     alt: "Vision Image"
     text_align: left
