@@ -51,7 +51,7 @@ our_people:
   columns:
     - titles:
       - title: "荘司 靖 (Yasushi Shoji)"
-        font_size: 24
+        font_size: 28
       - title: "CEO"
         font_size: 18
       - title: "Software Engineer"
@@ -60,7 +60,7 @@ our_people:
       text_1: "2000年にSalem State Univ., MA, USA 卒業。2002年より組み込みCPUボード開発に従事。幅広い知識と経験を生かし、2016年に宇宙用ドローン(Int-Ball)の統括ソフトウェア開発を担当。"
     - titles: 
       - title: "佐々木 大輔 (Daisuke Sasaki)"
-        font_size: 24 
+        font_size: 28
       - title: "CTO"
         font_size: 18 
       - title: "LSI Logic Engineer"
@@ -69,7 +69,7 @@ our_people:
       text_1: "2001年より11年間 国内半導体企業にてLSIの開発における幅広い設計工程を経験。2013年から自ら設計したLSIを搭載した組み込みCPUボードの開発を経験しソフトウェアまで知識領域を持つ。"
     - titles: 
       - title: "森島 史仁 (Fumito Morishima)"
-        font_size: 24 
+        font_size: 28 
       - title: "CFO"
         font_size: 18 
       - title: "Sales, Finance Control"
@@ -78,7 +78,7 @@ our_people:
       text_1: "2000年より16年間、組み込みCPUボードメーカーにて開発・営業・マーケティング・経営に携わり、幅広いビジネススキルを習得。また東南アジアで事業を興しており、アジアにコネクションを持つ。"
     - titles: 
       - title: "佐々木 拓也 (Takuya Sasaki)"
-        font_size: 24 
+        font_size: 28 
       - title: "CAO"
         font_size: 18 
       - title: "Software Engineer, Sales"
@@ -87,7 +87,7 @@ our_people:
       text_1: "1998年より国内電機メーカーのソフトウェアエンジニアとして主に官公庁向けのネットワーク管理システムの開発に従事。2013年から組み込みCPUボードメーカーのFAEとして、数多くの顧客の開発、量産をサポートしてきた。"
     - titles: 
       - title: "波塚 朋広 (Tomohiro Namitsuka)"
-        font_size: 24 
+        font_size: 28 
       - title: "CPO"
         font_size: 18 
       - title: "Electronics Engineer"

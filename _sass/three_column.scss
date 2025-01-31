@@ -14,14 +14,14 @@
   font-weight: bold;
   color: #5c5c5c;
   text-align: left; 
-  margin-bottom: 1em; 
+  margin-bottom: 0em; 
   font-family: 'Roboto', sans-serif;
 }
 
   .divider-bar {
     height: 0.2vw;
     background-color: #000000; 
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
   
   .three-column__content {
@@ -56,5 +56,6 @@
     font-size: 0.8vw;
     font-family: 'Roboto', sans-serif;
     margin-top: 1em;
+    margin-bottom: 1em;
     color: #5f5f5f; 
   }
