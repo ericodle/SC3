@@ -28,16 +28,19 @@ our_services:
   use_bullets: true
   columns:
     - title: "宇宙用コンピュータ販売"
+      font_size: 24
       image_path: /assets/imgs/about_pcb.webp
       alt: "Technology Image"
       text_1: "多様なニーズに対応可能な宇宙用コンピュータを自社開発・販売。"
       text_2: "JAXAで培った宇宙機設計ノウハウをベースに、独自の放射線対策技術を導入。"
     - title: "設計開発受託"
+      font_size: 24
       image_path: /assets/imgs/about_ide.webp
       alt: "Consulting Image"
       text_1: "ソフトウェア・FPGA・電気設計等を受託。"
       text_2: "ユーザーのニーズに合わせて、多くのプログラム言語や各種設計要求に対応。"
     - title: "コンサルティング"
+      font_size: 24
       image_path: /assets/imgs/about_hands.webp
       alt: "Support Image"
       text_1: "宇宙機器開発サポート"
@@ -48,47 +51,47 @@ our_people:
   columns:
     - titles:
       - title: "荘司 靖 (Yasushi Shoji)"
-        font_size: 30
+        font_size: 24
       - title: "CEO"
-        font_size: 24
+        font_size: 18
       - title: "Software Engineer"
-        font_size: 24
+        font_size: 18
       image_path: "/path/to/ceo_image.jpg"
       text_1: "2000年にSalem State Univ., MA, USA 卒業。2002年より組み込みCPUボード開発に従事。幅広い知識と経験を生かし、2016年に宇宙用ドローン(Int-Ball)の統括ソフトウェア開発を担当。"
     - titles: 
       - title: "佐々木 大輔 (Daisuke Sasaki)"
-        font_size: 30 
+        font_size: 24 
       - title: "CTO"
-        font_size: 24 
+        font_size: 18 
       - title: "LSI Logic Engineer"
-        font_size: 24 
+        font_size: 18 
       image_path: "/path/to/cto_image.jpg"
       text_1: "2001年より11年間 国内半導体企業にてLSIの開発における幅広い設計工程を経験。2013年から自ら設計したLSIを搭載した組み込みCPUボードの開発を経験しソフトウェアまで知識領域を持つ。"
     - titles: 
       - title: "森島 史仁 (Fumito Morishima)"
-        font_size: 30 
+        font_size: 24 
       - title: "CFO"
-        font_size: 24 
+        font_size: 18 
       - title: "Sales, Finance Control"
-        font_size: 24 
+        font_size: 18 
       image_path: "/path/to/cfo_image.jpg"
       text_1: "2000年より16年間、組み込みCPUボードメーカーにて開発・営業・マーケティング・経営に携わり、幅広いビジネススキルを習得。また東南アジアで事業を興しており、アジアにコネクションを持つ。"
     - titles: 
       - title: "佐々木 拓也 (Takuya Sasaki)"
-        font_size: 30 
+        font_size: 24 
       - title: "CAO"
-        font_size: 24 
+        font_size: 18 
       - title: "Software Engineer, Sales"
-        font_size: 24 
+        font_size: 18 
       image_path: "/path/to/cao_image.jpg"
       text_1: "1998年より国内電機メーカーのソフトウェアエンジニアとして主に官公庁向けのネットワーク管理システムの開発に従事。2013年から組み込みCPUボードメーカーのFAEとして、数多くの顧客の開発、量産をサポートしてきた。"
     - titles: 
       - title: "波塚 朋広 (Tomohiro Namitsuka)"
-        font_size: 30 
+        font_size: 24 
       - title: "CPO"
-        font_size: 24 
+        font_size: 18 
       - title: "Electronics Engineer"
-        font_size: 24 
+        font_size: 18 
       image_path: "/path/to/cpo_image.jpg"
       text_1: "2002年より組み込みCPUボードメーカーのハードウェアエンジニアとして、多くの基板開発を担当。耐環境性・信頼性が要求される産業用途向け製品の回路設計から量産製造までの幅広い知識と経験を活かし、安価で安心して使える宇宙機の提供を目指す。"
 
