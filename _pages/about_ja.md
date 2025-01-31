@@ -112,7 +112,6 @@ our_clients:
   - title: "Clients"
     title_font_size: 60
     image_path: /assets/imgs/about_thanks.webp
-    image_size: 400px
     text_align: left
     subtitle_1:
       title: "国立研究開発法人 宇宙航空研究開発機構 (JAXA)"
@@ -133,7 +132,6 @@ our_partners:
   - title: "Partners"
     title_font_size: 60
     image_path: /assets/imgs/about_spaceone.webp
-    image_size: 400px
     text_align: left
     subtitle_1:
       title: "スペースワン株式会社"
