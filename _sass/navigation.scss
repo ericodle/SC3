@@ -8,39 +8,42 @@
     width: 100%;
     z-index: 1000;
     background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
-    height: 8em;
+    height: 10vh; /* Scales with viewport height */
     display: flex;
     align-items: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    justify-content: space-between; /* Positions the logo and nav links on opposite sides */
   }
-
+  
   .site-header .logo-container {
-    width: 100em;
+    width: 20vw; /* Scales with viewport width */
     display: flex;
-    justify-content: center; 
+    justify-content: flex-start; /* Aligns the logo to the left */
     align-items: center; 
   }
   
   .site-header .site-logo {
     object-fit: contain; 
+    width: 100%; /* Ensures the logo scales with the container */
   }
   
   nav {
     display: flex;
     flex-grow: 1;
+    justify-content: flex-end; /* Aligns the navigation links to the right */
   }
   
   .navigation-links {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    width: 75em;
+    width: 50vw; /* Adjust width to scale with the viewport */
   }
   
   .navigation-link {
     color: #000000;
     text-decoration: none;
-    font-size: 2em; 
+    font-size: 1.5vw; /* Scales font size with viewport width */
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     transition: color 0.3s; 
@@ -60,5 +63,27 @@
   .navigation-link.active {
     text-decoration: underline; 
     font-weight: bold; 
+  }
+  
+  /* Mobile-specific styles */
+  @media (max-width: 768px) {
+    .site-header {
+      height: 12vh; /* Adjust height for mobile screens */
+    }
+  
+    .site-header .logo-container {
+      width: 40vw; /* Adjust logo container width for mobile */
+    }
+  
+    .navigation-links {
+      width: 80vw; /* Adjust navigation links width */
+      flex-direction: column; /* Stack navigation links vertically on mobile */
+      justify-content: center; /* Center navigation links */
+    }
+  
+    .navigation-link {
+      font-size: 4vw; /* Increase font size for mobile */
+      padding: 2vw 0; /* Add padding for better spacing */
+    }
   }
   
