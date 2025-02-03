@@ -8,7 +8,7 @@
     justify-content: center;
     flex-wrap: nowrap;
     gap: 40px;
-    max-width: 50vw;
+    max-width: 60vw;
     margin: 40px auto; 
     padding: 20px;
     box-sizing: border-box;
@@ -24,7 +24,7 @@
   
   .news-image img {
     height: auto;
-    border-radius: 10px;
+    border-radius: 1vw;
   }
   
   /* News List Section */
@@ -52,7 +52,7 @@
     margin-bottom: 1px;
     padding-bottom: 1px;
     border-bottom: 1px solid #ddd;
-    font-size: 1.2em; 
+    font-size: 1.5em; 
   }
   
   .news-date {
@@ -74,31 +74,4 @@
   .news-link:hover {
     text-decoration: underline;
     color: #064a87;
-  }
-  
-  /* Responsive Fixes */
-  @media (max-width: 50vw) {
-    .news-container {
-      flex-direction: column;
-      text-align: center;
-      gap: 20px;
-    }
-  
-    .news-image {
-      max-width: 100%;
-    }
-  
-    .news-image img {
-      max-width: 80%;
-    }
-  
-    .news-list-wrapper {
-      max-width: 100%;
-      min-width: auto;
-    }
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
   }
