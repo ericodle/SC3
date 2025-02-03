@@ -70,20 +70,19 @@
     .site-header {
       height: 12vh; /* Adjust height for mobile screens */
     }
-  
+
     .site-header .logo-container {
       width: 40vw; /* Adjust logo container width for mobile */
     }
-  
+
     .navigation-links {
       width: 80vw; /* Adjust navigation links width */
-      flex-direction: column; /* Stack navigation links vertically on mobile */
-      justify-content: center; /* Center navigation links */
+      justify-content: space-between; /* Adjust spacing on mobile */
+      flex-direction: row; /* Ensure links stay horizontal on mobile */
     }
-  
+
     .navigation-link {
       font-size: 4vw; /* Increase font size for mobile */
-      padding: 2vw 0; /* Add padding for better spacing */
+      padding: 0; /* Remove padding for better spacing */
     }
   }
-  
