@@ -130,25 +130,3 @@ $orange-gradient: linear-gradient(135deg, #ff7e5f, #feb47b);
   }
 }
 
-// Responsive Design
-@media (max-width: 768px) {
-  .news-header {
-    padding: 2rem 1rem;
-
-    .news-title {
-      font-size: 2.25rem;
-    }
-
-    &::after {
-      width: 40%;
-    }
-  }
-
-  .news-content {
-    padding: 1.5rem 1rem;
-
-    .container {
-      width: 100%;
-    }
-  }
-}
