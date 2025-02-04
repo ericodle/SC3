@@ -13,21 +13,21 @@ banners:
 
 concept:
   - title: "Cost Savings and Reliability"
-    title_font_size: 34
+    title_font_size: 40
     text_align: left
     subtitle_1:
       title: ""
       text: "In space equipment development, budgets are often limited, leading to the use of inexpensive general-purpose computers. However, concerns about their reliability in the harsh conditions of outer space, where radiation levels are extremely high, remain. One way to improve reliability is to use computers with radiation-resistant components, but these products are costly. Additionally, purchasing such equipment alone does not address all the challenges that arise during a space mission. Space Cubics offers cost-effective products that maintain the high reliability needed for space equipment."
 
   - title: "Fault Tolerance"
-    title_font_size: 34
+    title_font_size: 40
     text_align: left
     subtitle_1:
       title: ""
       text: "In general, most high-reliability computers do not include built-in fault tolerance features. Even if a computer is equipped with radiation-resistant components, strong radiation can still cause damage, such as data corruption. In space, if a hardware failure occurs, the parts cannot be replaced, and software issues are difficult to resolve remotely from the ground. Space Cubics' products are designed with numerous fault-tolerant features, based on the understanding that failures are inevitable and that quick recovery is crucial. For example, we can implement redundancy by running and linking multiple computers simultaneously, or by storing identical data in multiple locations to protect against data corruption. A majority vote system can then be used to verify the validity of the data. These features enable automatic recovery of both computers and data in the event of a failure."
 
   - title: "Ease of Use"
-    title_font_size: 34
+    title_font_size: 40
     text_align: left
     subtitle_1:
       text: "The greatest advantage of Space Cubics' products is that users can focus exclusively on developing the mission-specific features. In addition to fault tolerance functions, our products come with middleware and protocols commonly used in space equipment, such as ISS-compatible network protocols, TTEthernet, and cFS. We also support ROS (Robot Operating System), which is widely used in industries beyond space."
