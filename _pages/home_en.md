@@ -9,7 +9,6 @@ banners:
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
     image_position: "center center"
-    height: 900px
 
 our_vision:
   - title: "Our Vision"

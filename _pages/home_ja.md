@@ -9,7 +9,6 @@ banners:
     image_class: "custom-class"
     image_style: "width: 100%; height: auto;"
     image_position: "center center"
-    height: 900px
 
 our_vision:
   - title: "VISION"
@@ -49,7 +48,7 @@ our_technology:
 
 {% include banner.html index=0 %}
 
-{% include content_block_reversed.html id="our_vision" %}
+{% include content_block.html id="our_vision" %}
 
 {% include content_block.html id="our_technology" %}
 
