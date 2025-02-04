@@ -95,55 +95,70 @@
     background-color: #8bc0fa;
   }
   
-  /* Mobile-specific styles */
-  @media (max-width: 768px) {
-    .content__item {
-      flex-direction: column; /* Stack content vertically */
-      gap: 8vw; /* Adjust gap for responsiveness */
-    }
-  
-    .content__item-container {
-      gap: 8vw;
-      max-width: 90vw;
-      flex-direction: column; /* Stack image and text vertically */
-    }
-  
-    .content__item-body {
-      font-size: 5vw;
-      padding: 5vw;
-    }
-  
-    .content__item-title {
-      font-size: 8vw;
-    }
-  
-    .content__item-subtitle {
-      font-size: 5vw;
-    }
-  
-    .content__item-caption {
-      font-size: 5vw;
-    }
-  
-    .content__item-button {
-      font-size: 6vw;
-      padding: 3vw 6vw;
-    }
-  
-    /* Ensure image and content stack properly */
-    .content__item-container {
-      flex-direction: column; /* Make sure image is above the text */
-    }
-  
-    .content__item-image {
-      flex: 1 1 40vw;
-      max-width: 80%;
-    }
-  
-    .content__item-body {
-      flex: 1 1 auto;
-      text-align: center;
-      padding: 5vw 0;
-    }
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .content__wrapper {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
   }
-  
+
+  .content__item {
+    flex-direction: column !important; /* Stack content vertically */
+    gap: 10vw; /* More spacing between items */
+    text-align: center;
+  }
+
+  .content__item-container {
+    max-width: 90vw;
+    flex-direction: column !important; /* Ensure image is above text */
+    align-items: center;
+    gap: 10vw;
+  }
+
+  .content__item-image {
+    flex: unset !important; /* Override conflicting flex properties */
+    max-width: 90%;
+  }
+
+  .content__item-image img {
+    border-radius: 2vw; /* Slightly more rounded */
+  }
+
+  .content__item-body {
+    flex: unset !important; /* Override flex behavior */
+    padding: 6vw;
+    font-size: 5.5vw; /* Larger for readability */
+    line-height: 1.6;
+  }
+
+  .content__item-title {
+    font-size: 10vw;
+    font-weight: bold;
+  }
+
+  .content__item-subtitle {
+    font-size: 6vw;
+    margin-top: 2vw;
+  }
+
+  .content__item-caption {
+    font-size: 6vw;
+    color: #777;
+    margin-top: 2vw;
+  }
+
+  .divider-bar {
+    height: 0.3vh; /* Slightly thicker */
+    margin: 2vh 0;
+  }
+
+  .content__item-button {
+    font-size: 6vw;
+    padding: 4vw 8vw;
+    border-radius: 2vw;
+  }
+
+  .content__item-button:hover {
+    background-color: #8bc0fa;
+  }
+}
