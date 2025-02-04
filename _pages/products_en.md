@@ -5,12 +5,10 @@ permalink: /products_en
 
 banners:
   - image: /assets/imgs/products_banner.jpeg
-    caption: "CONCEPT"
-    image_class: "custom-class"
+    caption: "Our Concept"
     image_style: "width: 100%; height: auto;"
   - image: /assets/imgs/products_banner2.jpeg
-    caption: "PRODUCTS"
-    image_class: "another-class"
+    caption: "Our Product"
     image_style: "width: 100%; height: auto;"
 
 concept:
