@@ -4,40 +4,50 @@
 
    .site-header {
     position: fixed;
-    top: 0; 
-    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure header takes full screen width */
     z-index: 1000;
     background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
     height: 10vh; /* Scales with viewport height */
     display: flex;
     align-items: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
-    justify-content: space-between; /* Positions the logo and nav links on opposite sides */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    padding: 0 2vw; /* Add some padding to give the logo and links space */
+    box-sizing: border-box; /* Ensures padding doesn’t cause overflow */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
   }
   
   .site-header .logo-container {
-    width: 20vw; /* Scales with viewport width */
     display: flex;
-    justify-content: flex-start; /* Aligns the logo to the left */
-    align-items: center; 
+    justify-content: flex-start;
+    align-items: center;
+    width: 25vw; /* Adjust logo container width */
+    max-width: 30vw; /* Max width to prevent overflowing */
   }
   
   .site-header .site-logo {
-    object-fit: contain; 
-    width: 100%; /* Ensures the logo scales with the container */
+    object-fit: contain;
+    width: 100%;
+    max-height: 8vh; /* Keep the logo size within bounds */
   }
   
   nav {
     display: flex;
     flex-grow: 1;
-    justify-content: flex-end; /* Aligns the navigation links to the right */
+    justify-content: flex-end;
+    width: 100%; /* Ensures nav container takes full width */
   }
   
   .navigation-links {
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    width: 50vw; /* Adjust width to scale with the viewport */
+    justify-content: space-between;
+    width: 100%;
+    max-width: 50vw; /* Limit nav links width */
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling within the nav */
   }
   
   .navigation-link {
@@ -46,43 +56,74 @@
     font-size: 1.5vw; /* Scales font size with viewport width */
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    transition: color 0.3s; 
+    transition: color 0.3s;
+    max-width: 9vw; /* Max width to prevent overflow */
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
   }
   
-  .navigation-link:link, 
+  .navigation-link:link,
   .navigation-link:visited {
-    color: #797979; 
+    color: #797979;
   }
   
-  .navigation-link:hover, 
-  .navigation-link:focus, 
+  .navigation-link:hover,
+  .navigation-link:focus,
   .navigation-link:active {
-    color: #000000; 
+    color: #000000;
   }
   
   .navigation-link.active {
-    text-decoration: underline; 
-    font-weight: bold; 
+    text-decoration: underline;
+    font-weight: bold;
   }
   
   /* Mobile-specific styles */
   @media (max-width: 768px) {
+    body {
+      overflow-x: hidden; /* Prevent scrolling on mobile */
+    }
+  
     .site-header {
-      height: 12vh; /* Adjust height for mobile screens */
+      height: 8vh; /* Adjust height for mobile screens */
+      padding: 0 4vw; /* Add more padding for spacing */
+      box-sizing: border-box; /* Ensure padding doesn't cause overflow */
     }
-
+  
     .site-header .logo-container {
-      width: 40vw; /* Adjust logo container width for mobile */
+      width: 40vw; /* Adjust logo container size */
+      max-width: 45vw; /* Limit max width */
     }
-
+  
+    .site-logo {
+      width: 100%;
+      max-height: 6vh; /* Ensure the logo fits well */
+      object-fit: contain;
+    }
+  
+    nav {
+      width: 100%; /* Ensure nav container takes full width */
+    }
+  
     .navigation-links {
-      width: 80vw; /* Adjust navigation links width */
-      justify-content: space-between; /* Adjust spacing on mobile */
-      flex-direction: row; /* Ensure links stay horizontal on mobile */
+      width: auto;
+      flex-direction: row; /* Keep links horizontal */
+      justify-content: center;
+      gap: 3vw; /* Add space between links */
+      flex-wrap: nowrap; /* Prevent wrapping of links */
+      margin: 0; /* Remove any unwanted margins */
+      padding: 8vw; /* Remove padding to ensure no overflow */
+      overflow-x: hidden; /* Prevent horizontal scroll within the nav */
     }
-
+  
     .navigation-link {
-      font-size: 4vw; /* Increase font size for mobile */
-      padding: 0; /* Remove padding for better spacing */
+      font-size: 2vw; /* Increase font size for better readability */
+      padding: 0; /* Remove unnecessary padding */
+      white-space: nowrap; /* Prevent text wrapping */
+      max-width: 25vw; /* Limit max width of links */
+      overflow: hidden; /* Ensure no overflow */
+      text-overflow: ellipsis; /* Add ellipsis for overflow text */
     }
   }
+  
