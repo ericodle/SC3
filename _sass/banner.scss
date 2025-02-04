@@ -5,8 +5,8 @@
    .banner {
     position: relative;
     overflow: hidden;
-    margin-top: 4vw; 
-    margin-bottom: 0; 
+    margin-top: 4vw;
+    margin-bottom: 0;
   }
   
   .banner__overlay {
@@ -24,19 +24,19 @@
     width: 100%;
     overflow: hidden;
     position: relative;
-    height: 100%; 
+    height: 100%;
   }
   
   .banner__image-container img {
     position: relative;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     height: auto;
     display: block;
     z-index: 0;
-    filter: brightness(0.5); 
+    filter: brightness(0.5);
   }
   
   .banner__text {
@@ -49,7 +49,30 @@
     z-index: 2;
     color: white;
     text-align: center;
-    font-size: 5em; 
+    font-size: 5em;
     padding: 2vw;
+    max-width: 90%; /* Ensure text doesn't overflow horizontally */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide any overflow text */
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
   }
   
+/* ==========================
+   Mobile-specific styling
+   ==========================*/
+
+   @media (max-width: 768px) {
+    /* Adjusting image container to better fit smaller screens */
+
+  
+    .banner__image-container img {
+      filter: brightness(0.4); /* Reduce brightness on mobile */
+    }
+  
+    /* Adjust text size, positioning, and padding for mobile */
+    .banner__text {
+      font-size: 4vw; /* Smaller font size for mobile, scales based on viewport */
+      max-width: 80%; /* Ensure the text has room to fit within the container */
+      line-height: 1.2; /* Adjust line height for better spacing */
+    }
+  }
