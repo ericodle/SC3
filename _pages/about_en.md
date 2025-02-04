@@ -53,7 +53,6 @@ our_people:
         font_size: 22
       - title: "Software Engineer"
         font_size: 22
-      image_path: "/path/to/ceo_image.jpg"
       text_1: "Yasushi graduated from Salem State University (Massachusetts, USA), in 2000, and has been involved in embedded CPU board development since 2002. Drawing on his extensive knowledge and experience, he led the overall software development for the space drone Int-Ball in 2016."
     - titles: 
       - title: "佐々木 大輔 (Daisuke Sasaki)"
@@ -62,7 +61,6 @@ our_people:
         font_size: 22 
       - title: "LSI Logic Engineer"
         font_size: 22 
-      image_path: "/path/to/cto_image.jpg"
       text_1: "From 2001 to 2012, Daisuke gained extensive experience across various design processes in LSI development at a domestic semiconductor company. Since 2013, he has worked on developing embedded CPU boards featuring LSIs he personally designed, building expertise that spans both hardware and software domains."
     - titles: 
       - title: "森島 史仁 (Fumito Morishima)"
@@ -71,7 +69,6 @@ our_people:
         font_size: 22 
       - title: "Sales, Finance Control"
         font_size: 22 
-      image_path: "/path/to/cfo_image.jpg"
       text_1: "From 2000 to 2016, Fumito gained extensive experience in development, sales, marketing, and management at an embedded CPU board manufacturer, acquiring a diverse set of business skills. The company also expanded into Southeast Asia, establishing strong connections across the region."
     - titles: 
       - title: "佐々木 拓也 (Takuya Sasaki)"
@@ -80,7 +77,6 @@ our_people:
         font_size: 22 
       - title: "Software Engineer, Sales"
         font_size: 22 
-      image_path: "/path/to/cao_image.jpg"
       text_1: "Since 1998, Takuya has worked as a software engineer for a domestic electronics manufacturer, focusing primarily on developing network management systems for government offices. Since 2013, he has supported the development and mass production of numerous customer projects as an FAE for embedded CPU board manufacturers."
     - titles: 
       - title: "波塚 朋広 (Tomohiro Namitsuka)"
@@ -89,7 +85,6 @@ our_people:
         font_size: 22 
       - title: "Electronics Engineer"
         font_size: 22 
-      image_path: "/path/to/cpo_image.jpg"
       text_1: "Since 2002, Tomohiro has worked as a hardware engineer for an embedded CPU board manufacturer, overseeing the development of numerous boards. Drawing on extensive expertise in circuit design and mass production for industrial products that require environmental resistance and reliability, he aims to deliver cost-effective and safe spacecraft solutions."
 
 founding_alumnus:
