@@ -46,7 +46,7 @@ onboard_computer:
       text: "This space computer is optimally designed for CubeSats, leveraging reliability design technology developed by JAXA for the International Space Station. Featuring Xilinx's Artix-7 FPGA, it offers flexible support for various interface types and quantities, tailored to each user's needs. It is also suitable for use in spacecraft beyond CubeSats, as well as for ground-based industrial applications."
 
 product_specification_header:
-  - title: "SPECIFICATIONS"
+  - title: "SPECS"
     title_font_size: 60
     show_divider: true
     text_align: left
@@ -122,7 +122,7 @@ change_notice:
       url: "/about_ja"
 
 example_1:
-  - title: "Implementation Example #1"
+  - title: "Project 1"
     title_font_size: 60
     show_divider: true
     image_path: /assets/imgs/products_pcb2.webp
@@ -133,7 +133,7 @@ example_1:
       text: "Here, the SC-OBC Module A1 is mounted on an interface board designed to match the PC104 form factor for use in satellites."
 
 example_2:
-  - title: "Implementation Example #2"
+  - title: "Project 2"
     title_font_size: 60
     show_divider: true
     image_path: /assets/imgs/products_tower.webp
