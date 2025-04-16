@@ -5,54 +5,57 @@
 <head>
   {% include head.html %}
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <style>
+    body {
+      background-color: #353946;
+    }
+  </style>
 </head>
 <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
-{% include navigation.html %}
+  {% include navigation.html %}
 
-<div id="language-indicator" style="text-align: center; padding: 10px; background-color: #ffffff;">
+  <div id="language-indicator" style="text-align: center; padding: 10px; background-color: #353946;">
+  </div>
 
-</div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var userLang = navigator.language || navigator.userLanguage;
+      var path = window.location.pathname;
+      var langIndicator = document.getElementById("language-indicator");
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-var userLang = navigator.language || navigator.userLanguage;
-var path = window.location.pathname;
-var langIndicator = document.getElementById("language-indicator");
+      var urlParams = new URLSearchParams(window.location.search);
+      if (!urlParams.has('redirected')) {
+        if (userLang.startsWith("ja") && !path.includes("_ja") && !path.includes("_en")) {
+          window.location.href = path.replace(".html", "_ja.html") + "home_ja.html";
+        } else if (!userLang.startsWith("ja") && !path.includes("_en") && !path.includes("_ja")) {
+          window.location.href = path.replace(".html", "_en.html") + "home_en.html";
+        }
+      }
 
-var urlParams = new URLSearchParams(window.location.search);
-if (!urlParams.has('redirected')) {
-if (userLang.startsWith("ja") && !path.includes("_ja") && !path.includes("_en")) {
-window.location.href = path.replace(".html", "_ja.html") + "home_ja.html";
-} else if (!userLang.startsWith("ja") && !path.includes("_en") && !path.includes("_ja")) {
-window.location.href = path.replace(".html", "_en.html") + "home_en.html";
-}
-}
+      // Debug code for ensuring browser language is correctly obtained.
+      // if (userLang.startsWith("ja")) {
+      //   langIndicator.textContent = "Language: Japanese";
+      // } else {
+      //   langIndicator.textContent = "Language: English";
+      // }
+    });
+  </script>
 
-// Debug code for ensuring browser language is correctly obtained.
-// if (userLang.startsWith("ja")) {
-// langIndicator.textContent = "Language: Japanese";
-// } else {
-// langIndicator.textContent = "Language: English";
-// }
-});
-</script>
+  <div class="initial-content">
+    {{ content }}
+  </div>
 
-<div class="initial-content">
-{{ content }}
-</div>
+  {% if site.search == true %}
+  <div class="search-content">
+    {% include search_form.html %}
+  </div>
+  {% endif %}
 
-{% if site.search == true %}
-<div class="search-content">
-{% include search_form.html %}
-</div>
-{% endif %}
-
-<div id="footer" class="page__footer">
-<footer>
-
-{% include footer.html %}
-</footer>
-</div>
+  <div id="footer" class="page__footer">
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </div>
 
 </body>
 </html>

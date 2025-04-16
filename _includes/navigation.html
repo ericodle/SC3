@@ -1,11 +1,19 @@
 <header class="site-header">
   <div class="logo-container">
-    <img src="/assets/imgs/logo.webp" alt="Site Logo" class="site-logo">
+    <img src="/assets/imgs/logo_white.webp" alt="Site Logo" class="site-logo">
   </div>
+  
   <nav>
     <ul class="navigation-links">
     </ul>
   </nav>
+
+  <div class="nav-extras">
+    <div class="language-switcher">
+      <a href="?lang=ja">JA</a> / <a href="?lang=en">EN</a>
+    </div>
+    <a href="/contact.html" class="contact-button">Contact</a>
+  </div>
 </header>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -15,18 +23,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
   var links = {
     'ja': [
-      { title: "ホーム", url: "home_ja.html" },
-      { title: "会社情報", url: "/about_ja.html" },
-      { title: "製品", url: "/products_ja.html" },
-      { title: "キャリア", url: "/careers_ja.html" },
-      { title: "ニュース", url: "/news_ja.html" },
+
+      { title: "About us", url: "/about_ja.html" },
+      { title: "Products", url: "/products_ja.html" },
+      { title: "News", url: "/news_ja.html" },
+      { title: "Recruit", url: "/careers_ja.html" },
     ],
     'en': [
-      { title: "HOME", url: "home_en.html" },
-      { title: "ABOUT", url: "/about_en.html" },
-      { title: "PRODUCTS", url: "/products_en.html" },
-      { title: "CAREERS", url: "/careers_en.html" },
-      { title: "NEWS", url: "/news_en.html" },
+      { title: "About us", url: "/about_en.html" },
+      { title: "Products", url: "/products_en.html" },
+      { title: "News", url: "/news_en.html" },
+      { title: "Recruit", url: "/careers_en.html" },
     ]
   };
 

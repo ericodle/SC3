@@ -96,7 +96,6 @@ $orange-gradient: linear-gradient(135deg, #ff7e5f, #feb47b);
       margin: 1.5rem 0;
       padding: 1rem 1.5rem;
       border-left: 4px solid $secondary-color;
-      background-color: lighten($background-color, 5%);
       color: darken($text-color, 10%);
     }
 
@@ -117,7 +116,6 @@ $orange-gradient: linear-gradient(135deg, #ff7e5f, #feb47b);
   background-color: $background-color;
   text-align: center;
   padding: 1rem 0;
-  border-top: 1px solid lighten($text-color, 50%);
 
   .back-to-news {
     font-size: 1rem;
